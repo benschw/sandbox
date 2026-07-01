@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Watercolor Mixing Reference</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --paper:   #F6F2EC;
+  --ink:     #27211B;
+  --rule:    #DDD5C6;
+  --muted:   #7A7068;
+  --note-bg: #FEFADC;
+  --note-ln: #DECA38;
+
+  --hyl: #F0E065;
+  --pb:  #1B3F5E;
+  --qr:  #DF4A78;
+  --ind: #2D3778;
+  --ng:  #CCA015;
+  --fu:  #2B51B2;
+  --ps:  #D63528;
+  --bs:  #A84C22;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  padding: 2.5rem 1.5rem 3rem;
+  min-width: 760px;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 999;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.78' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.045'/%3E%3C/svg%3E");
+}
+
+.page { max-width: 920px; margin: 0 auto; }
+
+/* ── Title ─────────────────────────────── */
+.title-block {
+  text-align: center;
+  padding-bottom: 1.25rem;
+  margin-bottom: 1.75rem;
+}
+.title-block h1 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.05rem;
+  font-weight: normal;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+}
+.title-block p {
+  margin-top: 0.28rem;
+  font-size: 0.62rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ── Reference Palette ─────────────────── */
+.ref-label {
+  font-size: 0.58rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.45rem;
+}
+.palette-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  margin-bottom: 5px;
+}
+.palette-row:last-child { margin-bottom: 0; }
+.pal {
+  height: 52px;
+  border-radius: 4px;
+  display: flex;
+  align-items: flex-end;
+  padding: 5px 8px;
+}
+.pal span {
+  font-size: 0.58rem;
+  font-style: italic;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+}
+.pal.lt span { color: rgba(0,0,0,0.52); }
+.pal.dk span { color: rgba(255,255,255,0.88); }
+
+/* ── Cluster headers ───────────────────── */
+.cluster-hd {
+  font-size: 0.58rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding-top: 1.5rem;
+  padding-bottom: 0.45rem;
+  border-top: 1px solid var(--rule);
+  margin-top: 1.5rem;
+}
+.first-cluster-hd {
+  margin-top: 1.25rem;
+}
+
+/* ── Group ─────────────────────────────── */
+.group {
+  display: flex;
+  overflow: hidden;
+}
+.group + .group { border-top: 1px solid rgba(0,0,0,0.07); }
+.cluster > .group:first-child { border-radius: 6px 6px 0 0; }
+.cluster > .group:last-child  { border-radius: 0 0 6px 6px; }
+.cluster > .group:only-child  { border-radius: 6px; }
+
+.glabel {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.52rem;
+  min-width: 30px;
+  font-size: 0.57rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+
+.group-rows { flex: 1; min-width: 0; }
+
+/* ── Mix row — 4 columns ───────────────── */
+.mix-row {
+  display: grid;
+  grid-template-columns: 108px 195px 1fr 80px;
+  align-items: center;
+  min-height: 50px;
+  border-top: 1px solid rgba(0,0,0,0.06);
+}
+.mix-row:first-child { border-top: none; }
+
+.mname {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 0.69rem;
+  font-style: italic;
+  color: var(--muted);
+  padding: 0.38rem 0.65rem;
+  line-height: 1.3;
+}
+
+/* swatch display */
+.swatches, .alts {
+  padding: 0.38rem 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex-wrap: wrap;
+}
+.alts { flex-direction: column; align-items: flex-start; gap: 5px; }
+.alt-row { display: flex; align-items: center; gap: 2px; }
+
+.sw {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,0.15);
+  flex-shrink: 0;
+}
+.sw.sm { width: 7px; }
+.sw.res {
+  width: 26px;
+  height: 26px;
+  border-radius: 3px;
+  margin-left: 4px;
+  border-color: rgba(0,0,0,0.18);
+  box-shadow: inset 0 1px 2px rgba(255,255,255,0.25), 0 1px 2px rgba(0,0,0,0.12);
+}
+
+.arr {
+  font-size: 0.62rem;
+  color: rgba(0,0,0,0.28);
+  padding: 0 2px;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+/* recipe */
+.recipe {
+  font-size: 0.68rem;
+  line-height: 1.55;
+  padding: 0.38rem 0.65rem;
+  color: #302820;
+}
+.recipe .sub {
+  display: block;
+  font-size: 0.59rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-top: 1px;
+}
+.note {
+  display: inline-block;
+  background: var(--note-bg);
+  border: 1px solid var(--note-ln);
+  border-radius: 2px;
+  font-size: 0.59rem;
+  padding: 0.1rem 0.36rem;
+  color: #524C18;
+  font-style: italic;
+  line-height: 1.4;
+  margin-top: 2px;
+}
+
+/* ── Pigment indicator grid ────────────── */
+/* Mirrors the 2×4 reference palette layout:
+   [HYL][PB ][QR ][IND]
+   [NG ][FU ][PS ][BS ]             */
+.pg-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.38rem 0.5rem;
+}
+.pigment-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 13px);
+  grid-template-rows: repeat(2, 13px);
+  gap: 2px;
+}
+.pg-cell {
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,0.13);
+  background: transparent;
+}
+.pg-cell.on {
+  border-color: rgba(0,0,0,0.2);
+}
+
+/* Foliage: empty cells need a visible tint on dark green bg */
+.group.foliage .pg-cell {
+  background: rgba(255,255,255,0.22);
+  border-color: rgba(255,255,255,0.35);
+}
+.group.foliage .pg-cell.on {
+  border-color: rgba(0,0,0,0.2);
+}
+
+/* ── Group colour themes ───────────────── */
+
+.group.orange { background: #FAE8D5; }
+.group.orange .glabel { background: #F4D4B2; color: #95561C; }
+.group.orange .mix-row { border-top-color: rgba(170,95,35,0.1); }
+
+.group.green { background: #DEEFD8; }
+.group.green .glabel { background: #C6E4B5; color: #386A34; }
+.group.green .mix-row { border-top-color: rgba(55,125,45,0.1); }
+
+.group.purple { background: #E8E0F2; }
+.group.purple .glabel { background: #D7CCEB; color: #563590; }
+.group.purple .mix-row { border-top-color: rgba(95,55,155,0.1); }
+
+.group.brown { background: #EDE2CA; }
+.group.brown .glabel { background: #E0CF9F; color: #725222; }
+.group.brown .mix-row { border-top-color: rgba(135,85,25,0.12); }
+
+.group.gray { background: #E1E1E8; }
+.group.gray .glabel { background: #D1D1DA; color: #535368; }
+.group.gray .mix-row { border-top-color: rgba(95,95,115,0.1); }
+
+.group.black { background: #CDCDD6; }
+.group.black .glabel { background: #B6B6C2; color: #353545; }
+.group.black .mix-row { border-top-color: rgba(55,55,75,0.12); }
+
+.group.skin { background: #FAE7E1; }
+.group.skin .glabel { background: #F0D5CC; color: #934838; }
+.group.skin .mix-row { border-top-color: rgba(175,95,75,0.1); }
+
+.group.sky { background: #DAE8F8; }
+.group.sky .glabel { background: #C5D8F0; color: #264290; }
+.group.sky .mix-row { border-top-color: rgba(38,75,175,0.1); }
+
+.group.foliage { background: #7ABB70; }
+.group.foliage .glabel { background: #5A9A50; color: rgba(255,255,255,0.88); }
+.group.foliage .mix-row { border-top-color: rgba(0,0,0,0.12); }
+.group.foliage .mname { color: rgba(0,0,0,0.55); }
+.group.foliage .recipe { color: rgba(0,0,0,0.72); }
+.group.foliage .recipe .sub { color: rgba(0,0,0,0.42); }
+.group.foliage .arr { color: rgba(0,0,0,0.3); }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ── Title ──────────────────────────── -->
+  <div class="title-block">
+    <h1>Watercolor Reference</h1>
+  </div>
+
+  <!-- ── Reference Palette ──────────────── -->
+  <div class="ref-label">Reference Palette</div>
+  <div class="palette-row">
+    <div class="pal lt" style="background:var(--hyl)"><span>hansa yellow light</span></div>
+    <div class="pal dk" style="background:var(--pb)"><span>phthalo blue (gs)</span></div>
+    <div class="pal dk" style="background:var(--qr)"><span>quinacridone rose</span></div>
+    <div class="pal dk" style="background:var(--ind)"><span>indigo</span></div>
+  </div>
+  <div class="palette-row">
+    <div class="pal lt" style="background:var(--ng)"><span>new gamboge</span></div>
+    <div class="pal dk" style="background:var(--fu)"><span>french ultramarine</span></div>
+    <div class="pal dk" style="background:var(--ps)"><span>pyrrol scarlet</span></div>
+    <div class="pal dk" style="background:var(--bs)"><span>burnt sienna</span></div>
+  </div>
+
+  <!-- ── Cluster 1: Orange · Green · Purple ── -->
+  <div class="cluster-hd first-cluster-hd">Secondary Colors</div>
+  <div class="cluster">
+
+    <div class="group orange">
+      <div class="glabel">Orange</div>
+      <div class="group-rows">
+
+        <!-- bright: NG(5) + PS(7) -->
+        <div class="mix-row">
+          <div class="mname">bright</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--ng)"></div>
+            <div class="sw" style="background:var(--ng)"></div>
+            <div class="sw" style="background:var(--ps)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#E07020"></div>
+          </div>
+          <div class="recipe">2:1 New Gamboge + Pyrrol Scarlet</div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--ng)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--ps)"></div>
+            <div class="pg-cell"></div>
+          </div></div>
+        </div>
+
+        <!-- soft/terra cotta: NG(5) + BS(8) -->
+        <div class="mix-row">
+          <div class="mname">soft / terra cotta</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--bs)"></div>
+            <div class="sw" style="background:var(--bs)"></div>
+            <div class="sw" style="background:var(--ng)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#C07838"></div>
+          </div>
+          <div class="recipe">2:1 Burnt Sienna + New Gamboge <span class="note">brick · clay · autumn</span></div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--ng)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--bs)"></div>
+          </div></div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="group green">
+      <div class="glabel">Green</div>
+      <div class="group-rows">
+
+        <!-- bright: HYL(1) + PB(2) -->
+        <div class="mix-row">
+          <div class="mname">bright</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--hyl)"></div>
+            <div class="sw" style="background:var(--hyl)"></div>
+            <div class="sw sm" style="background:var(--pb)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#9EC828"></div>
+          </div>
+          <div class="recipe">2:1 Hansa Yellow Light + Phthalo Blue <span class="sub">tiny amount of phthalo</span></div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell on" style="background:var(--hyl)"></div>
+            <div class="pg-cell on" style="background:var(--pb)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+          </div></div>
+        </div>
+
+        <!-- natural: NG(5) + FU(6) -->
+        <div class="mix-row">
+          <div class="mname">natural</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--ng)"></div>
+            <div class="sw" style="background:var(--ng)"></div>
+            <div class="sw" style="background:var(--ng)"></div>
+            <div class="sw" style="background:var(--fu)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#6A8A25"></div>
+          </div>
+          <div class="recipe">3:1 New Gamboge + French Ultramarine</div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--ng)"></div>
+            <div class="pg-cell on" style="background:var(--fu)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+          </div></div>
+        </div>
+
+        <!-- olive alt 1: NG(5) + FU(6) + tiny PS(7) -->
+        <div class="mix-row">
+          <div class="mname">olive</div>
+          <div class="swatches">
+            <div class="sw" style="background:#6A8A25"></div>
+            <div class="sw sm" style="background:var(--ps)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#767820"></div>
+          </div>
+          <div class="recipe">Green mix + tiny touch of Pyrrol Scarlet</div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--ng)"></div>
+            <div class="pg-cell on" style="background:var(--fu)"></div>
+            <div class="pg-cell on" style="background:var(--ps)"></div>
+            <div class="pg-cell"></div>
+          </div></div>
+        </div>
+
+        <!-- olive alt 2: NG(5) + IND(4) -->
+        <div class="mix-row">
+          <div class="mname">olive</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--ng)"></div>
+            <div class="sw" style="background:var(--ind)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#6A7818"></div>
+          </div>
+          <div class="recipe">New Gamboge + Indigo</div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--ind)"></div>
+            <div class="pg-cell on" style="background:var(--ng)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+          </div></div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="group purple">
+      <div class="glabel">Purple</div>
+      <div class="group-rows">
+
+        <!-- bright violet: QR(3) + FU(6) -->
+        <div class="mix-row">
+          <div class="mname">bright violet</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--qr)"></div>
+            <div class="sw" style="background:var(--qr)"></div>
+            <div class="sw" style="background:var(--fu)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#7838B8"></div>
+          </div>
+          <div class="recipe">2:1 Quinacridone Rose + French Ultramarine</div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--qr)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--fu)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+          </div></div>
+        </div>
+
+        <!-- deep muted: QR(3) + IND(4) -->
+        <div class="mix-row">
+          <div class="mname">deep muted purple</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--qr)"></div>
+            <div class="sw" style="background:var(--ind)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#5A2870"></div>
+          </div>
+          <div class="recipe">1:1 Quinacridone Rose + Indigo <span class="note">shadows</span></div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--qr)"></div>
+            <div class="pg-cell on" style="background:var(--ind)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+          </div></div>
+        </div>
+
+      </div>
+    </div>
+
+  </div><!-- /cluster 1 -->
+
+  <!-- ── Cluster 2: Brown · Gray · Black ── -->
+  <div class="cluster-hd">Neutrals</div>
+  <div class="cluster">
+
+    <div class="group brown">
+      <div class="glabel">Brown</div>
+      <div class="group-rows">
+
+        <!-- warm: BS(8) + PS(7) -->
+        <div class="mix-row">
+          <div class="mname">warm</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--bs)"></div>
+            <div class="sw" style="background:var(--bs)"></div>
+            <div class="sw" style="background:var(--ps)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#B04030"></div>
+          </div>
+          <div class="recipe">2:1 Burnt Sienna + Pyrrol Scarlet</div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--ps)"></div>
+            <div class="pg-cell on" style="background:var(--bs)"></div>
+          </div></div>
+        </div>
+
+        <!-- cool: BS(8) + FU(6) -->
+        <div class="mix-row">
+          <div class="mname">cool</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--bs)"></div>
+            <div class="sw sm" style="background:var(--fu)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#9A5840"></div>
+          </div>
+          <div class="recipe">Burnt Sienna + tiny touch of French Ultramarine</div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--fu)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--bs)"></div>
+          </div></div>
+        </div>
+
+        <!-- dark: BS(8) + IND(4) -->
+        <div class="mix-row">
+          <div class="mname">dark</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--bs)"></div>
+            <div class="sw" style="background:var(--ind)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#5A3520"></div>
+          </div>
+          <div class="recipe">Burnt Sienna + Indigo <span class="note">tree bark</span></div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--ind)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--bs)"></div>
+          </div></div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="group gray">
+      <div class="glabel">Gray</div>
+      <div class="group-rows">
+
+        <!-- classic: BS(8) + FU(6) -->
+        <div class="mix-row">
+          <div class="mname">"classic"</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--bs)"></div>
+            <div class="sw" style="background:var(--fu)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#808898"></div>
+          </div>
+          <div class="recipe">1:1 Burnt Sienna + French Ultramarine <span class="sub">more sienna → warm · more ultramarine → cool</span><span class="note">clouds · distant hills</span></div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--fu)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--bs)"></div>
+          </div></div>
+        </div>
+
+        <!-- neutral: QR(3) + NG(5) + FU(6) -->
+        <div class="mix-row">
+          <div class="mname">neutral</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--qr)"></div>
+            <div class="sw" style="background:var(--ng)"></div>
+            <span class="arr">+</span>
+            <div class="sw" style="background:var(--fu)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#8E8888"></div>
+          </div>
+          <div class="recipe">1:1 Quinacridone Rose + New Gamboge; then add French Ultramarine</div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--qr)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--ng)"></div>
+            <div class="pg-cell on" style="background:var(--fu)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+          </div></div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="group black">
+      <div class="glabel">Black</div>
+      <div class="group-rows">
+
+        <!-- rich black: BS(8) + IND(4) -->
+        <div class="mix-row">
+          <div class="mname">rich black</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--bs)"></div>
+            <div class="sw" style="background:var(--ind)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#2E2018"></div>
+          </div>
+          <div class="recipe">1:1 Burnt Sienna + Indigo</div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--ind)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--bs)"></div>
+          </div></div>
+        </div>
+
+        <!-- chromatic black: PS(7) + PB(2) -->
+        <div class="mix-row">
+          <div class="mname">chromatic black</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--ps)"></div>
+            <div class="sw" style="background:var(--pb)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#262830"></div>
+          </div>
+          <div class="recipe">1:1 Pyrrol Scarlet + Phthalo Blue (Green Shade)</div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--pb)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--ps)"></div>
+            <div class="pg-cell"></div>
+          </div></div>
+        </div>
+
+      </div>
+    </div>
+
+  </div><!-- /cluster 2 -->
+
+  <!-- ── Cluster 3: Skin · Sky · Foliage ── -->
+  <div class="cluster-hd">Subjects</div>
+  <div class="cluster">
+
+    <div class="group skin">
+      <div class="glabel">Skin</div>
+      <div class="group-rows">
+
+        <!-- light: NG(5) + QR(3) -->
+        <div class="mix-row">
+          <div class="mname">light</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--ng)"></div>
+            <div class="sw" style="background:var(--ng)"></div>
+            <div class="sw" style="background:var(--ng)"></div>
+            <div class="sw" style="background:var(--ng)"></div>
+            <div class="sw" style="background:var(--qr)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#F5DEC8"></div>
+          </div>
+          <div class="recipe">4:1 New Gamboge + Quinacridone Rose; dilute heavily <span class="sub">more rose = pinker · tiny blue = cooler shadows</span></div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--qr)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--ng)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+          </div></div>
+        </div>
+
+        <!-- medium: BS(8) + QR(3) -->
+        <div class="mix-row">
+          <div class="mname">medium</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--bs)"></div>
+            <div class="sw" style="background:var(--bs)"></div>
+            <div class="sw" style="background:var(--qr)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#C07050"></div>
+          </div>
+          <div class="recipe">2:1 Burnt Sienna + Quinacridone Rose</div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--qr)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--bs)"></div>
+          </div></div>
+        </div>
+
+        <!-- deep: BS(8) + PS(7) + IND(4) -->
+        <div class="mix-row">
+          <div class="mname">deep</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--bs)"></div>
+            <div class="sw" style="background:var(--ps)"></div>
+            <div class="sw sm" style="background:var(--ind)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#884030"></div>
+          </div>
+          <div class="recipe">Burnt Sienna + Pyrrol Scarlet + tiny Indigo</div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--ind)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--ps)"></div>
+            <div class="pg-cell on" style="background:var(--bs)"></div>
+          </div></div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="group sky">
+      <div class="glabel">Sky</div>
+      <div class="group-rows">
+
+        <!-- bright: PB(2) -->
+        <div class="mix-row">
+          <div class="mname">bright</div>
+          <div class="swatches">
+            <div class="sw sm" style="background:var(--pb)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#C8E8F8"></div>
+          </div>
+          <div class="recipe">Very diluted Phthalo Blue (Green Shade)</div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--pb)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+          </div></div>
+        </div>
+
+        <!-- natural: FU(6) -->
+        <div class="mix-row">
+          <div class="mname">natural</div>
+          <div class="swatches">
+            <div class="sw sm" style="background:var(--fu)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#C0CCEE"></div>
+          </div>
+          <div class="recipe">Very diluted French Ultramarine</div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--fu)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+          </div></div>
+        </div>
+
+        <!-- stormy: FU(6) + BS(8) -->
+        <div class="mix-row">
+          <div class="mname">stormy</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--fu)"></div>
+            <div class="sw" style="background:var(--bs)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#607080"></div>
+          </div>
+          <div class="recipe">French Ultramarine + Burnt Sienna <span class="note">clouds · stone · mountain shadow</span></div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--fu)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--bs)"></div>
+          </div></div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="group foliage">
+      <div class="glabel">Foliage</div>
+      <div class="group-rows">
+
+        <!-- spring greens: HYL(1) + PB(2) -->
+        <div class="mix-row">
+          <div class="mname">spring greens</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--hyl)"></div>
+            <div class="sw" style="background:var(--pb)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#7CC030"></div>
+          </div>
+          <div class="recipe">Hansa + Phthalo</div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell on" style="background:var(--hyl)"></div>
+            <div class="pg-cell on" style="background:var(--pb)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+          </div></div>
+        </div>
+
+        <!-- summer greens: NG(5) + FU(6) -->
+        <div class="mix-row">
+          <div class="mname">summer greens</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--ng)"></div>
+            <div class="sw" style="background:var(--fu)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#558028"></div>
+          </div>
+          <div class="recipe">Gamboge + Ultramarine</div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--ng)"></div>
+            <div class="pg-cell on" style="background:var(--fu)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+          </div></div>
+        </div>
+
+        <!-- dark foliage: NG(5) + FU(6) + IND(4) -->
+        <div class="mix-row">
+          <div class="mname">dark foliage</div>
+          <div class="swatches">
+            <div class="sw" style="background:#558028"></div>
+            <div class="sw" style="background:var(--ind)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#2A4828"></div>
+          </div>
+          <div class="recipe">any green + Indigo</div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--ind)"></div>
+            <div class="pg-cell on" style="background:var(--ng)"></div>
+            <div class="pg-cell on" style="background:var(--fu)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+          </div></div>
+        </div>
+
+        <!-- earthy greens: IND(4) + NG(5) -->
+        <div class="mix-row">
+          <div class="mname">earthy greens</div>
+          <div class="swatches">
+            <div class="sw" style="background:var(--ind)"></div>
+            <div class="sw" style="background:var(--ng)"></div>
+            <span class="arr">→</span>
+            <div class="sw res" style="background:#4A5820"></div>
+          </div>
+          <div class="recipe">Indigo + Gamboge <span class="note">moss · olive · evergreen shadows</span></div>
+          <div class="pg-wrap"><div class="pigment-grid">
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell on" style="background:var(--ind)"></div>
+            <div class="pg-cell on" style="background:var(--ng)"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+            <div class="pg-cell"></div>
+          </div></div>
+        </div>
+
+      </div>
+    </div>
+
+  </div><!-- /cluster 3 -->
+
+</div><!-- .page -->
+</body>
+</html>
