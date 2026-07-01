@@ -30,7 +30,6 @@ body {
   background: var(--paper);
   color: var(--ink);
   padding: 2.5rem 1.5rem 3rem;
-  min-width: 760px;
 }
 
 body::after {
@@ -295,6 +294,26 @@ body::after {
 .group.foliage .recipe { color: rgba(0,0,0,0.72); }
 .group.foliage .recipe .sub { color: rgba(0,0,0,0.42); }
 .group.foliage .arr { color: rgba(0,0,0,0.3); }
+
+/* ── Mobile layout ─────────────────────── */
+@media (max-width: 640px) {
+  body { padding: 1.5rem 1rem 2rem; }
+
+  /* Stack mix-row into 3 rows with pigment grid anchored right */
+  .mix-row {
+    grid-template-columns: 1fr 74px;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "name  pg"
+      "sw    pg"
+      "rec   rec";
+    min-height: 0;
+  }
+  .mname            { grid-area: name; }
+  .swatches, .alts  { grid-area: sw; }
+  .recipe           { grid-area: rec; padding-top: 0.1rem; }
+  .pg-wrap          { grid-area: pg; }
+}
 </style>
 </head>
 <body>
