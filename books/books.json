@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T18:52:34.538445+00:00",
+  "lastUpdated": "2026-07-01T20:34:35.884256+00:00",
   "currentlyReading": [
     {
       "title": "The New Father: A Dad's Guide to the Toddler Years",
@@ -22,17 +22,6 @@
       "dateAdded": "Wed, 22 Apr 2026 08:56:05 -0700",
       "pages": "",
       "avgRating": "4.21"
-    },
-    {
-      "title": "Shroud",
-      "author": "Adrian Tchaikovsky",
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1743428053l/230237860._SY475_.jpg",
-      "link": "https://www.goodreads.com/review/show/8674303629?utm_medium=api&utm_source=rss",
-      "rating": "0",
-      "dateRead": "",
-      "dateAdded": "Tue, 09 Jun 2026 21:59:04 -0700",
-      "pages": "",
-      "avgRating": "4.41"
     },
     {
       "title": "The River Has Roots",
@@ -58,6 +47,17 @@
     }
   ],
   "read": [
+    {
+      "title": "Shroud",
+      "author": "Adrian Tchaikovsky",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1743428053l/230237860._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8674303629?utm_medium=api&utm_source=rss",
+      "rating": "0",
+      "dateRead": "Wed, 1 Jul 2026 00:00:00 +0000",
+      "dateAdded": "Wed, 01 Jul 2026 11:39:27 -0700",
+      "pages": "",
+      "avgRating": "4.41"
+    },
     {
       "title": "Automatic Noodle",
       "author": "Annalee Newitz",
@@ -672,7 +672,7 @@
       "dateRead": "Thu, 12 Sep 2024 00:00:00 +0000",
       "dateAdded": "Sat, 14 Sep 2024 06:28:07 -0700",
       "pages": "",
-      "avgRating": "3.91"
+      "avgRating": "3.90"
     },
     {
       "title": "Dead Country (Craft Wars #1)",
@@ -2246,17 +2246,6 @@
       "dateAdded": "Wed, 05 Nov 2014 05:11:54 -0800",
       "pages": "",
       "avgRating": "3.92"
-    },
-    {
-      "title": "Station Eleven",
-      "author": "Emily St. John Mandel",
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1395943163l/21792828.jpg",
-      "link": "https://www.goodreads.com/review/show/1052967196?utm_medium=api&utm_source=rss",
-      "rating": "5",
-      "dateRead": "Tue, 21 Oct 2014 00:00:00 +0000",
-      "dateAdded": "Wed, 23 Dec 2020 01:57:48 -0800",
-      "pages": "",
-      "avgRating": "4.13"
     }
   ]
 }
