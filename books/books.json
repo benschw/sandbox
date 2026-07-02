@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T20:34:35.884256+00:00",
+  "lastUpdated": "2026-07-02T07:16:21.450271+00:00",
   "currentlyReading": [
     {
       "title": "The New Father: A Dad's Guide to the Toddler Years",
@@ -11,17 +11,6 @@
       "dateAdded": "Mon, 19 May 2025 08:00:39 -0700",
       "pages": "",
       "avgRating": "4.05"
-    },
-    {
-      "title": "Children of Strife (Children of Time, #4)",
-      "author": "Adrian Tchaikovsky",
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1762866145l/231953328._SY475_.jpg",
-      "link": "https://www.goodreads.com/review/show/8542961997?utm_medium=api&utm_source=rss",
-      "rating": "0",
-      "dateRead": "",
-      "dateAdded": "Wed, 22 Apr 2026 08:56:05 -0700",
-      "pages": "",
-      "avgRating": "4.21"
     },
     {
       "title": "The River Has Roots",
@@ -79,6 +68,17 @@
       "dateAdded": "Thu, 04 Jun 2026 22:07:47 -0700",
       "pages": "",
       "avgRating": "3.86"
+    },
+    {
+      "title": "Children of Strife (Children of Time, #4)",
+      "author": "Adrian Tchaikovsky",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1762866145l/231953328._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8542961997?utm_medium=api&utm_source=rss",
+      "rating": "0",
+      "dateRead": "Fri, 1 May 2026 00:00:00 +0000",
+      "dateAdded": "Wed, 01 Jul 2026 14:44:29 -0700",
+      "pages": "",
+      "avgRating": "4.21"
     },
     {
       "title": "The Buffalo Hunter Hunter",
@@ -530,6 +530,17 @@
       "dateAdded": "Sun, 19 Jan 2025 10:38:26 -0800",
       "pages": "",
       "avgRating": "4.39"
+    },
+    {
+      "title": "Emily Wilde’s Map of the Otherlands (Emily Wilde, #2)",
+      "author": "Heather Fawcett",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682054645l/134119076._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8119242415?utm_medium=api&utm_source=rss",
+      "rating": "0",
+      "dateRead": "Wed, 1 Jan 2025 00:00:00 +0000",
+      "dateAdded": "Wed, 01 Jul 2026 14:42:48 -0700",
+      "pages": "",
+      "avgRating": "4.24"
     },
     {
       "title": "A Sorceress Comes to Call",
@@ -2224,28 +2235,6 @@
       "dateAdded": "Sat, 13 Dec 2014 07:11:24 -0800",
       "pages": "",
       "avgRating": "3.89"
-    },
-    {
-      "title": "Ancillary Justice (Imperial Radch, #1)",
-      "author": "Ann Leckie",
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397215917l/17333324._SY475_.jpg",
-      "link": "https://www.goodreads.com/review/show/1077914983?utm_medium=api&utm_source=rss",
-      "rating": "4",
-      "dateRead": "Mon, 24 Nov 2014 00:00:00 +0000",
-      "dateAdded": "Mon, 24 Nov 2014 07:46:12 -0800",
-      "pages": "",
-      "avgRating": "3.98"
-    },
-    {
-      "title": "The Plagiarist",
-      "author": "Hugh Howey",
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1323761469l/12287148.jpg",
-      "link": "https://www.goodreads.com/review/show/967427602?utm_medium=api&utm_source=rss",
-      "rating": "3",
-      "dateRead": "Wed, 5 Nov 2014 00:00:00 +0000",
-      "dateAdded": "Wed, 05 Nov 2014 05:11:54 -0800",
-      "pages": "",
-      "avgRating": "3.92"
     }
   ]
 }
