@@ -78,115 +78,142 @@
     }
 
     /* ── Currently Reading ── */
-    #current { margin-bottom: 3.5rem; }
+    #current { margin-bottom: 2.5rem; }
 
-    .current-card {
-      display: flex;
-      gap: 1.25rem;
-      align-items: center;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 1.25rem 1.5rem 1.25rem 1.25rem;
-      margin-bottom: 0.75rem;
-      text-decoration: none;
-      color: inherit;
-      transition: border-color 0.15s, box-shadow 0.15s;
-    }
-    .current-card:hover {
-      border-color: var(--accent);
-      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-    }
-    .current-card:last-child { margin-bottom: 0; }
-
-    /* Signature: page-edge effect on cover */
-    .cover-wrap {
-      position: relative;
-      flex-shrink: 0;
-      margin-right: 6px; /* room for the edge */
-    }
-    .cover-wrap::after {
-      content: '';
-      position: absolute;
-      right: -9px;
-      top: 4px;
-      bottom: 4px;
-      width: 9px;
-      background: repeating-linear-gradient(
-        to right,
-        #e8dfc9 0px,
-        #f5edda 1.5px,
-        #ece4ce 3px
-      );
-      border-radius: 0 2px 2px 0;
-      box-shadow: 2px 1px 5px rgba(0,0,0,0.09);
-    }
-    .cover-img {
-      display: block;
-      width: 78px;
-      height: 118px;
-      object-fit: cover;
-      border-radius: 3px;
-      box-shadow: -2px 2px 8px rgba(0,0,0,0.14);
-    }
-    .cover-placeholder {
-      width: 78px;
-      height: 118px;
-      background: var(--accent-subtle);
-      border-radius: 3px;
+    /* ── Breadcrumb ── */
+    .breadcrumb {
       display: flex;
       align-items: center;
-      justify-content: center;
-      font-family: var(--f-display);
-      font-size: 1.75rem;
-      font-style: italic;
+      gap: 0.4rem;
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+    .crumb-link {
       color: var(--accent);
+      text-decoration: none;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 0;
+      font: inherit;
+      font-size: 0.75rem;
+    }
+    .crumb-link:hover { text-decoration: underline; }
+    .crumb-sep { color: var(--border); }
+    .crumb-current { color: var(--text); }
+
+    /* ── Series nav link ── */
+    .series-nav-link {
+      display: block;
+      margin-bottom: 1.75rem;
+      font-size: 0.78rem;
+      color: var(--accent);
+      background: none;
+      border: none;
+      padding: 0;
+      font-family: var(--f-body);
+      cursor: pointer;
+      text-align: left;
+      text-decoration: none;
+    }
+    .series-nav-link:hover { text-decoration: underline; }
+
+    /* ── Series list ── */
+    .series-list { border-top: 1px solid var(--border); }
+    .series-row {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.65rem 0.75rem;
+      margin: 0 -0.75rem;
+      border-bottom: 1px solid var(--border);
+      border-radius: 6px;
+      cursor: pointer;
+      user-select: none;
+      transition: background 0.12s;
+    }
+    .series-row:hover { background: var(--accent-subtle); }
+    .series-row-info { flex: 1; min-width: 0; }
+    .series-row .series-name   { display: block; margin-bottom: 0.1rem; }
+    .series-row .series-author { display: block; font-size: 0.75rem; color: var(--muted); }
+    .series-row-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-shrink: 0;
+    }
+    .series-chevron {
+      font-size: 0.9rem;
+      color: var(--muted);
+      flex-shrink: 0;
+      width: 1rem;
+      text-align: center;
     }
 
-    .current-info {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding-left: 0.25rem;
+    /* ── Series detail ── */
+    .series-detail-header {
+      margin-bottom: 1.75rem;
     }
-    .book-title {
-      font-family: var(--f-display);
-      font-size: 1.3rem;
-      font-weight: 600;
-      line-height: 1.2;
+    .series-detail-header .series-name {
+      font-size: 1.6rem;
+      display: block;
       margin-bottom: 0.2rem;
     }
-    .book-author {
-      font-size: 0.83rem;
-      color: var(--muted);
-      margin-bottom: 0.9rem;
+    .series-detail-header .series-author {
+      margin-bottom: 0.6rem;
     }
-    .reading-badge {
-      display: inline-flex;
+    .series-progress {
+      display: flex;
       align-items: center;
-      gap: 0.35rem;
-      font-size: 0.7rem;
+      gap: 0.75rem;
+    }
+
+    /* ── Series shared labels ── */
+    .series-new,
+    .series-coming {
+      display: inline-block;
+      font-size: 0.58rem;
       font-weight: 500;
-      color: var(--accent);
+      font-family: var(--f-body);
+      font-style: normal;
+      border-radius: 3px;
+      padding: 1px 4px;
+      letter-spacing: 0.05em;
       text-transform: uppercase;
-      letter-spacing: 0.07em;
+      vertical-align: middle;
+      margin-left: 0.4rem;
+      line-height: 1.4;
     }
-    .reading-badge::before {
-      content: '';
-      width: 6px;
-      height: 6px;
+    .series-new    { color: var(--accent); border: 1px solid var(--accent); }
+    .series-coming { color: var(--star);   border: 1px solid var(--star); }
+    .series-name {
+      font-family: var(--f-display);
+      font-size: 1.1rem;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+    .series-author { font-size: 0.78rem; color: var(--muted); }
+    .progress-dots {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      flex-wrap: wrap;
+    }
+    .dot {
+      width: 7px;
+      height: 7px;
       border-radius: 50%;
-      background: var(--accent);
-      animation: pulse 2.2s ease-in-out infinite;
+      background: var(--border);
+      flex-shrink: 0;
     }
-    @keyframes pulse {
-      0%, 100% { opacity: 1; }
-      50%       { opacity: 0.3; }
-    }
+    .dot.read    { background: var(--accent); }
+    .dot.reading { background: var(--accent); opacity: 0.4; }
+    .dot-overflow { font-size: 0.65rem; color: var(--muted); margin-left: 2px; }
+    .progress-label { font-size: 0.72rem; color: var(--muted); white-space: nowrap; }
 
-    /* ── History grid ── */
+    /* ── Book grid ── */
     #history { margin-bottom: 2rem; }
-
     .book-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(98px, 1fr));
@@ -197,7 +224,7 @@
       border-radius: 4px;
       overflow: hidden;
       cursor: default;
-      line-height: 0; /* kills phantom gap under img */
+      line-height: 0;
     }
     .grid-cover {
       display: block;
@@ -235,6 +262,24 @@
       line-height: 1.3;
     }
     .grid-item:hover .grid-overlay { opacity: 1; }
+    .book-link {
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      width: 22px;
+      height: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(14, 11, 6, 0.6);
+      border-radius: 4px;
+      color: #f2ebe0;
+      opacity: 0;
+      transition: opacity 0.18s ease;
+      z-index: 2;
+      text-decoration: none;
+    }
+    .grid-item:hover .book-link { opacity: 1; }
     .overlay-title {
       font-family: var(--f-display);
       font-size: 0.82rem;
@@ -242,15 +287,61 @@
       color: #f2ebe0;
       margin-bottom: 2px;
     }
-    .overlay-author {
-      font-size: 0.65rem;
-      color: #9e9488;
-      margin-bottom: 5px;
+    .overlay-author { font-size: 0.65rem; color: #9e9488; margin-bottom: 2px; }
+    .overlay-year   { font-size: 0.6rem;  color: #6e6860; margin-bottom: 4px; }
+    .overlay-reading {
+      font-size: 0.6rem;
+      font-weight: 500;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      opacity: 0.9;
     }
-    .stars {
-      font-size: 0.62rem;
+    .overlay-coming {
+      font-size: 0.6rem;
+      font-weight: 500;
       color: var(--star);
-      letter-spacing: 1.5px;
+      margin-bottom: 4px;
+    }
+    .stars { font-size: 0.62rem; color: var(--star); letter-spacing: 1.5px; }
+
+    /* ── Series read indicator ── */
+    .grid-item.series-read::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+      background: #52c97a;
+      z-index: 3;
+    }
+
+    /* ── Series book status badges ── */
+    .book-badge {
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      font-size: 0.55rem;
+      font-weight: 600;
+      font-family: var(--f-body);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 2px 5px;
+      border-radius: 3px;
+      line-height: 1.4;
+      z-index: 2;
+      pointer-events: none;
+    }
+    .book-badge.soon { background: rgba(191, 145, 24, 0.88); color: #fff; }
+
+    /* Unread placeholder — dashed border when no cover image */
+    .grid-item.unread .grid-placeholder {
+      font-style: normal;
+      font-size: 0.8rem;
+      font-family: var(--f-body);
+      background: transparent;
+      border: 1.5px dashed var(--border);
     }
 
     /* ── Year groups ── */
@@ -268,16 +359,8 @@
     }
 
     /* ── States ── */
-    .empty {
-      color: var(--muted);
-      font-style: italic;
-      padding: 0.5rem 0;
-    }
-    .loading-msg {
-      color: var(--muted);
-      font-size: 0.9rem;
-      padding: 2rem 0;
-    }
+    .empty { color: var(--muted); font-style: italic; padding: 0.5rem 0; }
+    .loading-msg { color: var(--muted); font-size: 0.9rem; padding: 2rem 0; }
     .error-box {
       background: #fef2f2;
       border: 1px solid #fecaca;
@@ -293,11 +376,11 @@
       h1   { font-size: 2.1rem; }
       .book-grid { grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); gap: 8px; }
       .page-header { flex-direction: column; gap: 0.25rem; }
+      .series-row-meta { display: none; }
     }
 
     @media (prefers-reduced-motion: reduce) {
-      .reading-badge::before { animation: none; }
-      .grid-overlay, .current-card { transition: none; }
+      .grid-overlay, .series-row { transition: none; }
     }
   </style>
 </head>
@@ -307,7 +390,25 @@
   </div>
 
   <script>
+    /* ── State ── */
+    let _booksData     = null;
+    let _seriesIndex   = null;
+    let _readTitles    = new Set();
+    let _readingTitles = new Set();
+    let _activeView    = 'read';   // 'read' | 'series' | 'series-detail'
+    let _activeSeries  = null;     // series name string, or null
+    let _ignoredTitles = new Set();
+
     /* ── Helpers ── */
+
+    const SERIES_TITLE_RE = /^(.+?)\s+\([^)]+?,?\s*#[\d.]+[^)]*\)\s*$/;
+    function baseTitle(t) {
+      const m = SERIES_TITLE_RE.exec(t || '');
+      return m ? m[1].trim() : (t || '');
+    }
+    function normTitle(t) {
+      return baseTitle(t).replace(/,?\s+volume\s+\d+/i, '').trim().toLowerCase();
+    }
 
     function stars(n) {
       n = parseInt(n, 10) || 0;
@@ -326,19 +427,124 @@
       return `${Math.floor(days / 365)}y ago`;
     }
 
-    function makeCover(src, title, isCurrent) {
+    function parsePubDate(s) {
+      if (!s) return null;
+      const t = String(s).trim();
+      if (/^\d{4}$/.test(t)) {
+        const y = parseInt(t, 10);
+        return (y > 1800 && y < 2200) ? new Date(y, 0, 1) : null;
+      }
+      const n = Number(t);
+      if (!isNaN(n) && n > 1e8) return n > 1e12 ? new Date(n) : new Date(n * 1000);
+      const d = new Date(t);
+      return isNaN(d.getTime()) ? null : d;
+    }
+
+    function makeCover(src, title) {
       if (src) {
         const img = document.createElement('img');
         img.src     = src;
         img.alt     = title || '';
         img.loading = 'lazy';
-        img.className = isCurrent ? 'cover-img' : 'grid-cover';
+        img.className = 'grid-cover';
         return img;
       }
       const ph = document.createElement('div');
-      ph.className  = isCurrent ? 'cover-placeholder' : 'grid-placeholder';
+      ph.className   = 'grid-placeholder';
       ph.textContent = (title || '?')[0].toUpperCase();
       return ph;
+    }
+
+    function makeLinkIcon(href) {
+      if (!href) return null;
+      const a = document.createElement('a');
+      a.className = 'book-link';
+      a.href      = href;
+      a.target    = '_blank';
+      a.rel       = 'noopener noreferrer';
+      a.setAttribute('aria-label', 'Open on Goodreads');
+      a.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`;
+      return a;
+    }
+
+    function findUserBook(title) {
+      if (!_booksData) return null;
+      const nt = normTitle(title || '');
+      return (
+        (_booksData.read || []).find(b => normTitle(b.title || '') === nt) ||
+        (_booksData.currentlyReading || []).find(b => normTitle(b.title || '') === nt) ||
+        null
+      );
+    }
+
+    function sectionHead(title, countText) {
+      const div = document.createElement('div');
+      div.className = 'section-head';
+      div.innerHTML = `<h2>${title}</h2>${countText ? `<span class="count">${countText}</span>` : ''}`;
+      return div;
+    }
+
+    function crumbLink(text, onClick) {
+      const btn = document.createElement('button');
+      btn.className   = 'crumb-link';
+      btn.textContent = text;
+      btn.addEventListener('click', onClick);
+      return btn;
+    }
+
+    function crumbSep() {
+      const span = document.createElement('span');
+      span.className   = 'crumb-sep';
+      span.textContent = '/';
+      return span;
+    }
+
+    /* ── Navigation ── */
+
+    function applyHash() {
+      const h = location.hash.slice(1);
+      if (!h || h === 'read') {
+        _activeView = 'read'; _activeSeries = null;
+      } else if (h === 'series') {
+        _activeView = 'series'; _activeSeries = null;
+      } else if (h.startsWith('series/')) {
+        _activeView   = 'series-detail';
+        _activeSeries = decodeURIComponent(h.slice(7));
+      }
+    }
+
+    function navigate(view, series) {
+      _activeView   = view;
+      _activeSeries = series ?? null;
+      const hash = view === 'read'   ? 'read'
+                 : view === 'series' ? 'series'
+                 : `series/${encodeURIComponent(series)}`;
+      history.pushState(null, '', '#' + hash);
+      renderContent();
+    }
+
+    /* ── UI builders ── */
+
+    function buildBreadcrumb() {
+      if (_activeView === 'read') return null;
+      const nav = document.createElement('nav');
+      nav.className = 'breadcrumb';
+      nav.appendChild(crumbLink('Reading', () => navigate('read')));
+      nav.appendChild(crumbSep());
+      if (_activeView === 'series') {
+        const cur = document.createElement('span');
+        cur.className   = 'crumb-current';
+        cur.textContent = 'Series';
+        nav.appendChild(cur);
+      } else {
+        nav.appendChild(crumbLink('Series', () => navigate('series')));
+        nav.appendChild(crumbSep());
+        const cur = document.createElement('span');
+        cur.className   = 'crumb-current';
+        cur.textContent = _activeSeries;
+        nav.appendChild(cur);
+      }
+      return nav;
     }
 
     /* ── Renderers ── */
@@ -351,30 +557,46 @@
         container.appendChild(p);
         return;
       }
-
+      const grid = document.createElement('div');
+      grid.className = 'book-grid';
       books.forEach(book => {
-        const card = document.createElement('a');
-        card.className = 'current-card';
-        card.href      = book.link || '#';
-        card.target    = '_blank';
-        card.rel       = 'noopener noreferrer';
-
-        const wrap = document.createElement('div');
-        wrap.className = 'cover-wrap';
-        wrap.appendChild(makeCover(book.cover, book.title, true));
-
-        const info = document.createElement('div');
-        info.className = 'current-info';
-        info.innerHTML = `
-          <div class="book-title">${book.title || 'Unknown title'}</div>
-          <div class="book-author">${book.author ? 'by ' + book.author : '&nbsp;'}</div>
-          <span class="reading-badge">Reading now</span>
+        const item = document.createElement('div');
+        item.className = 'grid-item';
+        const overlay = document.createElement('div');
+        overlay.className = 'grid-overlay';
+        overlay.innerHTML = `
+          <div class="overlay-title">${book.title || '—'}</div>
+          <div class="overlay-author">${book.author || ''}</div>
+          ${book.published ? `<div class="overlay-year">${book.published}</div>` : ''}
+          <div class="overlay-reading">Reading now</div>
         `;
-
-        card.appendChild(wrap);
-        card.appendChild(info);
-        container.appendChild(card);
+        item.appendChild(makeCover(book.cover, book.title));
+        item.appendChild(overlay);
+        const li = makeLinkIcon(book.link);
+        if (li) item.appendChild(li);
+        grid.appendChild(item);
       });
+      container.appendChild(grid);
+    }
+
+    function makeGridItem(book) {
+      const item = document.createElement('div');
+      item.className = 'grid-item';
+      const overlay = document.createElement('div');
+      overlay.className = 'grid-overlay';
+      overlay.innerHTML = `
+        <div class="overlay-title">${book.title || '—'}</div>
+        <div class="overlay-author">${book.author || ''}</div>
+        ${book.published ? `<div class="overlay-year">${book.published}</div>` : ''}
+        ${book.rating && book.rating !== '0'
+          ? `<div class="stars">${stars(book.rating)}</div>`
+          : ''}
+      `;
+      item.appendChild(makeCover(book.cover, book.title));
+      item.appendChild(overlay);
+      const li = makeLinkIcon(book.link);
+      if (li) item.appendChild(li);
+      return item;
     }
 
     function renderHistory(books, container) {
@@ -386,12 +608,10 @@
         return;
       }
 
-      // Group by read year, falling back to add year, then 'Earlier'
       const groups = new Map();
       books.forEach(book => {
-        const d = book.dateRead ? new Date(book.dateRead)
-                : book.dateAdded ? new Date(book.dateAdded)
-                : null;
+        const d   = book.dateRead  ? new Date(book.dateRead)
+                  : book.dateAdded ? new Date(book.dateAdded) : null;
         const key = (d && !isNaN(d)) ? String(d.getFullYear()) : 'Earlier';
         if (!groups.has(key)) groups.set(key, []);
         groups.get(key).push(book);
@@ -403,74 +623,245 @@
         return parseInt(b) - parseInt(a);
       });
 
-      function makeGridItem(book) {
-        const item = document.createElement('div');
-        item.className = 'grid-item';
-        const overlay = document.createElement('div');
-        overlay.className = 'grid-overlay';
-        overlay.innerHTML = `
-          <div class="overlay-title">${book.title || '—'}</div>
-          <div class="overlay-author">${book.author || ''}</div>
-          ${book.rating && book.rating !== '0'
-            ? `<div class="stars">${stars(book.rating)}</div>`
-            : ''}
-        `;
-        item.appendChild(makeCover(book.cover, book.title, false));
-        item.appendChild(overlay);
-        return item;
-      }
-
       sortedKeys.forEach(year => {
         const group = document.createElement('div');
         group.className = 'year-group';
-
         const label = document.createElement('div');
-        label.className = 'year-label';
+        label.className   = 'year-label';
         label.textContent = year;
         group.appendChild(label);
-
         const grid = document.createElement('div');
         grid.className = 'book-grid';
         groups.get(year).forEach(book => grid.appendChild(makeGridItem(book)));
         group.appendChild(grid);
-
         container.appendChild(group);
       });
     }
 
-    function render(data) {
+    function renderSeriesFiltered(series, container) {
+      const grid = document.createElement('div');
+      grid.className = 'book-grid';
+      const now = Date.now();
+
+      series.books.forEach(book => {
+        const nt         = normTitle(book.title);
+        const isRead     = _readTitles.has(nt);
+        const isReading  = _readingTitles.has(nt);
+        const isUserBook = isRead || isReading;
+
+        const item    = document.createElement('div');
+        const overlay = document.createElement('div');
+        overlay.className = 'grid-overlay';
+
+        if (isUserBook) {
+          item.className = 'grid-item' + (isRead ? ' series-read' : '');
+          const ub = findUserBook(book.title);
+          const r  = ub?.rating;
+          const pd = parsePubDate(ub?.published || book.published);
+          overlay.innerHTML = `
+            <div class="overlay-title">${baseTitle(book.title) || '—'}</div>
+            <div class="overlay-author">${ub?.author || book.author || ''}</div>
+            ${pd ? `<div class="overlay-year">${pd.getFullYear()}</div>` : ''}
+            ${r && r !== '0' ? `<div class="stars">${stars(r)}</div>` : ''}
+          `;
+          item.appendChild(makeCover(ub?.cover || book.cover, baseTitle(book.title)));
+        } else {
+          const pd     = parsePubDate(book.published);
+          const isSoon = !pd || pd.getTime() > now;
+          item.className = 'grid-item' + (isSoon ? '' : ' unread');
+          const pubHtml  = !pd ? `<div class="overlay-coming">Coming soon</div>`
+            : pd.getTime() > now ? `<div class="overlay-coming">Coming soon</div>`
+            : `<div class="overlay-year">${pd.getFullYear()}</div>`;
+          overlay.innerHTML = `
+            <div class="overlay-title">${baseTitle(book.title) || '—'}</div>
+            <div class="overlay-author">${book.author || ''}</div>
+            ${pubHtml}
+          `;
+          item.appendChild(makeCover(book.cover, baseTitle(book.title)));
+          if (isSoon) {
+            const badge = document.createElement('div');
+            badge.className = 'book-badge soon';
+            badge.textContent = 'Soon';
+            item.appendChild(badge);
+          }
+        }
+
+        item.appendChild(overlay);
+        const li = makeLinkIcon(book.link);
+        if (li) item.appendChild(li);
+        grid.appendChild(item);
+      });
+
+      container.appendChild(grid);
+    }
+
+    function buildSeriesRow(s) {
+      const author     = s.books[0]?.author || '';
+      const now        = Date.now();
+      const oneYearAgo = now - 365 * 86_400_000;
+
+      const hasNew = s.books.some(b => {
+        const nt = normTitle(b.title);
+        if (_readTitles.has(nt) || _readingTitles.has(nt)) return false;
+        const pd = parsePubDate(b.published);
+        return pd && pd.getTime() >= oneYearAgo && pd.getTime() <= now;
+      });
+      const hasSoon = s.books.some(b => {
+        const nt = normTitle(b.title);
+        if (_readTitles.has(nt) || _readingTitles.has(nt)) return false;
+        const pd = parsePubDate(b.published);
+        return !pd || pd.getTime() > now;
+      });
+
+      const readCount  = s.books.filter(b => _readTitles.has(normTitle(b.title))).length;
+      const totalCount = s.books.length;
+      const maxDots    = Math.min(totalCount, 12);
+      const dots = s.books.slice(0, maxDots).map(b => {
+        const nt  = normTitle(b.title);
+        const cls = _readTitles.has(nt) ? 'read' : _readingTitles.has(nt) ? 'reading' : '';
+        return `<div class="dot ${cls}"></div>`;
+      }).join('');
+      const extra = totalCount > maxDots
+        ? `<span class="dot-overflow">+${totalCount - maxDots}</span>`
+        : '';
+
+      const row = document.createElement('div');
+      row.className = 'series-row';
+      row.innerHTML = `
+        <div class="series-row-info">
+          <span class="series-name">${s.name}${hasNew ? '<span class="series-new">New</span>' : ''}${hasSoon ? '<span class="series-coming">Coming Soon</span>' : ''}</span>
+          ${author ? `<span class="series-author">${author}</span>` : ''}
+        </div>
+        <div class="series-row-meta">
+          <div class="progress-dots">${dots}${extra}</div>
+          <div class="progress-label">${readCount} of ${totalCount}</div>
+        </div>
+        <div class="series-chevron">›</div>
+      `;
+      row.addEventListener('click', () => navigate('series-detail', s.name));
+      return row;
+    }
+
+    /* ── Views ── */
+
+    function renderReadView(container) {
+      if ((_seriesIndex?.series?.length || 0) > 0) {
+        const seriesLink = document.createElement('button');
+        seriesLink.className   = 'series-nav-link';
+        seriesLink.textContent = 'Series →';
+        seriesLink.addEventListener('click', () => navigate('series'));
+        container.appendChild(seriesLink);
+      }
+      const books = _booksData.read || [];
+      const n = books.length;
+      container.appendChild(sectionHead('Read', `${n} book${n !== 1 ? 's' : ''}`));
+      renderHistory(books, container);
+    }
+
+    function renderSeriesListView(container) {
+      const seriesArr = _seriesIndex?.series || [];
+      if (!seriesArr.length) {
+        const p = document.createElement('p');
+        p.className   = 'empty';
+        p.textContent = 'No series tracked yet.';
+        container.appendChild(p);
+        return;
+      }
+      const list = document.createElement('div');
+      list.className = 'series-list';
+      seriesArr.forEach(s => list.appendChild(buildSeriesRow(s)));
+      container.appendChild(list);
+    }
+
+    function renderSeriesDetailView(container) {
+      const series = (_seriesIndex?.series || []).find(s => s.name === _activeSeries);
+      if (!series) {
+        const p = document.createElement('p');
+        p.className   = 'empty';
+        p.textContent = `Series not found.`;
+        container.appendChild(p);
+        return;
+      }
+
+      const readCount  = series.books.filter(b => _readTitles.has(normTitle(b.title))).length;
+      const totalCount = series.books.length;
+      const maxDots    = Math.min(totalCount, 12);
+      const dots = series.books.slice(0, maxDots).map(b => {
+        const nt  = normTitle(b.title);
+        const cls = _readTitles.has(nt) ? 'read' : _readingTitles.has(nt) ? 'reading' : '';
+        return `<div class="dot ${cls}"></div>`;
+      }).join('');
+      const extra = totalCount > maxDots
+        ? `<span class="dot-overflow">+${totalCount - maxDots}</span>`
+        : '';
+      const author = series.books[0]?.author || '';
+
+      const header = document.createElement('div');
+      header.className = 'series-detail-header';
+      header.innerHTML = `
+        <span class="series-name">${series.name}</span>
+        ${author ? `<div class="series-author">${author}</div>` : ''}
+        <div class="series-progress">
+          <div class="progress-dots">${dots}${extra}</div>
+          <div class="progress-label">${readCount} of ${totalCount} read</div>
+        </div>
+      `;
+      container.appendChild(header);
+
+      renderSeriesFiltered(series, container);
+    }
+
+    function renderContent() {
+      const container = document.getElementById('content');
+      container.innerHTML = '';
+
+      // Currently Reading only shows on the home/read view
+      const currentSection = document.getElementById('current');
+      if (currentSection) currentSection.style.display = _activeView === 'read' ? '' : 'none';
+
+      const crumb = buildBreadcrumb();
+      if (crumb) container.appendChild(crumb);
+
+      if (_activeView === 'read')              renderReadView(container);
+      else if (_activeView === 'series')       renderSeriesListView(container);
+      else                                     renderSeriesDetailView(container);
+    }
+
+    function render(books, seriesIndex) {
+      _booksData   = books;
+      _seriesIndex = seriesIndex;
+      _readTitles  = new Set(
+        (books.read || []).map(b => normTitle(b.title || '')).filter(Boolean)
+      );
+      _readingTitles = new Set(
+        (books.currentlyReading || []).map(b => normTitle(b.title || '')).filter(Boolean)
+      );
+
+      applyHash();
+
       const app = document.getElementById('app');
       app.innerHTML = '';
 
       /* Header */
       const header = document.createElement('header');
       header.className = 'page-header';
-      header.innerHTML = `
-        <h1>Reading</h1>
-        <span class="updated">Updated ${timeAgo(data.lastUpdated)}</span>
-      `;
+      header.innerHTML = `<h1>Reading</h1><span class="updated">Updated ${timeAgo(books.lastUpdated)}</span>`;
       app.appendChild(header);
 
-      /* Currently reading */
-      const currentSection = document.createElement('section');
-      currentSection.id = 'current';
-      const currentHead = document.createElement('div');
-      currentHead.className = 'section-head';
-      currentHead.innerHTML = '<h2>Currently Reading</h2>';
-      currentSection.appendChild(currentHead);
-      renderCurrent(data.currentlyReading, currentSection);
-      app.appendChild(currentSection);
+      /* Currently Reading */
+      if ((books.currentlyReading || []).length > 0) {
+        const cs = document.createElement('section');
+        cs.id = 'current';
+        cs.appendChild(sectionHead('Currently Reading'));
+        renderCurrent(books.currentlyReading, cs);
+        app.appendChild(cs);
+      }
 
-      /* History */
-      const histSection = document.createElement('section');
-      histSection.id = 'history';
-      const histHead = document.createElement('div');
-      histHead.className = 'section-head';
-      const n = (data.read || []).length;
-      histHead.innerHTML = `<h2>Read</h2><span class="count">${n} book${n !== 1 ? 's' : ''}</span>`;
-      histSection.appendChild(histHead);
-      renderHistory(data.read, histSection);
-      app.appendChild(histSection);
+      /* Content area (rebuilt on navigation) */
+      const content = document.createElement('section');
+      content.id = 'content';
+      app.appendChild(content);
+      renderContent();
     }
 
     function renderError(msg) {
@@ -485,13 +876,36 @@
     }
 
     /* ── Boot ── */
-    fetch('books.json')
-      .then(r => {
-        if (!r.ok) throw new Error(`HTTP ${r.status} — is books.json committed to the repo?`);
+    Promise.allSettled([
+      fetch('data/books.json').then(r => {
+        if (!r.ok) throw new Error(`HTTP ${r.status} — is data/books.json committed to the repo?`);
         return r.json();
-      })
-      .then(render)
-      .catch(err => renderError(err.message));
+      }),
+      fetch('data/goodreads_series_index.json').then(r => r.ok ? r.json() : null).catch(() => null),
+      fetch('data/ignore.json').then(r => r.ok ? r.json() : null).catch(() => null),
+    ]).then(([booksResult, seriesResult, ignoreResult]) => {
+      if (booksResult.status === 'rejected') {
+        renderError(booksResult.reason.message);
+        return;
+      }
+      const ignoredList = ignoreResult.value?.titles || [];
+      _ignoredTitles = new Set(ignoredList.map(t => normTitle(t)));
+
+      let seriesIndex = seriesResult.status === 'fulfilled' ? seriesResult.value : null;
+      if (seriesIndex?.series && _ignoredTitles.size) {
+        seriesIndex = {
+          ...seriesIndex,
+          series: seriesIndex.series.map(s => ({
+            ...s,
+            books: s.books.filter(b => !_ignoredTitles.has(normTitle(b.title))),
+          })),
+        };
+      }
+
+      render(booksResult.value, seriesIndex);
+
+      window.addEventListener('hashchange', () => { applyHash(); renderContent(); });
+    });
   </script>
 </body>
 </html>

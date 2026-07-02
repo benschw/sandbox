@@ -24,12 +24,18 @@ jobs:
       - name: Fetch books from Goodreads RSS
         env:
           GOODREADS_USER_ID: ${{ vars.GOODREADS_USER_ID }}
-        run: python scripts/fetch_books.py
+        run: python books/scripts/fetch_books.py
 
-      - name: Commit books.json if changed
+      - name: Sync all series from Goodreads
+        run: python books/scripts/sync_all_series.py
+
+      - name: Regenerate series_unread.json
+        run: python books/scripts/sync_unread_series_books.py
+
+      - name: Commit changes if any
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add books/books.json
+          git add books/data/books.json books/data/goodreads_series_index.json books/data/series_unread.json
           git diff --staged --quiet || git commit -m "chore: update books"
           git push

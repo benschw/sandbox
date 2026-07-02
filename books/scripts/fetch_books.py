@@ -21,7 +21,7 @@ if not USER_ID:
     print("Error: GOODREADS_USER_ID is not set.", file=sys.stderr)
     sys.exit(1)
 
-OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "..", "books/books.json")
+OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "books.json")
 
 
 def fetch_url(url: str) -> bytes:
@@ -68,28 +68,44 @@ def parse_rss(xml_data: bytes) -> list[dict]:
                 "rating": text(item, "user_rating"),
                 "dateRead": text(item, "user_read_at"),
                 "dateAdded": text(item, "user_date_added"),
+                "isbn": text(item, "isbn"),
                 "pages": text(item, "num_pages"),
                 "avgRating": text(item, "average_rating"),
+                "published": text(item, "book_published"),
             }
         )
     return books
 
 
-def fetch_shelf(shelf: str, per_page: int = 100) -> list[dict]:
-    url = (
-        f"https://www.goodreads.com/review/list_rss/{USER_ID}"
-        f"?shelf={shelf}&per_page={per_page}&sort=date_read&order=d"
-    )
+def fetch_shelf(shelf: str, per_page: int = 200) -> list[dict]:
+    all_books: list[dict] = []
+    page = 1
     print(f"Fetching '{shelf}' shelf …")
-    data = fetch_url(url)
-    books = parse_rss(data)
-    print(f"  → {len(books)} book(s)")
-    return books
+    while True:
+        url = (
+            f"https://www.goodreads.com/review/list_rss/{USER_ID}"
+            f"?shelf={shelf}&per_page={per_page}&page={page}&sort=date_read&order=d"
+        )
+        data = fetch_url(url)
+        books = parse_rss(data)
+        all_books.extend(books)
+        print(f"  page {page}: {len(books)} book(s)")
+        if len(books) < per_page:
+            break
+        page += 1
+        time.sleep(1)
+    return all_books
 
 
 currently_reading = fetch_shelf("currently-reading", per_page=20)
 time.sleep(1)  # be polite to Goodreads
-read = fetch_shelf("read", per_page=200)
+read = fetch_shelf("read")
+
+# Goodreads shelf caches update independently; a book just marked read can
+# still appear in currently-reading for hours. Drop any overlap by title.
+read_titles = {b["title"].lower() for b in read if b.get("title")}
+currently_reading = [b for b in currently_reading
+                     if b.get("title", "").lower() not in read_titles]
 
 output = {
     "lastUpdated": datetime.now(timezone.utc).isoformat(),

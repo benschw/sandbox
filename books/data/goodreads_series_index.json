@@ -1,0 +1,1137 @@
+{
+  "series": [
+    {
+      "name": "The Locked Tomb",
+      "url": "https://www.goodreads.com/series/229503-the-locked-tomb",
+      "books": [
+        {
+          "title": "The Mysterious Study of Doctor Sex (The Locked Tomb, #0.5)",
+          "position": "0.5",
+          "author": "Tamsyn Muir",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590235572i/53465671._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/53465671-the-mysterious-study-of-doctor-sex",
+          "pages": "28",
+          "avgRating": "4.14",
+          "published": "2020"
+        },
+        {
+          "title": "Gideon the Ninth (The Locked Tomb, #1)",
+          "position": "1",
+          "author": "Tamsyn Muir",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546870952i/42036538._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/42036538-gideon-the-ninth",
+          "pages": "448",
+          "avgRating": "4.18",
+          "published": "2019"
+        },
+        {
+          "title": "Harrow the Ninth (The Locked Tomb, #2)",
+          "position": "2",
+          "author": "Tamsyn Muir",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602323622i/39325105._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/39325105-harrow-the-ninth",
+          "pages": "512",
+          "avgRating": "4.29",
+          "published": "2020"
+        },
+        {
+          "title": "As Yet Unsent (The Locked Tomb, #2.5)",
+          "position": "2.5",
+          "author": "Tamsyn Muir",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1695497683i/58662978._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/58662978-as-yet-unsent",
+          "pages": "24",
+          "avgRating": "4.35",
+          "published": "2021"
+        },
+        {
+          "title": "Nona the Ninth (The Locked Tomb, #3)",
+          "position": "3",
+          "author": "Tamsyn Muir",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1643298298i/58662507._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/58662507-nona-the-ninth",
+          "pages": "480",
+          "avgRating": "4.33",
+          "published": "2022"
+        },
+        {
+          "title": "The Unwanted Guest (The Locked Tomb, #3.5)",
+          "position": "3.5",
+          "author": "Tamsyn Muir",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1735328862i/219360665._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/219360665-the-unwanted-guest",
+          "pages": "32",
+          "avgRating": "4.6",
+          "published": "2023"
+        },
+        {
+          "title": "Alecto the Ninth (The Locked Tomb, #4)",
+          "position": "4",
+          "author": "Tamsyn Muir",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1669839432i/39325106._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/39325106-alecto-the-ninth",
+          "pages": "",
+          "avgRating": "4.34",
+          "published": ""
+        }
+      ]
+    },
+    {
+      "name": "Children of Time",
+      "url": "https://www.goodreads.com/series/247630-children-of-time",
+      "books": [
+        {
+          "title": "Children of Time (Children of Time, #1)",
+          "position": "1",
+          "author": "Adrian Tchaikovsky",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197i/25499718._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/25499718-children-of-time",
+          "pages": "600",
+          "avgRating": "4.3",
+          "published": "2015"
+        },
+        {
+          "title": "Children of Ruin (Children of Time, #2)",
+          "position": "2",
+          "author": "Adrian Tchaikovsky",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1693752895i/40376072._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/40376072-children-of-ruin",
+          "pages": "597",
+          "avgRating": "4.05",
+          "published": "2019"
+        },
+        {
+          "title": "Children of Memory (Children of Time, #3)",
+          "position": "3",
+          "author": "Adrian Tchaikovsky",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655929460i/60850767._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/60850767-children-of-memory",
+          "pages": "486",
+          "avgRating": "4.0",
+          "published": "2022"
+        },
+        {
+          "title": "Children of Strife (Children of Time, #4)",
+          "position": "4",
+          "author": "Adrian Tchaikovsky",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1762866145i/231953328._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/231953328-children-of-strife",
+          "pages": "496",
+          "avgRating": "4.26",
+          "published": "2026"
+        },
+        {
+          "title": "Children of Time 3-Book Set",
+          "position": "",
+          "author": "Adrian Tchaikovsky",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1689629651i/184599121._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/184599121-children-of-time-3-book-set",
+          "pages": "1760",
+          "avgRating": "4.58",
+          "published": ""
+        }
+      ]
+    },
+    {
+      "name": "Emily Wilde",
+      "url": "https://www.goodreads.com/series/353912-emily-wilde",
+      "books": [
+        {
+          "title": "Emily Wilde's Encyclopaedia of Faeries (Emily Wilde, #1)",
+          "position": "1",
+          "author": "Heather Fawcett",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1651622856i/60657589._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/60657589-emily-wilde-s-encyclopaedia-of-faeries",
+          "pages": "336",
+          "avgRating": "3.95",
+          "published": "2023"
+        },
+        {
+          "title": "Emily Wilde’s Map of the Otherlands (Emily Wilde, #2)",
+          "position": "2",
+          "author": "Heather Fawcett",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682054645i/134119076._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/134119076-emily-wilde-s-map-of-the-otherlands",
+          "pages": "370",
+          "avgRating": "4.24",
+          "published": "2024"
+        },
+        {
+          "title": "Emily Wilde's Compendium of Lost Tales (Emily Wilde, #3)",
+          "position": "3",
+          "author": "Heather Fawcett",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1718824169i/208841368._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/208841368-emily-wilde-s-compendium-of-lost-tales",
+          "pages": "368",
+          "avgRating": "4.08",
+          "published": "2025"
+        },
+        {
+          "title": "Emily Wilde's History of Dark Faerie",
+          "position": "",
+          "author": "Heather Fawcett",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/nophoto/book/111x148.png",
+          "link": "https://www.goodreads.com/book/show/252005175-emily-wilde-s-history-of-dark-faerie",
+          "pages": "",
+          "avgRating": "5.0",
+          "published": "2027"
+        }
+      ]
+    },
+    {
+      "name": "The Craft Wars",
+      "url": "https://www.goodreads.com/series/344327-the-craft-wars",
+      "books": [
+        {
+          "title": "Dead Country (The Craft Wars, #1)",
+          "position": "1",
+          "author": "Max Gladstone",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1654178699i/60784301._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/60784301-dead-country",
+          "pages": "239",
+          "avgRating": "4.11",
+          "published": "2023"
+        },
+        {
+          "title": "Wicked Problems (The Craft Wars, #2)",
+          "position": "2",
+          "author": "Max Gladstone",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684950879i/127280414._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/127280414-wicked-problems",
+          "pages": "464",
+          "avgRating": "4.24",
+          "published": "2024"
+        },
+        {
+          "title": "Dead Hand Rule (The Craft Wars #3)",
+          "position": "3",
+          "author": "Max Gladstone",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1749060933i/222377053._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/222377053-dead-hand-rule",
+          "pages": "432",
+          "avgRating": "4.32",
+          "published": "2025"
+        }
+      ]
+    },
+    {
+      "name": "The Books of the Raksura",
+      "url": "https://www.goodreads.com/series/65591-the-books-of-the-raksura",
+      "books": [
+        {
+          "title": "The Tale of Indigo and Cloud  (Books of the Raksura, #0.1)",
+          "position": "0.1",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427986662i/20344655._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/20344655-the-tale-of-indigo-and-cloud",
+          "pages": "176",
+          "avgRating": "4.2",
+          "published": "2014"
+        },
+        {
+          "title": "The Dead City (Books of the Raksura, #0.3)",
+          "position": "0.3",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/nophoto/book/111x148.png",
+          "link": "https://www.goodreads.com/book/show/31573214-the-dead-city",
+          "pages": "62",
+          "avgRating": "4.1",
+          "published": "2017"
+        },
+        {
+          "title": "The Cloud Roads (Books of the Raksura, #1)",
+          "position": "1",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317017378i/9461562._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/9461562-the-cloud-roads",
+          "pages": "278",
+          "avgRating": "3.98",
+          "published": "2011"
+        },
+        {
+          "title": "The Serpent Sea (Books of the Raksura, #2)",
+          "position": "2",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388352549i/11834447._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/11834447-the-serpent-sea",
+          "pages": "340",
+          "avgRating": "4.09",
+          "published": "2012"
+        },
+        {
+          "title": "The Siren Depths (Books of the Raksura, #3)",
+          "position": "3",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1340294868i/13649197._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/13649197-the-siren-depths",
+          "pages": "277",
+          "avgRating": "4.24",
+          "published": "2012"
+        },
+        {
+          "title": "The Falling World (The Books of the Raksura, #3.6)",
+          "position": "3.6",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1419195538i/23609415._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/23609415-the-falling-world",
+          "pages": "216",
+          "avgRating": "4.1",
+          "published": "2014"
+        },
+        {
+          "title": "The Dark Earth Below (The Books of the Raksura, #3.7)",
+          "position": "3.7",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620784688i/33810252._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/33810252-the-dark-earth-below",
+          "pages": "",
+          "avgRating": "4.29",
+          "published": "2017"
+        },
+        {
+          "title": "The Edge of Worlds (The Books of the Raksura, #4)",
+          "position": "4",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444134990i/25898527._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/25898527-the-edge-of-worlds",
+          "pages": "388",
+          "avgRating": "4.09",
+          "published": "2016"
+        },
+        {
+          "title": "The Harbors of the Sun (The Books of the Raksura, #5)",
+          "position": "5",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473280122i/28960325._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/28960325-the-harbors-of-the-sun",
+          "pages": "416",
+          "avgRating": "4.23",
+          "published": "2017"
+        },
+        {
+          "title": "Stories of the Raksura, Volume 1: The Falling World & The Tale of Indigo and Cloud",
+          "position": "",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394522898i/20344635._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/20344635-stories-of-the-raksura-volume-1",
+          "pages": "206",
+          "avgRating": "4.18",
+          "published": "2014"
+        }
+      ]
+    },
+    {
+      "name": "The Singing Hills Cycle",
+      "url": "https://www.goodreads.com/series/288518-the-singing-hills-cycle",
+      "books": [
+        {
+          "title": "The Empress of Salt and Fortune (The Singing Hills Cycle, #1)",
+          "position": "1",
+          "author": "Nghi Vo",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565188992l/51190882._SX120_SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/51190882-the-empress-of-salt-and-fortune",
+          "pages": "119",
+          "avgRating": "3.9",
+          "published": "2020"
+        },
+        {
+          "title": "When the Tiger Came Down the Mountain (The Singing Hills Cycle, #2)",
+          "position": "2",
+          "author": "Nghi Vo",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1588169628i/53265678._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/53265678-when-the-tiger-came-down-the-mountain",
+          "pages": "128",
+          "avgRating": "4.15",
+          "published": "2020"
+        },
+        {
+          "title": "Into the Riverlands (The Singing Hills Cycle, #3)",
+          "position": "3",
+          "author": "Nghi Vo",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1641913170i/59807976._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/59807976-into-the-riverlands",
+          "pages": "100",
+          "avgRating": "3.99",
+          "published": "2022"
+        },
+        {
+          "title": "Mammoths at the Gates (The Singing Hills Cycle, #4)",
+          "position": "4",
+          "author": "Nghi Vo",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715640435i/58007996._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/58007996-mammoths-at-the-gates",
+          "pages": "123",
+          "avgRating": "4.2",
+          "published": "2023"
+        },
+        {
+          "title": "The Brides of High Hill (The Singing Hills Cycle, #5)",
+          "position": "5",
+          "author": "Nghi Vo",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1701021886i/58008003._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/58008003-the-brides-of-high-hill",
+          "pages": "116",
+          "avgRating": "4.12",
+          "published": "2024"
+        },
+        {
+          "title": "A Mouthful of Dust (The Singing Hills Cycle, #6)",
+          "position": "6",
+          "author": "Nghi Vo",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1759355074i/199653099._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/199653099-a-mouthful-of-dust",
+          "pages": "",
+          "avgRating": "4.16",
+          "published": "2025"
+        },
+        {
+          "title": "A Long and Speaking Silence (The Singing Hills Cycle, #7)",
+          "position": "7",
+          "author": "Nghi Vo",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1755327867i/199654051._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/199654051-a-long-and-speaking-silence",
+          "pages": "",
+          "avgRating": "4.11",
+          "published": "2026"
+        },
+        {
+          "title": "Untitled (The Singing Hills Cycle, #8)",
+          "position": "8",
+          "author": "Nghi Vo",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/nophoto/book/111x148.png",
+          "link": "https://www.goodreads.com/book/show/199654082-untitled",
+          "pages": "",
+          "avgRating": "4.5",
+          "published": ""
+        }
+      ]
+    },
+    {
+      "name": "The Chronicles of Osreth",
+      "url": "https://www.goodreads.com/series/241702-the-chronicles-of-osreth",
+      "books": [
+        {
+          "title": "Lora Selezh (The Cemeteries of Amalo, #0.5)",
+          "position": "0.5",
+          "author": "Katherine Addison",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626942196i/58415918._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/58415918-lora-selezh",
+          "pages": "13",
+          "avgRating": "3.9",
+          "published": "2021"
+        },
+        {
+          "title": "The Goblin Emperor (The Chronicles of Osreth, #1)",
+          "position": "1",
+          "author": "Katherine Addison",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373039517i/17910048._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/17910048-the-goblin-emperor",
+          "pages": "446",
+          "avgRating": "4.06",
+          "published": "2014"
+        },
+        {
+          "title": "The Orb of Cairado (The Chronicles of Osreth, #1.1)",
+          "position": "1.1",
+          "author": "Katherine Addison",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1731961299i/221288099._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/221288099-the-orb-of-cairado",
+          "pages": "120",
+          "avgRating": "4.14",
+          "published": "2025"
+        },
+        {
+          "title": "Min Zemerin's Plan (The Cemeteries of Amalo, #1.5)",
+          "position": "1.5",
+          "author": "Katherine Addison",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1735269379i/61062043._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/61062043-min-zemerin-s-plan",
+          "pages": "14",
+          "avgRating": "3.81",
+          "published": "2022"
+        },
+        {
+          "title": "The Grief of Stones (The Cemeteries of Amalo, #2)",
+          "position": "2",
+          "author": "Katherine Addison",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1637961242i/58724898._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/58724898-the-grief-of-stones",
+          "pages": "245",
+          "avgRating": "4.3",
+          "published": "2022"
+        },
+        {
+          "title": "The Tomb of Dragons (The Cemeteries of Amalo, #3)",
+          "position": "3",
+          "author": "Katherine Addison",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715350354i/211004174._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/211004174-the-tomb-of-dragons",
+          "pages": "352",
+          "avgRating": "4.3",
+          "published": "2025"
+        },
+        {
+          "title": "エルフ皇帝の後継者〈上〉(The Goblin Emperor, #1.1)",
+          "position": "",
+          "author": "Katherine Addison",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536994992i/41834096._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/41834096",
+          "pages": "342",
+          "avgRating": "4.29",
+          "published": ""
+        }
+      ]
+    },
+    {
+      "name": "Amina al-Sirafi",
+      "url": "https://www.goodreads.com/series/289717-amina-al-sirafi",
+      "books": [
+        {
+          "title": "The Adventures of Amina al-Sirafi (Amina al-Sirafi, #1)",
+          "position": "1",
+          "author": "Shannon Chakraborty",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663869260i/61294937._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/61294937-the-adventures-of-amina-al-sirafi",
+          "pages": "483",
+          "avgRating": "4.24",
+          "published": "2023"
+        },
+        {
+          "title": "The Tapestry of Fate (Amina al-Sirafi, #2)",
+          "position": "2",
+          "author": "Shannon Chakraborty",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1777256665i/241544367._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/241544367-the-tapestry-of-fate",
+          "pages": "485",
+          "avgRating": "4.44",
+          "published": "2026"
+        }
+      ]
+    },
+    {
+      "name": "The Investigations of Mossa and Pleiti",
+      "url": "https://www.goodreads.com/series/361215-the-investigations-of-mossa-and-pleiti",
+      "books": [
+        {
+          "title": "The Mimicking of Known Successes (The Investigations of Mossa and Pleiti, #1)",
+          "position": "1",
+          "author": "Malka Ann Older",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655389803i/60784309._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/60784309-the-mimicking-of-known-successes",
+          "pages": "169",
+          "avgRating": "3.59",
+          "published": "2023"
+        },
+        {
+          "title": "The Imposition of Unnecessary Obstacles (The Investigations of Mossa and Pleiti, #2)",
+          "position": "2",
+          "author": "Malka Ann Older",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1687268530i/78978394._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/78978394-the-imposition-of-unnecessary-obstacles",
+          "pages": "208",
+          "avgRating": "3.9",
+          "published": "2024"
+        },
+        {
+          "title": "The Potency of Ungovernable Impulses (The Investigations of Mossa and Pleiti, #3)",
+          "position": "3",
+          "author": "Malka Ann Older",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1729368842i/217388049._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/217388049-the-potency-of-ungovernable-impulses",
+          "pages": "243",
+          "avgRating": "3.97",
+          "published": "2025"
+        },
+        {
+          "title": "Mossa & Pleiti, #4",
+          "position": "",
+          "author": "Malka Ann Older",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/nophoto/book/111x148.png",
+          "link": "https://www.goodreads.com/book/show/216641240-mossa-pleiti-4",
+          "pages": "",
+          "avgRating": "",
+          "published": ""
+        }
+      ]
+    },
+    {
+      "name": "The Murderbot Diaries",
+      "url": "https://www.goodreads.com/series/191900-the-murderbot-diaries",
+      "books": [
+        {
+          "title": "Compulsory (The Murderbot Diaries, #0.5)",
+          "position": "0.5",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1690602081i/195264190._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/195264190-compulsory",
+          "pages": "8",
+          "avgRating": "4.29",
+          "published": "2018"
+        },
+        {
+          "title": "All Systems Red (The Murderbot Diaries, #1)",
+          "position": "1",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631585309i/32758901._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/32758901-all-systems-red",
+          "pages": "144",
+          "avgRating": "4.11",
+          "published": "2017"
+        },
+        {
+          "title": "Artificial Condition (The Murderbot Diaries, #2)",
+          "position": "2",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505590203i/36223860._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/36223860-artificial-condition",
+          "pages": "158",
+          "avgRating": "4.24",
+          "published": "2018"
+        },
+        {
+          "title": "Rapport: Friendship, Solidarity, Communion, Empathy (The Murderbot Diaries, #2.5)",
+          "position": "2.5",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1751316945i/237633725._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/237633725-rapport",
+          "pages": "34",
+          "avgRating": "4.14",
+          "published": "2025"
+        },
+        {
+          "title": "Rogue Protocol (The Murderbot Diaries, #3)",
+          "position": "3",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1506001607i/35519101._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/35519101-rogue-protocol",
+          "pages": "159",
+          "avgRating": "4.23",
+          "published": "2018"
+        },
+        {
+          "title": "Exit Strategy (The Murderbot Diaries, #4)",
+          "position": "4",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1518642623i/35519109._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/35519109-exit-strategy",
+          "pages": "172",
+          "avgRating": "4.36",
+          "published": "2018"
+        },
+        {
+          "title": "Home: Habitat, Range, Niche, Territory (The Murderbot Diaries, #4.5)",
+          "position": "4.5",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618841008i/57623348._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/57623348-home",
+          "pages": "19",
+          "avgRating": "4.1",
+          "published": "2020"
+        },
+        {
+          "title": "Network Effect (The Murderbot Diaries, #5)",
+          "position": "5",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1771826950i/52381770._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/52381770-network-effect",
+          "pages": "350",
+          "avgRating": "4.46",
+          "published": "2020"
+        },
+        {
+          "title": "Fugitive Telemetry (The Murderbot Diaries, #6)",
+          "position": "6",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1731700666i/53205854._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/53205854-fugitive-telemetry",
+          "pages": "168",
+          "avgRating": "4.28",
+          "published": "2021"
+        },
+        {
+          "title": "System Collapse (The Murderbot Diaries, #7)",
+          "position": "7",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1674575978i/65211701._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/65211701-system-collapse",
+          "pages": "245",
+          "avgRating": "4.25",
+          "published": "2023"
+        },
+        {
+          "title": "Platform Decay (The Murderbot Diaries, #8)",
+          "position": "8",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1758044201i/240019874._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/240019874-platform-decay",
+          "pages": "244",
+          "avgRating": "4.27",
+          "published": "2026"
+        },
+        {
+          "title": "逃亡テレメトリー マーダーボット・ダイアリー (創元SF文庫) (Japanese Edition)",
+          "position": "",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1676389249i/117677657._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/117677657-sf",
+          "pages": "203",
+          "avgRating": "",
+          "published": ""
+        }
+      ]
+    },
+    {
+      "name": "The Rising World",
+      "url": "https://www.goodreads.com/series/394547-the-rising-world",
+      "books": [
+        {
+          "title": "Witch King (The Rising World, #1)",
+          "position": "1",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663769801i/61885085._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/61885085-witch-king",
+          "pages": "432",
+          "avgRating": "3.7",
+          "published": "2023"
+        },
+        {
+          "title": "Queen Demon (The Rising World, #2)",
+          "position": "2",
+          "author": "Martha Wells",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1728497586i/217388171._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/217388171-queen-demon",
+          "pages": "382",
+          "avgRating": "4.15",
+          "published": "2025"
+        }
+      ]
+    },
+    {
+      "name": "Revelation Space",
+      "url": "https://www.goodreads.com/series/56392-revelation-space",
+      "books": [
+        {
+          "title": "Пространство Откровения. Город Бездны (Пространство Откровения #0.3-1)",
+          "position": "0.3",
+          "author": "Alastair Reynolds",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586099975i/52963697._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/52963697",
+          "pages": "1024",
+          "avgRating": "4.0",
+          "published": ""
+        },
+        {
+          "title": "The Prefect (Prefect Dreyfus Emergency, #1)",
+          "position": "1",
+          "author": "Alastair Reynolds",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327988786i/89195._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/89195.The_Prefect",
+          "pages": "410",
+          "avgRating": "4.17",
+          "published": "2007"
+        },
+        {
+          "title": "Elysium Fire (Prefect Dreyfus Emergency, #2)",
+          "position": "2",
+          "author": "Alastair Reynolds",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1504724986i/35601772._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/35601772-elysium-fire",
+          "pages": "415",
+          "avgRating": "4.07",
+          "published": "2018"
+        },
+        {
+          "title": "Machine Vendetta (Prefect Dreyfus Emergency, #3)",
+          "position": "3",
+          "author": "Alastair Reynolds",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1675082567i/75593499._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/75593499-machine-vendetta",
+          "pages": "374",
+          "avgRating": "4.28",
+          "published": "2024"
+        },
+        {
+          "title": "Inhibitor Phase (The Inhibitor Sequence, #4)",
+          "position": "4",
+          "author": "Alastair Reynolds",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606579849i/56072402._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/56072402-inhibitor-phase",
+          "pages": "432",
+          "avgRating": "4.11",
+          "published": "2021"
+        },
+        {
+          "title": "Chasm City",
+          "position": "",
+          "author": "Alastair Reynolds",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309203334i/89185._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/89185.Chasm_City",
+          "pages": "694",
+          "avgRating": "4.13",
+          "published": "2001"
+        }
+      ]
+    },
+    {
+      "name": "Sworn Soldier",
+      "url": "https://www.goodreads.com/series/368179-sworn-soldier",
+      "books": [
+        {
+          "title": "What Moves the Dead (Sworn Soldier, #1)",
+          "position": "1",
+          "author": "T. Kingfisher",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632936332i/58724626._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/58724626-what-moves-the-dead",
+          "pages": "165",
+          "avgRating": "3.84",
+          "published": "2022"
+        },
+        {
+          "title": "What Feasts at Night (Sworn Soldier, #2)",
+          "position": "2",
+          "author": "T. Kingfisher",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1683668946i/127306440._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/127306440-what-feasts-at-night",
+          "pages": "151",
+          "avgRating": "3.79",
+          "published": "2024"
+        },
+        {
+          "title": "What Stalks the Deep (Sworn Soldier, #3)",
+          "position": "3",
+          "author": "T. Kingfisher",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1742864989i/222376665._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/222376665-what-stalks-the-deep",
+          "pages": "179",
+          "avgRating": "4.03",
+          "published": "2025"
+        },
+        {
+          "title": "Sworn Soldier",
+          "position": "",
+          "author": "T. Kingfisher",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1689295073i/189161012._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/189161012-sworn-soldier",
+          "pages": "",
+          "avgRating": "4.43",
+          "published": "2024"
+        }
+      ]
+    },
+    {
+      "name": "Imperial Radch",
+      "url": "https://www.goodreads.com/series/113751-imperial-radch",
+      "books": [
+        {
+          "title": "Night's Slow Poison (Imperial Radch #0.5)",
+          "position": "0.5",
+          "author": "Ann Leckie",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1418606162i/22452306._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/22452306-night-s-slow-poison",
+          "pages": "20",
+          "avgRating": "3.62",
+          "published": "2012"
+        },
+        {
+          "title": "She Commands Me and I Obey (Imperial Radch #0.6)",
+          "position": "0.6",
+          "author": "Ann Leckie",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417502947i/23646773._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/23646773-she-commands-me-and-i-obey",
+          "pages": "25",
+          "avgRating": "3.82",
+          "published": "2014"
+        },
+        {
+          "title": "Ancillary Justice (Imperial Radch, #1)",
+          "position": "1",
+          "author": "Ann Leckie",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397215917i/17333324._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/17333324-ancillary-justice",
+          "pages": "386",
+          "avgRating": "3.99",
+          "published": "2013"
+        },
+        {
+          "title": "Ancillary Sword (Imperial Radch #2)",
+          "position": "2",
+          "author": "Ann Leckie",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597476183i/20706284._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/20706284-ancillary-sword",
+          "pages": "359",
+          "avgRating": "4.09",
+          "published": "2014"
+        },
+        {
+          "title": "Ancillary Mercy (Imperial Radch, #3)",
+          "position": "3",
+          "author": "Ann Leckie",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493642929i/23533039._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/23533039-ancillary-mercy",
+          "pages": "328",
+          "avgRating": "4.22",
+          "published": "2015"
+        },
+        {
+          "title": "Provenance (Imperial Radch)",
+          "position": "",
+          "author": "Ann Leckie",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1656608941i/25353286._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/25353286-provenance",
+          "pages": "481",
+          "avgRating": "3.84",
+          "published": "2017"
+        }
+      ]
+    },
+    {
+      "name": "Wayward Children",
+      "url": "https://www.goodreads.com/series/165484-wayward-children",
+      "books": [
+        {
+          "title": "Every Heart a Doorway (Wayward Children, #1)",
+          "position": "1",
+          "author": "Seanan McGuire",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431438555i/25526296._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/25526296-every-heart-a-doorway",
+          "pages": "173",
+          "avgRating": "3.8",
+          "published": "2016"
+        },
+        {
+          "title": "Down Among the Sticks and Bones (Wayward Children, #2)",
+          "position": "2",
+          "author": "Seanan McGuire",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473685781i/31450908._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/31450908-down-among-the-sticks-and-bones",
+          "pages": "187",
+          "avgRating": "4.13",
+          "published": "2017"
+        },
+        {
+          "title": "Beneath the Sugar Sky (Wayward Children, #3)",
+          "position": "3",
+          "author": "Seanan McGuire",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494436031i/27366528._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/27366528-beneath-the-sugar-sky",
+          "pages": "174",
+          "avgRating": "3.84",
+          "published": "2018"
+        },
+        {
+          "title": "In an Absent Dream (Wayward Children, #4)",
+          "position": "4",
+          "author": "Seanan McGuire",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525436165i/38244358._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/38244358-in-an-absent-dream",
+          "pages": "187",
+          "avgRating": "4.15",
+          "published": "2019"
+        },
+        {
+          "title": "Juice Like Wounds (Wayward Children, #4.5)",
+          "position": "4.5",
+          "author": "Seanan McGuire",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1601217106i/54661992._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/54661992-juice-like-wounds",
+          "pages": "32",
+          "avgRating": "4.0",
+          "published": "2020"
+        },
+        {
+          "title": "Come Tumbling Down (Wayward Children, #5)",
+          "position": "5",
+          "author": "Seanan McGuire",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1556543251i/44804083._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/44804083-come-tumbling-down",
+          "pages": "206",
+          "avgRating": "3.9",
+          "published": "2020"
+        },
+        {
+          "title": "Across the Green Grass Fields (Wayward Children, #6)",
+          "position": "6",
+          "author": "Seanan McGuire",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589982332i/53205924._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/53205924-across-the-green-grass-fields",
+          "pages": "174",
+          "avgRating": "3.8",
+          "published": "2021"
+        },
+        {
+          "title": "Where the Drowned Girls Go (Wayward Children, #7)",
+          "position": "7",
+          "author": "Seanan McGuire",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620145251i/57693537._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/57693537-where-the-drowned-girls-go",
+          "pages": "150",
+          "avgRating": "4.03",
+          "published": "2022"
+        },
+        {
+          "title": "In Mercy, Rain (Wayward Children, #7.5)",
+          "position": "7.5",
+          "author": "Seanan McGuire",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1683772570i/62203768._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/62203768-in-mercy-rain",
+          "pages": "36",
+          "avgRating": "3.88",
+          "published": "2022"
+        },
+        {
+          "title": "Skeleton Song (Wayward Children, #7.7)",
+          "position": "7.7",
+          "author": "Seanan McGuire",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1692751992i/63068398._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/63068398-skeleton-song",
+          "pages": "32",
+          "avgRating": "3.99",
+          "published": "2022"
+        },
+        {
+          "title": "Lost in the Moment and Found (Wayward Children, #8)",
+          "position": "8",
+          "author": "Seanan McGuire",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1652284977i/60784912._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/60784912-lost-in-the-moment-and-found",
+          "pages": "208",
+          "avgRating": "4.31",
+          "published": "2023"
+        },
+        {
+          "title": "Mislaid in Parts Half-Known (Wayward Children, #9)",
+          "position": "9",
+          "author": "Seanan McGuire",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1686859718i/127305800._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/127305800-mislaid-in-parts-half-known",
+          "pages": "146",
+          "avgRating": "4.06",
+          "published": "2024"
+        },
+        {
+          "title": "Adrift in Currents Clean and Clear (Wayward Children, #10)",
+          "position": "10",
+          "author": "Seanan McGuire",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1718938671i/57185878._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/57185878-adrift-in-currents-clean-and-clear",
+          "pages": "160",
+          "avgRating": "4.0",
+          "published": "2025"
+        },
+        {
+          "title": "Through Gates of Garnet and Gold (Wayward Children, #11)",
+          "position": "11",
+          "author": "Seanan McGuire",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1747950244i/231126910._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/231126910-through-gates-of-garnet-and-gold",
+          "pages": "149",
+          "avgRating": "3.79",
+          "published": "2026"
+        },
+        {
+          "title": "A Song of Sugar Sparrows (Wayward Children, #12)",
+          "position": "12",
+          "author": "Seanan McGuire",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1777871581i/250943824._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/250943824-a-song-of-sugar-sparrows",
+          "pages": "160",
+          "avgRating": "3.57",
+          "published": "2027"
+        }
+      ]
+    },
+    {
+      "name": "Zones of Thought",
+      "url": "https://www.goodreads.com/series/52585-zones-of-thought",
+      "books": [
+        {
+          "title": "A Fire Upon the Deep (Zones of Thought, #1)",
+          "position": "1",
+          "author": "Vernor Vinge",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1728332458i/77711._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/77711.A_Fire_Upon_the_Deep",
+          "pages": "613",
+          "avgRating": "4.13",
+          "published": "1992"
+        },
+        {
+          "title": "A Deepness in the Sky (Zones of Thought, #2)",
+          "position": "2",
+          "author": "Vernor Vinge",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1217218691i/226004._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/226004.A_Deepness_in_the_Sky",
+          "pages": "775",
+          "avgRating": "4.32",
+          "published": "1999"
+        },
+        {
+          "title": "The Children of the Sky (Zones of Thought, #3)",
+          "position": "3",
+          "author": "Vernor Vinge",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309047939i/10170545._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/10170545-the-children-of-the-sky",
+          "pages": "444",
+          "avgRating": "3.69",
+          "published": "2011"
+        },
+        {
+          "title": "Threats... and Other Promises",
+          "position": "",
+          "author": "Vernor Vinge",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1243450906i/1280982._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/1280982.Threats_and_Other_Promises",
+          "pages": "320",
+          "avgRating": "3.69",
+          "published": "1988"
+        }
+      ]
+    },
+    {
+      "name": "The Final Architecture",
+      "url": "https://www.goodreads.com/series/305076-the-final-architecture",
+      "books": [
+        {
+          "title": "Shards of Earth (The Final Architecture, #1)",
+          "position": "1",
+          "author": "Adrian Tchaikovsky",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1724827773i/55278507._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/55278507-shards-of-earth",
+          "pages": "",
+          "avgRating": "4.17",
+          "published": "2021"
+        },
+        {
+          "title": "Eyes of the Void (The Final Architecture, #2)",
+          "position": "2",
+          "author": "Adrian Tchaikovsky",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1641881897i/58950674._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/58950674-eyes-of-the-void",
+          "pages": "596",
+          "avgRating": "4.19",
+          "published": "2022"
+        },
+        {
+          "title": "Lords of Uncreation (The Final Architecture, #3)",
+          "position": "3",
+          "author": "Adrian Tchaikovsky",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1671150806i/62315578._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/62315578-lords-of-uncreation",
+          "pages": "608",
+          "avgRating": "4.32",
+          "published": "2023"
+        },
+        {
+          "title": "Salvation’s Child",
+          "position": "",
+          "author": "Adrian Tchaikovsky",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1752551468i/238769242._SY180_.jpg",
+          "link": "https://www.goodreads.com/book/show/238769242-salvation-s-child",
+          "pages": "",
+          "avgRating": "4.0",
+          "published": ""
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2026-07-02T17:57:22.331779+00:00"
+}

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T18:40:57.394453+00:00",
+  "lastUpdated": "2026-07-02T16:30:29.360548+00:00",
   "currentlyReading": [
     {
       "title": "The New Father: A Dad's Guide to the Toddler Years",
@@ -9,30 +9,10 @@
       "rating": "0",
       "dateRead": "",
       "dateAdded": "Mon, 19 May 2025 08:00:39 -0700",
+      "isbn": "0789204800",
       "pages": "",
-      "avgRating": "4.05"
-    },
-    {
-      "title": "Children of Strife (Children of Time, #4)",
-      "author": "Adrian Tchaikovsky",
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1762866145l/231953328._SY475_.jpg",
-      "link": "https://www.goodreads.com/review/show/8542961997?utm_medium=api&utm_source=rss",
-      "rating": "0",
-      "dateRead": "",
-      "dateAdded": "Wed, 22 Apr 2026 08:56:05 -0700",
-      "pages": "",
-      "avgRating": "4.21"
-    },
-    {
-      "title": "Shroud",
-      "author": "Adrian Tchaikovsky",
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1743428053l/230237860._SY475_.jpg",
-      "link": "https://www.goodreads.com/review/show/8674303629?utm_medium=api&utm_source=rss",
-      "rating": "0",
-      "dateRead": "",
-      "dateAdded": "Tue, 09 Jun 2026 21:59:04 -0700",
-      "pages": "",
-      "avgRating": "4.41"
+      "avgRating": "4.05",
+      "published": "1998"
     },
     {
       "title": "The River Has Roots",
@@ -42,8 +22,10 @@
       "rating": "0",
       "dateRead": "",
       "dateAdded": "Sat, 27 Jun 2026 13:39:01 -0700",
+      "isbn": "1250341094",
       "pages": "",
-      "avgRating": "3.94"
+      "avgRating": "3.94",
+      "published": "2025"
     },
     {
       "title": "Death of the Author",
@@ -53,11 +35,26 @@
       "rating": "0",
       "dateRead": "",
       "dateAdded": "Sat, 27 Jun 2026 13:39:09 -0700",
+      "isbn": "0063391155",
       "pages": "",
-      "avgRating": "3.94"
+      "avgRating": "3.94",
+      "published": "2025"
     }
   ],
   "read": [
+    {
+      "title": "Shroud",
+      "author": "Adrian Tchaikovsky",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1743428053l/230237860._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8674303629?utm_medium=api&utm_source=rss",
+      "rating": "0",
+      "dateRead": "Wed, 1 Jul 2026 00:00:00 +0000",
+      "dateAdded": "Wed, 01 Jul 2026 11:39:27 -0700",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "4.41",
+      "published": "2025"
+    },
     {
       "title": "Automatic Noodle",
       "author": "Annalee Newitz",
@@ -66,8 +63,10 @@
       "rating": "0",
       "dateRead": "Tue, 9 Jun 2026 00:00:00 +0000",
       "dateAdded": "Tue, 09 Jun 2026 21:58:46 -0700",
+      "isbn": "1250357470",
       "pages": "",
-      "avgRating": "3.95"
+      "avgRating": "3.95",
+      "published": "2025"
     },
     {
       "title": "Katabasis",
@@ -77,8 +76,23 @@
       "rating": "0",
       "dateRead": "Thu, 4 Jun 2026 00:00:00 +0000",
       "dateAdded": "Thu, 04 Jun 2026 22:07:47 -0700",
+      "isbn": "0063021498",
       "pages": "",
-      "avgRating": "3.86"
+      "avgRating": "3.86",
+      "published": "2025"
+    },
+    {
+      "title": "Children of Strife (Children of Time, #4)",
+      "author": "Adrian Tchaikovsky",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1762866145l/231953328._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8542961997?utm_medium=api&utm_source=rss",
+      "rating": "0",
+      "dateRead": "Fri, 1 May 2026 00:00:00 +0000",
+      "dateAdded": "Wed, 01 Jul 2026 14:44:29 -0700",
+      "isbn": "1035057786",
+      "pages": "",
+      "avgRating": "4.21",
+      "published": "2026"
     },
     {
       "title": "The Buffalo Hunter Hunter",
@@ -88,8 +102,10 @@
       "rating": "0",
       "dateRead": "Wed, 22 Apr 2026 00:00:00 +0000",
       "dateAdded": "Wed, 22 Apr 2026 08:33:51 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.98"
+      "avgRating": "3.98",
+      "published": "2025"
     },
     {
       "title": "The City of Ember",
@@ -99,8 +115,10 @@
       "rating": "0",
       "dateRead": "Tue, 14 Apr 2026 00:00:00 +0000",
       "dateAdded": "Tue, 14 Apr 2026 14:21:55 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.30"
+      "avgRating": "4.30",
+      "published": "2003"
     },
     {
       "title": "When We Were Real",
@@ -110,8 +128,10 @@
       "rating": "0",
       "dateRead": "Sun, 12 Apr 2026 00:00:00 +0000",
       "dateAdded": "Sun, 12 Apr 2026 11:49:42 -0700",
+      "isbn": "166806006X",
       "pages": "",
-      "avgRating": "4.14"
+      "avgRating": "4.14",
+      "published": "2025"
     },
     {
       "title": "Sunrise on the Reaping (The Hunger Games, #0.5)",
@@ -121,8 +141,10 @@
       "rating": "0",
       "dateRead": "Mon, 30 Mar 2026 00:00:00 +0000",
       "dateAdded": "Mon, 30 Mar 2026 21:56:43 -0700",
+      "isbn": "1546171479",
       "pages": "",
-      "avgRating": "4.54"
+      "avgRating": "4.54",
+      "published": "2025"
     },
     {
       "title": "Eyes of the Void (The Final Architecture, #2)",
@@ -132,8 +154,10 @@
       "rating": "5",
       "dateRead": "Mon, 16 Mar 2026 00:00:00 +0000",
       "dateAdded": "Thu, 26 Mar 2026 07:50:01 -0700",
+      "isbn": "1668604906",
       "pages": "",
-      "avgRating": "4.11"
+      "avgRating": "4.11",
+      "published": "2022"
     },
     {
       "title": "Stories of the Raksura: The Falling World & The Tale of Indigo and Cloud (The Books of the Raksura #0.1; 0.2; 0.4; 3.6)",
@@ -143,8 +167,10 @@
       "rating": "0",
       "dateRead": "Fri, 27 Feb 2026 00:00:00 +0000",
       "dateAdded": "Fri, 27 Feb 2026 14:18:03 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.24"
+      "avgRating": "4.24",
+      "published": "2014"
     },
     {
       "title": "Where the Axe Is Buried",
@@ -154,8 +180,10 @@
       "rating": "0",
       "dateRead": "Tue, 24 Feb 2026 00:00:00 +0000",
       "dateAdded": "Tue, 24 Feb 2026 13:13:16 -0800",
+      "isbn": "0374615373",
       "pages": "",
-      "avgRating": "4.09"
+      "avgRating": "4.09",
+      "published": "2025"
     },
     {
       "title": "Through Gates of Garnet and Gold (Wayward Children, #11)",
@@ -165,8 +193,10 @@
       "rating": "0",
       "dateRead": "Thu, 12 Feb 2026 00:00:00 +0000",
       "dateAdded": "Thu, 12 Feb 2026 21:19:47 -0800",
+      "isbn": "1250339413",
       "pages": "",
-      "avgRating": "4.01"
+      "avgRating": "4.01",
+      "published": "2026"
     },
     {
       "title": "The Siren Depths (The Books of the Raksura #3)",
@@ -176,8 +206,10 @@
       "rating": "0",
       "dateRead": "Fri, 6 Feb 2026 00:00:00 +0000",
       "dateAdded": "Fri, 06 Feb 2026 22:07:08 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.35"
+      "avgRating": "4.35",
+      "published": "2012"
     },
     {
       "title": "A Drop of Corruption (Shadow of the Leviathan, #2)",
@@ -187,8 +219,10 @@
       "rating": "0",
       "dateRead": "Fri, 23 Jan 2026 00:00:00 +0000",
       "dateAdded": "Fri, 23 Jan 2026 12:40:42 -0800",
+      "isbn": "059372383X",
       "pages": "",
-      "avgRating": "4.56"
+      "avgRating": "4.56",
+      "published": "2025"
     },
     {
       "title": "The Potency of Ungovernable Impulses (The Investigations of Mossa and Pleiti #3)",
@@ -198,8 +232,10 @@
       "rating": "0",
       "dateRead": "Fri, 23 Jan 2026 00:00:00 +0000",
       "dateAdded": "Fri, 23 Jan 2026 12:43:42 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.17"
+      "avgRating": "4.17",
+      "published": "2025"
     },
     {
       "title": "Brigands & Breadknives (Legends & Lattes, #2)",
@@ -209,8 +245,10 @@
       "rating": "0",
       "dateRead": "Fri, 9 Jan 2026 00:00:00 +0000",
       "dateAdded": "Fri, 09 Jan 2026 11:12:40 -0800",
+      "isbn": "1250334896",
       "pages": "",
-      "avgRating": "4.30"
+      "avgRating": "4.30",
+      "published": "2025"
     },
     {
       "title": "Queen Demon (The Rising World, #2)",
@@ -220,8 +258,10 @@
       "rating": "0",
       "dateRead": "Sat, 3 Jan 2026 00:00:00 +0000",
       "dateAdded": "Sat, 03 Jan 2026 21:49:47 -0800",
+      "isbn": "1250826926",
       "pages": "",
-      "avgRating": "4.34"
+      "avgRating": "4.34",
+      "published": "2025"
     },
     {
       "title": "What Stalks the Deep (Sworn Soldier, #3)",
@@ -231,8 +271,10 @@
       "rating": "0",
       "dateRead": "Mon, 22 Dec 2025 00:00:00 +0000",
       "dateAdded": "Mon, 22 Dec 2025 12:24:58 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.18"
+      "avgRating": "4.18",
+      "published": "2025"
     },
     {
       "title": "Emily Wilde's Compendium of Lost Tales (Emily Wilde #3)",
@@ -242,8 +284,10 @@
       "rating": "0",
       "dateRead": "Mon, 15 Dec 2025 00:00:00 +0000",
       "dateAdded": "Mon, 15 Dec 2025 21:10:35 -0800",
+      "isbn": "0593500237",
       "pages": "",
-      "avgRating": "4.18"
+      "avgRating": "4.18",
+      "published": "2025"
     },
     {
       "title": "Hemlock & Silver",
@@ -253,8 +297,10 @@
       "rating": "0",
       "dateRead": "Tue, 2 Dec 2025 00:00:00 +0000",
       "dateAdded": "Tue, 02 Dec 2025 21:48:16 -0800",
+      "isbn": "125034204X",
       "pages": "",
-      "avgRating": "4.09"
+      "avgRating": "4.09",
+      "published": "2025"
     },
     {
       "title": "Emily Wilde's Encyclopaedia of Faeries (Emily Wilde, #1)",
@@ -264,8 +310,10 @@
       "rating": "5",
       "dateRead": "Sat, 27 Sep 2025 00:00:00 +0000",
       "dateAdded": "Sat, 27 Sep 2025 21:53:42 -0700",
+      "isbn": "059350013X",
       "pages": "",
-      "avgRating": "3.96"
+      "avgRating": "3.96",
+      "published": "2023"
     },
     {
       "title": "The Tainted Cup (Shadow of the Leviathan #1)",
@@ -275,8 +323,10 @@
       "rating": "5",
       "dateRead": "Wed, 24 Sep 2025 00:00:00 +0000",
       "dateAdded": "Wed, 24 Sep 2025 16:39:40 -0700",
+      "isbn": "1984820729",
       "pages": "",
-      "avgRating": "4.40"
+      "avgRating": "4.40",
+      "published": "2024"
     },
     {
       "title": "Service Model (Service Model #1)",
@@ -286,8 +336,10 @@
       "rating": "4",
       "dateRead": "Wed, 24 Sep 2025 00:00:00 +0000",
       "dateAdded": "Wed, 24 Sep 2025 16:39:55 -0700",
+      "isbn": "1250290295",
       "pages": "",
-      "avgRating": "4.20"
+      "avgRating": "4.20",
+      "published": "2024"
     },
     {
       "title": "Lost Ark Dreaming",
@@ -297,8 +349,10 @@
       "rating": "0",
       "dateRead": "Wed, 10 Sep 2025 00:00:00 +0000",
       "dateAdded": "Wed, 10 Sep 2025 21:55:45 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.72"
+      "avgRating": "3.72",
+      "published": "2024"
     },
     {
       "title": "Alien Clay",
@@ -308,8 +362,10 @@
       "rating": "4",
       "dateRead": "Thu, 21 Aug 2025 00:00:00 +0000",
       "dateAdded": "Thu, 21 Aug 2025 08:05:06 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.21"
+      "avgRating": "4.21",
+      "published": "2024"
     },
     {
       "title": "The Ministry of Time",
@@ -319,8 +375,10 @@
       "rating": "0",
       "dateRead": "Thu, 7 Aug 2025 00:00:00 +0000",
       "dateAdded": "Thu, 07 Aug 2025 05:58:26 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.82"
+      "avgRating": "3.82",
+      "published": "2024"
     },
     {
       "title": "Rakesfall",
@@ -330,8 +388,10 @@
       "rating": "0",
       "dateRead": "Mon, 28 Jul 2025 00:00:00 +0000",
       "dateAdded": "Mon, 28 Jul 2025 21:27:44 -0700",
+      "isbn": "1250847699",
       "pages": "",
-      "avgRating": "3.44"
+      "avgRating": "3.44",
+      "published": "2024"
     },
     {
       "title": "The Butcher of the Forest",
@@ -341,8 +401,10 @@
       "rating": "5",
       "dateRead": "Sun, 13 Jul 2025 00:00:00 +0000",
       "dateAdded": "Sun, 13 Jul 2025 20:52:49 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.89"
+      "avgRating": "3.89",
+      "published": "2024"
     },
     {
       "title": "Navigational Entanglements",
@@ -352,8 +414,10 @@
       "rating": "0",
       "dateRead": "Sun, 6 Jul 2025 00:00:00 +0000",
       "dateAdded": "Sun, 06 Jul 2025 12:55:01 -0700",
+      "isbn": "1250793297",
       "pages": "",
-      "avgRating": "3.91"
+      "avgRating": "3.91",
+      "published": "2024"
     },
     {
       "title": "The Spellshop (Spellshop, #1)",
@@ -363,8 +427,10 @@
       "rating": "0",
       "dateRead": "Wed, 2 Jul 2025 00:00:00 +0000",
       "dateAdded": "Wed, 02 Jul 2025 21:09:17 -0700",
+      "isbn": "1250324610",
       "pages": "",
-      "avgRating": "4.09"
+      "avgRating": "4.09",
+      "published": "2024"
     },
     {
       "title": "The Stardust Grail",
@@ -374,8 +440,10 @@
       "rating": "0",
       "dateRead": "Wed, 2 Jul 2025 00:00:00 +0000",
       "dateAdded": "Wed, 02 Jul 2025 21:10:46 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.85"
+      "avgRating": "3.85",
+      "published": "2024"
     },
     {
       "title": "The Dragonfly Gambit",
@@ -385,8 +453,10 @@
       "rating": "0",
       "dateRead": "Sun, 1 Jun 2025 00:00:00 +0000",
       "dateAdded": "Sun, 01 Jun 2025 21:47:43 -0700",
+      "isbn": "1952086809",
       "pages": "",
-      "avgRating": "3.99"
+      "avgRating": "3.99",
+      "published": "2024"
     },
     {
       "title": "Someone You Can Build a Nest In",
@@ -396,8 +466,10 @@
       "rating": "0",
       "dateRead": "Thu, 29 May 2025 00:00:00 +0000",
       "dateAdded": "Thu, 29 May 2025 22:03:13 -0700",
+      "isbn": "0756418860",
       "pages": "",
-      "avgRating": "4.02"
+      "avgRating": "4.02",
+      "published": "2024"
     },
     {
       "title": "Countess",
@@ -407,8 +479,10 @@
       "rating": "0",
       "dateRead": "Wed, 21 May 2025 00:00:00 +0000",
       "dateAdded": "Wed, 21 May 2025 21:27:03 -0700",
+      "isbn": "1778523021",
       "pages": "",
-      "avgRating": "3.68"
+      "avgRating": "3.68",
+      "published": "2024"
     },
     {
       "title": "Asunder",
@@ -418,8 +492,10 @@
       "rating": "0",
       "dateRead": "Mon, 19 May 2025 00:00:00 +0000",
       "dateAdded": "Mon, 19 May 2025 07:56:23 -0700",
+      "isbn": "1250625424",
       "pages": "",
-      "avgRating": "4.26"
+      "avgRating": "4.26",
+      "published": "2024"
     },
     {
       "title": "The Book of Love",
@@ -429,8 +505,10 @@
       "rating": "5",
       "dateRead": "Sat, 3 May 2025 00:00:00 +0000",
       "dateAdded": "Sat, 03 May 2025 20:50:25 -0700",
+      "isbn": "0812996593",
       "pages": "",
-      "avgRating": "3.62"
+      "avgRating": "3.62",
+      "published": "2024"
     },
     {
       "title": "The Practice, the Horizon, and the Chain",
@@ -440,8 +518,10 @@
       "rating": "0",
       "dateRead": "Sat, 3 May 2025 00:00:00 +0000",
       "dateAdded": "Sat, 03 May 2025 06:46:55 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.88"
+      "avgRating": "3.88",
+      "published": "2024"
     },
     {
       "title": "The Familiar",
@@ -451,8 +531,10 @@
       "rating": "0",
       "dateRead": "Tue, 1 Apr 2025 00:00:00 +0000",
       "dateAdded": "Tue, 01 Apr 2025 21:34:35 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.99"
+      "avgRating": "3.99",
+      "published": "2024"
     },
     {
       "title": "A Wizard of Earthsea: A Graphic Novel (The Books of Earthsea)",
@@ -462,8 +544,10 @@
       "rating": "0",
       "dateRead": "Sun, 30 Mar 2025 00:00:00 +0000",
       "dateAdded": "Sun, 30 Mar 2025 11:05:49 -0700",
+      "isbn": "0063285762",
       "pages": "",
-      "avgRating": "3.95"
+      "avgRating": "3.95",
+      "published": "2025"
     },
     {
       "title": "The Serpent Sea (Books of the Raksura, #2)",
@@ -473,8 +557,10 @@
       "rating": "0",
       "dateRead": "Fri, 28 Mar 2025 00:00:00 +0000",
       "dateAdded": "Fri, 28 Mar 2025 07:41:32 -0700",
+      "isbn": "1597803324",
       "pages": "",
-      "avgRating": "4.06"
+      "avgRating": "4.06",
+      "published": "2012"
     },
     {
       "title": "The Tusks of Extinction",
@@ -484,8 +570,10 @@
       "rating": "0",
       "dateRead": "Sat, 22 Mar 2025 00:00:00 +0000",
       "dateAdded": "Sat, 22 Mar 2025 21:01:56 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.14"
+      "avgRating": "4.14",
+      "published": "2024"
     },
     {
       "title": "A Psalm for the Wild-Built (Monk & Robot, #1)",
@@ -495,8 +583,23 @@
       "rating": "0",
       "dateRead": "Thu, 20 Mar 2025 00:00:00 +0000",
       "dateAdded": "Thu, 20 Mar 2025 11:05:31 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.31"
+      "avgRating": "4.31",
+      "published": "2021"
+    },
+    {
+      "title": "Adrift in Currents Clean and Clear (Wayward Children, #10)",
+      "author": "Seanan McGuire",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1718938671l/57185878._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/7365862965?utm_medium=api&utm_source=rss",
+      "rating": "0",
+      "dateRead": "Sat, 1 Mar 2025 00:00:00 +0000",
+      "dateAdded": "Thu, 02 Jul 2026 09:14:19 -0700",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "3.98",
+      "published": "2025"
     },
     {
       "title": "Shards of Earth (The Final Architecture, #1)",
@@ -506,8 +609,10 @@
       "rating": "0",
       "dateRead": "Mon, 24 Feb 2025 00:00:00 +0000",
       "dateAdded": "Mon, 24 Feb 2025 06:32:44 -0800",
+      "isbn": "0316705829",
       "pages": "",
-      "avgRating": "4.36"
+      "avgRating": "4.36",
+      "published": "2021"
     },
     {
       "title": "Raven Stratagem (The Machineries of Empire, #2)",
@@ -517,8 +622,10 @@
       "rating": "0",
       "dateRead": "Wed, 29 Jan 2025 00:00:00 +0000",
       "dateAdded": "Wed, 29 Jan 2025 14:28:06 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.23"
+      "avgRating": "4.23",
+      "published": "2017"
     },
     {
       "title": "System Collapse (The Murderbot Diaries, #7)",
@@ -528,8 +635,23 @@
       "rating": "0",
       "dateRead": "Sun, 19 Jan 2025 00:00:00 +0000",
       "dateAdded": "Sun, 19 Jan 2025 10:38:26 -0800",
+      "isbn": "1250826985",
       "pages": "",
-      "avgRating": "4.39"
+      "avgRating": "4.39",
+      "published": "2023"
+    },
+    {
+      "title": "Emily Wilde’s Map of the Otherlands (Emily Wilde, #2)",
+      "author": "Heather Fawcett",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682054645l/134119076._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8119242415?utm_medium=api&utm_source=rss",
+      "rating": "0",
+      "dateRead": "Wed, 1 Jan 2025 00:00:00 +0000",
+      "dateAdded": "Wed, 01 Jul 2026 14:42:48 -0700",
+      "isbn": "0593500202",
+      "pages": "",
+      "avgRating": "4.24",
+      "published": "2024"
     },
     {
       "title": "A Sorceress Comes to Call",
@@ -539,8 +661,10 @@
       "rating": "0",
       "dateRead": "Sat, 28 Dec 2024 00:00:00 +0000",
       "dateAdded": "Mon, 30 Dec 2024 11:01:55 -0800",
+      "isbn": "1250244056",
       "pages": "",
-      "avgRating": "4.18"
+      "avgRating": "4.18",
+      "published": "2024"
     },
     {
       "title": "The Mercy of Gods (The Captive's War #1)",
@@ -550,8 +674,10 @@
       "rating": "5",
       "dateRead": "Sat, 14 Dec 2024 00:00:00 +0000",
       "dateAdded": "Sat, 14 Dec 2024 21:22:09 -0800",
+      "isbn": "0316525553",
       "pages": "",
-      "avgRating": "4.36"
+      "avgRating": "4.36",
+      "published": "2024"
     },
     {
       "title": "Fugitive Telemetry (The Murderbot Diaries, #6)",
@@ -561,8 +687,10 @@
       "rating": "4",
       "dateRead": "Sat, 23 Nov 2024 00:00:00 +0000",
       "dateAdded": "Fri, 13 Dec 2024 17:03:24 -0800",
+      "isbn": "1250765382",
       "pages": "",
-      "avgRating": "4.45"
+      "avgRating": "4.45",
+      "published": "2021"
     },
     {
       "title": "Network Effect (The Murderbot Diaries, #5)",
@@ -572,8 +700,10 @@
       "rating": "4",
       "dateRead": "Mon, 18 Nov 2024 00:00:00 +0000",
       "dateAdded": "Mon, 18 Nov 2024 21:21:18 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.58"
+      "avgRating": "4.58",
+      "published": "2020"
     },
     {
       "title": "Space Opera (Space Opera, #1)",
@@ -583,8 +713,10 @@
       "rating": "3",
       "dateRead": "Mon, 4 Nov 2024 00:00:00 +0000",
       "dateAdded": "Mon, 04 Nov 2024 21:47:20 -0800",
+      "isbn": "1481497510",
       "pages": "",
-      "avgRating": "3.60"
+      "avgRating": "3.60",
+      "published": "2018"
     },
     {
       "title": "Wicked Problems (The Craft Wars, #2)",
@@ -594,8 +726,10 @@
       "rating": "0",
       "dateRead": "Tue, 15 Oct 2024 00:00:00 +0000",
       "dateAdded": "Tue, 15 Oct 2024 15:18:46 -0700",
+      "isbn": "0765395924",
       "pages": "",
-      "avgRating": "4.38"
+      "avgRating": "4.38",
+      "published": "2024"
     },
     {
       "title": "The Brides of High Hill (The Singing Hills Cycle, #5)",
@@ -605,8 +739,10 @@
       "rating": "4",
       "dateRead": "Thu, 19 Sep 2024 00:00:00 +0000",
       "dateAdded": "Sat, 28 Sep 2024 21:09:57 -0700",
+      "isbn": "1250838037",
       "pages": "",
-      "avgRating": "4.13"
+      "avgRating": "4.13",
+      "published": "2024"
     },
     {
       "title": "Slow Time Between the Stars (The Far Reaches, #6)",
@@ -616,8 +752,10 @@
       "rating": "5",
       "dateRead": "Sat, 14 Sep 2024 00:00:00 +0000",
       "dateAdded": "Sat, 14 Sep 2024 09:56:22 -0700",
+      "isbn": "1662515332",
       "pages": "",
-      "avgRating": "4.15"
+      "avgRating": "4.15",
+      "published": "2023"
     },
     {
       "title": "Just Out of Jupiter's Reach (The Far Reaches, #5)",
@@ -627,8 +765,10 @@
       "rating": "3",
       "dateRead": "Fri, 13 Sep 2024 00:00:00 +0000",
       "dateAdded": "Sat, 14 Sep 2024 06:28:26 -0700",
+      "isbn": "1662516789",
       "pages": "",
-      "avgRating": "3.81"
+      "avgRating": "3.81",
+      "published": "2023"
     },
     {
       "title": "Falling Bodies (The Far Reaches, #3)",
@@ -638,8 +778,10 @@
       "rating": "4",
       "dateRead": "Fri, 13 Sep 2024 00:00:00 +0000",
       "dateAdded": "Sat, 14 Sep 2024 06:28:20 -0700",
+      "isbn": "1662515030",
       "pages": "",
-      "avgRating": "3.65"
+      "avgRating": "3.65",
+      "published": "2023"
     },
     {
       "title": "The Long Game (The Far Reaches, #4)",
@@ -649,8 +791,10 @@
       "rating": "5",
       "dateRead": "Fri, 13 Sep 2024 00:00:00 +0000",
       "dateAdded": "Sat, 14 Sep 2024 06:28:03 -0700",
+      "isbn": "1662515677",
       "pages": "",
-      "avgRating": "3.59"
+      "avgRating": "3.59",
+      "published": "2023"
     },
     {
       "title": "The Witness for the Dead (The Cemeteries of Amalo, #1)",
@@ -660,8 +804,10 @@
       "rating": "5",
       "dateRead": "Thu, 12 Sep 2024 00:00:00 +0000",
       "dateAdded": "Thu, 12 Sep 2024 22:05:04 -0700",
+      "isbn": "0765387441",
       "pages": "",
-      "avgRating": "4.09"
+      "avgRating": "4.09",
+      "published": "2021"
     },
     {
       "title": "Lora Selezh (The Cemeteries of Amalo, #0.5)",
@@ -671,8 +817,10 @@
       "rating": "5",
       "dateRead": "Thu, 12 Sep 2024 00:00:00 +0000",
       "dateAdded": "Sat, 14 Sep 2024 06:28:07 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.91"
+      "avgRating": "3.90",
+      "published": "2021"
     },
     {
       "title": "Dead Country (Craft Wars #1)",
@@ -682,8 +830,10 @@
       "rating": "4",
       "dateRead": "Wed, 4 Sep 2024 00:00:00 +0000",
       "dateAdded": "Sat, 14 Sep 2024 06:28:09 -0700",
+      "isbn": "0765395908",
       "pages": "",
-      "avgRating": "4.40"
+      "avgRating": "4.40",
+      "published": "2023"
     },
     {
       "title": "The Cloud Roads (The Books of the Raksura #1)",
@@ -693,8 +843,10 @@
       "rating": "4",
       "dateRead": "Wed, 28 Aug 2024 00:00:00 +0000",
       "dateAdded": "Sat, 31 Aug 2024 10:05:07 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.15"
+      "avgRating": "4.15",
+      "published": "2011"
     },
     {
       "title": "Void (The Far Reaches, #2)",
@@ -704,8 +856,10 @@
       "rating": "5",
       "dateRead": "Sun, 18 Aug 2024 00:00:00 +0000",
       "dateAdded": "Sun, 18 Aug 2024 14:56:53 -0700",
+      "isbn": "1662516223",
       "pages": "",
-      "avgRating": "3.83"
+      "avgRating": "3.83",
+      "published": "2023"
     },
     {
       "title": "How It Unfolds (The Far Reaches, #1)",
@@ -715,8 +869,10 @@
       "rating": "5",
       "dateRead": "Sat, 17 Aug 2024 00:00:00 +0000",
       "dateAdded": "Sun, 18 Aug 2024 14:57:05 -0700",
+      "isbn": "1662515723",
       "pages": "",
-      "avgRating": "3.96"
+      "avgRating": "3.96",
+      "published": "2023"
     },
     {
       "title": "Red Team Blues (Martin Hench #1)",
@@ -726,8 +882,10 @@
       "rating": "3",
       "dateRead": "Fri, 16 Aug 2024 00:00:00 +0000",
       "dateAdded": "Sat, 14 Sep 2024 06:28:47 -0700",
+      "isbn": "1250865867",
       "pages": "",
-      "avgRating": "4.16"
+      "avgRating": "4.16",
+      "published": "2023"
     },
     {
       "title": "Mammoths at the Gates (The Singing Hills Cycle, #4)",
@@ -737,8 +895,10 @@
       "rating": "3",
       "dateRead": "Sun, 11 Aug 2024 00:00:00 +0000",
       "dateAdded": "Sat, 31 Aug 2024 10:05:23 -0700",
+      "isbn": "1250838002",
       "pages": "",
-      "avgRating": "4.19"
+      "avgRating": "4.19",
+      "published": "2023"
     },
     {
       "title": "Randomize (Forward Collection, #6)",
@@ -748,8 +908,10 @@
       "rating": "4",
       "dateRead": "Thu, 8 Aug 2024 00:00:00 +0000",
       "dateAdded": "Fri, 09 Aug 2024 05:35:08 -0700",
+      "isbn": "1542044251",
       "pages": "",
-      "avgRating": "3.55"
+      "avgRating": "3.55",
+      "published": "2019"
     },
     {
       "title": "The Goblin Emperor (The Chronicles of Osreth, #1)",
@@ -759,8 +921,10 @@
       "rating": "5",
       "dateRead": "Wed, 7 Aug 2024 00:00:00 +0000",
       "dateAdded": "Fri, 09 Aug 2024 05:35:05 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.23"
+      "avgRating": "4.23",
+      "published": "2014"
     },
     {
       "title": "Into the Riverlands (The Singing Hills Cycle, #3)",
@@ -770,8 +934,10 @@
       "rating": "4",
       "dateRead": "Sat, 27 Jul 2024 00:00:00 +0000",
       "dateAdded": "Fri, 09 Aug 2024 05:35:02 -0700",
+      "isbn": "1250837995",
       "pages": "",
-      "avgRating": "4.13"
+      "avgRating": "4.13",
+      "published": "2022"
     },
     {
       "title": "Piranesi",
@@ -781,8 +947,10 @@
       "rating": "5",
       "dateRead": "Fri, 26 Jul 2024 00:00:00 +0000",
       "dateAdded": "Fri, 09 Aug 2024 05:34:52 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.21"
+      "avgRating": "4.21",
+      "published": "2020"
     },
     {
       "title": "The Golden Enclaves (The Scholomance #3)",
@@ -792,8 +960,10 @@
       "rating": "5",
       "dateRead": "Thu, 18 Jul 2024 00:00:00 +0000",
       "dateAdded": "Thu, 18 Jul 2024 21:44:39 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.39"
+      "avgRating": "4.39",
+      "published": "2022"
     },
     {
       "title": "The Jinn-Bot of Shantiport",
@@ -803,8 +973,10 @@
       "rating": "4",
       "dateRead": "Mon, 15 Jul 2024 00:00:00 +0000",
       "dateAdded": "Mon, 15 Jul 2024 09:29:02 -0700",
+      "isbn": "1250827523",
       "pages": "",
-      "avgRating": "3.73"
+      "avgRating": "3.73",
+      "published": "2023"
     },
     {
       "title": "The Adventures of Amina al-Sirafi (Amina al-Sirafi, #1)",
@@ -814,8 +986,10 @@
       "rating": "5",
       "dateRead": "Sun, 7 Jul 2024 00:00:00 +0000",
       "dateAdded": "Sun, 07 Jul 2024 20:12:03 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.35"
+      "avgRating": "4.35",
+      "published": "2023"
     },
     {
       "title": "The Galaxy, and the Ground Within (Wayfarers, #4)",
@@ -825,8 +999,10 @@
       "rating": "5",
       "dateRead": "Sun, 30 Jun 2024 00:00:00 +0000",
       "dateAdded": "Sun, 30 Jun 2024 08:11:46 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.49"
+      "avgRating": "4.49",
+      "published": "2021"
     },
     {
       "title": "Linghun",
@@ -836,8 +1012,10 @@
       "rating": "4",
       "dateRead": "Fri, 21 Jun 2024 00:00:00 +0000",
       "dateAdded": "Fri, 21 Jun 2024 15:06:33 -0700",
+      "isbn": "1958598291",
       "pages": "",
-      "avgRating": "3.83"
+      "avgRating": "3.83",
+      "published": "2023"
     },
     {
       "title": "The Last Graduate (The Scholomance, #2)",
@@ -847,8 +1025,10 @@
       "rating": "5",
       "dateRead": "Wed, 19 Jun 2024 00:00:00 +0000",
       "dateAdded": "Fri, 21 Jun 2024 15:06:54 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.44"
+      "avgRating": "4.44",
+      "published": "2021"
     },
     {
       "title": "The Imposition of Unnecessary Obstacles (The Investigations of Mossa and Pleiti, #2)",
@@ -858,8 +1038,10 @@
       "rating": "5",
       "dateRead": "Wed, 12 Jun 2024 00:00:00 +0000",
       "dateAdded": "Fri, 21 Jun 2024 15:06:47 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.14"
+      "avgRating": "4.14",
+      "published": "2024"
     },
     {
       "title": "Exit Strategy (The Murderbot Diaries, #4)",
@@ -869,8 +1051,10 @@
       "rating": "4",
       "dateRead": "Mon, 10 Jun 2024 00:00:00 +0000",
       "dateAdded": "Mon, 10 Jun 2024 14:49:15 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.37"
+      "avgRating": "4.37",
+      "published": "2018"
     },
     {
       "title": "Home: Habitat, Range, Niche, Territory (The Murderbot Diaries, #4.5)",
@@ -880,8 +1064,10 @@
       "rating": "4",
       "dateRead": "Mon, 10 Jun 2024 00:00:00 +0000",
       "dateAdded": "Mon, 10 Jun 2024 12:04:59 -0700",
+      "isbn": "125083886X",
       "pages": "",
-      "avgRating": "4.03"
+      "avgRating": "4.03",
+      "published": "2020"
     },
     {
       "title": "The River Judge",
@@ -891,8 +1077,10 @@
       "rating": "5",
       "dateRead": "Mon, 10 Jun 2024 00:00:00 +0000",
       "dateAdded": "Mon, 10 Jun 2024 14:49:09 -0700",
+      "isbn": "1250357276",
       "pages": "",
-      "avgRating": "4.06"
+      "avgRating": "4.06",
+      "published": "2024"
     },
     {
       "title": "Jonathan Strange & Mr Norrell",
@@ -902,8 +1090,10 @@
       "rating": "5",
       "dateRead": "Sat, 8 Jun 2024 00:00:00 +0000",
       "dateAdded": "Sat, 08 Jun 2024 08:57:52 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.06"
+      "avgRating": "4.06",
+      "published": "2004"
     },
     {
       "title": "When the Tiger Came Down the Mountain (The Singing Hills Cycle, #2)",
@@ -913,8 +1103,10 @@
       "rating": "4",
       "dateRead": "Sat, 8 Jun 2024 00:00:00 +0000",
       "dateAdded": "Sat, 08 Jun 2024 20:24:48 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.27"
+      "avgRating": "4.27",
+      "published": "2020"
     },
     {
       "title": "The Saint of Bright Doors",
@@ -924,8 +1116,10 @@
       "rating": "5",
       "dateRead": "Sat, 25 May 2024 00:00:00 +0000",
       "dateAdded": "Mon, 10 Jun 2024 14:49:21 -0700",
+      "isbn": "1250847397",
       "pages": "",
-      "avgRating": "3.76"
+      "avgRating": "3.76",
+      "published": "2023"
     },
     {
       "title": "Rogue Protocol (The Murderbot Diaries, #3)",
@@ -935,8 +1129,10 @@
       "rating": "4",
       "dateRead": "Mon, 20 May 2024 00:00:00 +0000",
       "dateAdded": "Mon, 20 May 2024 09:30:49 -0700",
+      "isbn": "1250185432",
       "pages": "",
-      "avgRating": "4.41"
+      "avgRating": "4.41",
+      "published": "2018"
     },
     {
       "title": "Record of a Spaceborn Few (Wayfarers, #3)",
@@ -946,8 +1142,10 @@
       "rating": "4",
       "dateRead": "Sun, 19 May 2024 00:00:00 +0000",
       "dateAdded": "Mon, 20 May 2024 09:30:46 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.21"
+      "avgRating": "4.21",
+      "published": "2018"
     },
     {
       "title": "Shigidi and the Brass Head of Obalufon",
@@ -957,8 +1155,10 @@
       "rating": "4",
       "dateRead": "Tue, 14 May 2024 00:00:00 +0000",
       "dateAdded": "Tue, 14 May 2024 17:57:44 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.00"
+      "avgRating": "4.00",
+      "published": "2023"
     },
     {
       "title": "Some Desperate Glory",
@@ -968,8 +1168,10 @@
       "rating": "5",
       "dateRead": "Fri, 10 May 2024 00:00:00 +0000",
       "dateAdded": "Fri, 10 May 2024 10:38:54 -0700",
+      "isbn": "1250834996",
       "pages": "",
-      "avgRating": "4.30"
+      "avgRating": "4.30",
+      "published": "2023"
     },
     {
       "title": "A Closed and Common Orbit (Wayfarers, #2)",
@@ -979,8 +1181,10 @@
       "rating": "4",
       "dateRead": "Sun, 5 May 2024 00:00:00 +0000",
       "dateAdded": "Fri, 10 May 2024 10:37:08 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.47"
+      "avgRating": "4.47",
+      "published": "2016"
     },
     {
       "title": "The Empress of Salt and Fortune (The Singing Hills Cycle, #1)",
@@ -990,8 +1194,10 @@
       "rating": "3",
       "dateRead": "Thu, 2 May 2024 00:00:00 +0000",
       "dateAdded": "Fri, 10 May 2024 10:37:03 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.06"
+      "avgRating": "4.06",
+      "published": "2020"
     },
     {
       "title": "The Mimicking of Known Successes (The Investigations of Mossa and Pleiti, #1)",
@@ -1001,8 +1207,10 @@
       "rating": "4",
       "dateRead": "Thu, 2 May 2024 00:00:00 +0000",
       "dateAdded": "Fri, 10 May 2024 10:37:00 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.80"
+      "avgRating": "3.80",
+      "published": "2023"
     },
     {
       "title": "The Long Way to a Small, Angry Planet (Wayfarers, #1)",
@@ -1012,8 +1220,10 @@
       "rating": "4",
       "dateRead": "Mon, 29 Apr 2024 00:00:00 +0000",
       "dateAdded": "Fri, 10 May 2024 10:36:58 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.25"
+      "avgRating": "4.25",
+      "published": "2014"
     },
     {
       "title": "The Crane Husband",
@@ -1023,8 +1233,10 @@
       "rating": "3",
       "dateRead": "Fri, 26 Apr 2024 00:00:00 +0000",
       "dateAdded": "Fri, 26 Apr 2024 12:23:59 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.89"
+      "avgRating": "3.89",
+      "published": "2023"
     },
     {
       "title": "Untethered Sky",
@@ -1034,8 +1246,10 @@
       "rating": "4",
       "dateRead": "Thu, 25 Apr 2024 00:00:00 +0000",
       "dateAdded": "Fri, 26 Apr 2024 12:23:58 -0700",
+      "isbn": "1250842476",
       "pages": "",
-      "avgRating": "3.95"
+      "avgRating": "3.95",
+      "published": "2023"
     },
     {
       "title": "The Water Outlaws",
@@ -1045,8 +1259,10 @@
       "rating": "5",
       "dateRead": "Wed, 24 Apr 2024 00:00:00 +0000",
       "dateAdded": "Fri, 26 Apr 2024 12:23:47 -0700",
+      "isbn": "1250198763",
       "pages": "",
-      "avgRating": "3.99"
+      "avgRating": "3.99",
+      "published": "2023"
     },
     {
       "title": "The Terraformers",
@@ -1056,8 +1272,10 @@
       "rating": "3",
       "dateRead": "Thu, 18 Apr 2024 00:00:00 +0000",
       "dateAdded": "Fri, 26 Apr 2024 12:23:52 -0700",
+      "isbn": "1250228069",
       "pages": "",
-      "avgRating": "3.64"
+      "avgRating": "3.64",
+      "published": "2023"
     },
     {
       "title": "A Deadly Education (The Scholomance, #1)",
@@ -1067,8 +1285,10 @@
       "rating": "4",
       "dateRead": "Sat, 13 Apr 2024 00:00:00 +0000",
       "dateAdded": "Sat, 13 Apr 2024 07:14:31 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.26"
+      "avgRating": "4.26",
+      "published": "2020"
     },
     {
       "title": "Witch King (The Rising World, #1)",
@@ -1078,8 +1298,10 @@
       "rating": "5",
       "dateRead": "Wed, 10 Apr 2024 00:00:00 +0000",
       "dateAdded": "Wed, 10 Apr 2024 07:37:45 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.02"
+      "avgRating": "4.02",
+      "published": "2023"
     },
     {
       "title": "Pages to Fill (Legends & Lattes, #0.5)",
@@ -1089,8 +1311,10 @@
       "rating": "4",
       "dateRead": "Thu, 4 Apr 2024 00:00:00 +0000",
       "dateAdded": "Thu, 04 Apr 2024 10:42:25 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.57"
+      "avgRating": "3.57",
+      "published": "2022"
     },
     {
       "title": "Bookshops & Bonedust (Legends & Lattes, #0)",
@@ -1100,8 +1324,10 @@
       "rating": "4",
       "dateRead": "Tue, 2 Apr 2024 00:00:00 +0000",
       "dateAdded": "Thu, 04 Apr 2024 10:42:23 -0700",
+      "isbn": "1250886112",
       "pages": "",
-      "avgRating": "4.32"
+      "avgRating": "4.32",
+      "published": "2023"
     },
     {
       "title": "The Ballad of Songbirds and Snakes (The Hunger Games, #0)",
@@ -1111,8 +1337,10 @@
       "rating": "5",
       "dateRead": "Fri, 29 Mar 2024 00:00:00 +0000",
       "dateAdded": "Fri, 29 Mar 2024 18:24:11 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.00"
+      "avgRating": "4.00",
+      "published": "2020"
     },
     {
       "title": "Machine Vendetta (Prefect Dreyfus Emergency #3)",
@@ -1122,8 +1350,10 @@
       "rating": "4",
       "dateRead": "Sat, 23 Mar 2024 00:00:00 +0000",
       "dateAdded": "Thu, 04 Apr 2024 10:42:21 -0700",
+      "isbn": "0316462853",
       "pages": "",
-      "avgRating": "4.48"
+      "avgRating": "4.48",
+      "published": "2024"
     },
     {
       "title": "What Feasts at Night (Sworn Soldier, #2)",
@@ -1133,8 +1363,10 @@
       "rating": "5",
       "dateRead": "Sun, 17 Mar 2024 00:00:00 +0000",
       "dateAdded": "Sun, 17 Mar 2024 13:12:26 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.01"
+      "avgRating": "4.01",
+      "published": "2024"
     },
     {
       "title": "Open and Shut",
@@ -1144,8 +1376,10 @@
       "rating": "5",
       "dateRead": "Fri, 15 Mar 2024 00:00:00 +0000",
       "dateAdded": "Fri, 15 Mar 2024 20:47:45 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.58"
+      "avgRating": "3.58",
+      "published": "2018"
     },
     {
       "title": "A Desolation Called Peace (Teixcalaan, #2)",
@@ -1155,8 +1389,10 @@
       "rating": "4",
       "dateRead": "Fri, 15 Mar 2024 00:00:00 +0000",
       "dateAdded": "Sun, 17 Mar 2024 13:20:17 -0700",
+      "isbn": "125018648X",
       "pages": "",
-      "avgRating": "4.30"
+      "avgRating": "4.30",
+      "published": "2021"
     },
     {
       "title": "Mislaid in Parts Half-Known (Wayward Children, #9)",
@@ -1166,8 +1402,10 @@
       "rating": "4",
       "dateRead": "Sat, 9 Mar 2024 00:00:00 +0000",
       "dateAdded": "Sat, 09 Mar 2024 01:28:55 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.07"
+      "avgRating": "4.07",
+      "published": "2024"
     },
     {
       "title": "Ninefox Gambit (The Machineries of Empire, #1)",
@@ -1177,8 +1415,10 @@
       "rating": "4",
       "dateRead": "Thu, 7 Mar 2024 00:00:00 +0000",
       "dateAdded": "Thu, 07 Mar 2024 20:51:51 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.75"
+      "avgRating": "3.75",
+      "published": "2016"
     },
     {
       "title": "Night's Slow Poison (Imperial Radch #0.5)",
@@ -1188,8 +1428,10 @@
       "rating": "4",
       "dateRead": "Sun, 3 Mar 2024 00:00:00 +0000",
       "dateAdded": "Sun, 03 Mar 2024 19:28:08 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.63"
+      "avgRating": "3.63",
+      "published": "2012"
     },
     {
       "title": "She Commands Me and I Obey (Imperial Radch #0.6)",
@@ -1199,8 +1441,10 @@
       "rating": "4",
       "dateRead": "Sun, 3 Mar 2024 00:00:00 +0000",
       "dateAdded": "Sun, 03 Mar 2024 19:28:25 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.82"
+      "avgRating": "3.82",
+      "published": "2014"
     },
     {
       "title": "A Memory Called Empire (Teixcalaan, #1)",
@@ -1210,8 +1454,10 @@
       "rating": "5",
       "dateRead": "Sat, 2 Mar 2024 00:00:00 +0000",
       "dateAdded": "Sun, 17 Mar 2024 13:20:30 -0700",
+      "isbn": "1250186455",
       "pages": "",
-      "avgRating": "4.26"
+      "avgRating": "4.26",
+      "published": "2019"
     },
     {
       "title": "Translation State",
@@ -1221,8 +1467,10 @@
       "rating": "5",
       "dateRead": "Mon, 26 Feb 2024 00:00:00 +0000",
       "dateAdded": "Mon, 26 Feb 2024 21:01:08 -0800",
+      "isbn": "0316290246",
       "pages": "",
-      "avgRating": "4.23"
+      "avgRating": "4.23",
+      "published": "2023"
     },
     {
       "title": "Plague Birds",
@@ -1232,8 +1480,10 @@
       "rating": "5",
       "dateRead": "Thu, 22 Feb 2024 00:00:00 +0000",
       "dateAdded": "Thu, 22 Feb 2024 19:35:11 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.66"
+      "avgRating": "3.66",
+      "published": "2021"
     },
     {
       "title": "Discount Armageddon (InCryptid, #1)",
@@ -1243,8 +1493,10 @@
       "rating": "3",
       "dateRead": "Sun, 18 Feb 2024 00:00:00 +0000",
       "dateAdded": "Sun, 17 Mar 2024 13:20:45 -0700",
+      "isbn": "1101576871",
       "pages": "",
-      "avgRating": "4.02"
+      "avgRating": "4.02",
+      "published": "2012"
     },
     {
       "title": "Children of Memory (Children of Time, #3)",
@@ -1254,8 +1506,10 @@
       "rating": "5",
       "dateRead": "Thu, 15 Feb 2024 00:00:00 +0000",
       "dateAdded": "Thu, 15 Feb 2024 07:35:31 -0800",
+      "isbn": "1529087201",
       "pages": "",
-      "avgRating": "3.96"
+      "avgRating": "3.96",
+      "published": "2022"
     },
     {
       "title": "Lost in the Moment and Found (Wayward Children, #8)",
@@ -1265,8 +1519,10 @@
       "rating": "4",
       "dateRead": "Thu, 8 Feb 2024 00:00:00 +0000",
       "dateAdded": "Fri, 09 Feb 2024 09:36:31 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.45"
+      "avgRating": "4.45",
+      "published": "2023"
     },
     {
       "title": "In Mercy, Rain (Wayward Children, #7.5)",
@@ -1276,8 +1532,10 @@
       "rating": "3",
       "dateRead": "Thu, 8 Feb 2024 00:00:00 +0000",
       "dateAdded": "Thu, 08 Feb 2024 04:00:29 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.88"
+      "avgRating": "3.88",
+      "published": "2022"
     },
     {
       "title": "Where the Drowned Girls Go (Wayward Children, #7)",
@@ -1287,8 +1545,10 @@
       "rating": "4",
       "dateRead": "Wed, 7 Feb 2024 00:00:00 +0000",
       "dateAdded": "Wed, 07 Feb 2024 20:37:17 -0800",
+      "isbn": "1250213622",
       "pages": "",
-      "avgRating": "4.01"
+      "avgRating": "4.01",
+      "published": "2022"
     },
     {
       "title": "Across the Green Grass Fields (Wayward Children, #6)",
@@ -1298,8 +1558,10 @@
       "rating": "4",
       "dateRead": "Tue, 6 Feb 2024 00:00:00 +0000",
       "dateAdded": "Sun, 17 Mar 2024 13:20:55 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.05"
+      "avgRating": "4.05",
+      "published": "2021"
     },
     {
       "title": "Cribsheet: A Data-Driven Guide to Better, More Relaxed Parenting, from Birth to Preschool",
@@ -1309,8 +1571,10 @@
       "rating": "4",
       "dateRead": "Mon, 5 Feb 2024 00:00:00 +0000",
       "dateAdded": "Wed, 06 Mar 2024 09:19:54 -0800",
+      "isbn": "0525559256",
       "pages": "",
-      "avgRating": "4.10"
+      "avgRating": "4.10",
+      "published": "2019"
     },
     {
       "title": "Come Tumbling Down (Wayward Children, #5)",
@@ -1320,8 +1584,10 @@
       "rating": "4",
       "dateRead": "Sun, 4 Feb 2024 00:00:00 +0000",
       "dateAdded": "Sun, 04 Feb 2024 20:37:17 -0800",
+      "isbn": "0765399318",
       "pages": "",
-      "avgRating": "3.88"
+      "avgRating": "3.88",
+      "published": "2020"
     },
     {
       "title": "In an Absent Dream (Wayward Children, #4)",
@@ -1331,8 +1597,10 @@
       "rating": "4",
       "dateRead": "Sat, 3 Feb 2024 00:00:00 +0000",
       "dateAdded": "Sat, 03 Feb 2024 00:10:28 -0800",
+      "isbn": "0765399288",
       "pages": "",
-      "avgRating": "4.15"
+      "avgRating": "4.15",
+      "published": "2019"
     },
     {
       "title": "Juice Like Wounds (Wayward Children, #4.5)",
@@ -1342,8 +1610,10 @@
       "rating": "5",
       "dateRead": "Sat, 3 Feb 2024 00:00:00 +0000",
       "dateAdded": "Sat, 03 Feb 2024 09:39:33 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.00"
+      "avgRating": "4.00",
+      "published": "2020"
     },
     {
       "title": "Beneath the Sugar Sky (Wayward Children, #3)",
@@ -1353,8 +1623,10 @@
       "rating": "4",
       "dateRead": "Wed, 31 Jan 2024 00:00:00 +0000",
       "dateAdded": "Wed, 31 Jan 2024 19:25:05 -0800",
+      "isbn": "0765393581",
       "pages": "",
-      "avgRating": "3.82"
+      "avgRating": "3.82",
+      "published": "2018"
     },
     {
       "title": "Down Among the Sticks and Bones (Wayward Children, #2)",
@@ -1364,8 +1636,10 @@
       "rating": "4",
       "dateRead": "Tue, 30 Jan 2024 00:00:00 +0000",
       "dateAdded": "Tue, 30 Jan 2024 01:10:23 -0800",
+      "isbn": "0765392038",
       "pages": "",
-      "avgRating": "4.13"
+      "avgRating": "4.13",
+      "published": "2017"
     },
     {
       "title": "Every Heart a Doorway (Wayward Children, #1)",
@@ -1375,8 +1649,10 @@
       "rating": "4",
       "dateRead": "Sun, 28 Jan 2024 00:00:00 +0000",
       "dateAdded": "Sun, 28 Jan 2024 08:36:09 -0800",
+      "isbn": "0765385503",
       "pages": "",
-      "avgRating": "3.80"
+      "avgRating": "3.80",
+      "published": "2016"
     },
     {
       "title": "Starter Villain",
@@ -1386,8 +1662,10 @@
       "rating": "5",
       "dateRead": "Fri, 26 Jan 2024 00:00:00 +0000",
       "dateAdded": "Fri, 09 Feb 2024 09:36:50 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.07"
+      "avgRating": "4.07",
+      "published": "2023"
     },
     {
       "title": "The Mountain in the Sea",
@@ -1397,8 +1675,10 @@
       "rating": "5",
       "dateRead": "Wed, 24 Jan 2024 00:00:00 +0000",
       "dateAdded": "Wed, 24 Jan 2024 15:59:43 -0800",
+      "isbn": "0374605955",
       "pages": "",
-      "avgRating": "3.83"
+      "avgRating": "3.83",
+      "published": "2022"
     },
     {
       "title": "Spear",
@@ -1408,8 +1688,10 @@
       "rating": "4",
       "dateRead": "Wed, 17 Jan 2024 00:00:00 +0000",
       "dateAdded": "Wed, 17 Jan 2024 20:25:46 -0800",
+      "isbn": "1250819326",
       "pages": "",
-      "avgRating": "4.01"
+      "avgRating": "4.01",
+      "published": "2022"
     },
     {
       "title": "Babel",
@@ -1419,8 +1701,10 @@
       "rating": "5",
       "dateRead": "Tue, 16 Jan 2024 00:00:00 +0000",
       "dateAdded": "Tue, 16 Jan 2024 06:08:57 -0800",
+      "isbn": "0063021420",
       "pages": "",
-      "avgRating": "4.13"
+      "avgRating": "4.13",
+      "published": "2022"
     },
     {
       "title": "Children of Ruin (Children of Time, #2)",
@@ -1430,8 +1714,10 @@
       "rating": "5",
       "dateRead": "Sat, 6 Jan 2024 00:00:00 +0000",
       "dateAdded": "Sat, 06 Jan 2024 06:22:32 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.01"
+      "avgRating": "4.01",
+      "published": "2019"
     },
     {
       "title": "Skeleton Song (Wayward Children, #7.7)",
@@ -1441,8 +1727,10 @@
       "rating": "4",
       "dateRead": "Mon, 1 Jan 2024 00:00:00 +0000",
       "dateAdded": "Thu, 08 Feb 2024 04:00:47 -0800",
+      "isbn": "1250875137",
       "pages": "",
-      "avgRating": "3.92"
+      "avgRating": "3.92",
+      "published": "2022"
     },
     {
       "title": "Over the Woodward Wall (The Up-and-Under, #1)",
@@ -1452,8 +1740,10 @@
       "rating": "4",
       "dateRead": "Thu, 21 Dec 2023 00:00:00 +0000",
       "dateAdded": "Thu, 21 Dec 2023 01:47:17 -0800",
+      "isbn": "076539927X",
       "pages": "",
-      "avgRating": "3.63"
+      "avgRating": "3.63",
+      "published": "2020"
     },
     {
       "title": "Children of Time (Children of Time, #1)",
@@ -1463,8 +1753,10 @@
       "rating": "5",
       "dateRead": "Mon, 18 Dec 2023 00:00:00 +0000",
       "dateAdded": "Mon, 18 Dec 2023 20:55:25 -0800",
+      "isbn": "1447273281",
       "pages": "",
-      "avgRating": "4.29"
+      "avgRating": "4.29",
+      "published": "2015"
     },
     {
       "title": "The Daughter of Doctor Moreau",
@@ -1474,8 +1766,10 @@
       "rating": "3",
       "dateRead": "Thu, 16 Nov 2023 00:00:00 +0000",
       "dateAdded": "Sat, 13 Jan 2024 10:33:33 -0800",
+      "isbn": "0593355334",
       "pages": "",
-      "avgRating": "3.55"
+      "avgRating": "3.55",
+      "published": "2022"
     },
     {
       "title": "The Expectant Father: The Ultimate Guide for Dads-to-Be (The New Father)",
@@ -1485,8 +1779,10 @@
       "rating": "0",
       "dateRead": "Mon, 6 Nov 2023 00:00:00 +0000",
       "dateAdded": "Sun, 11 May 2025 08:15:48 -0700",
+      "isbn": "0789214040",
       "pages": "",
-      "avgRating": "4.03"
+      "avgRating": "4.03",
+      "published": "1995"
     },
     {
       "title": "Nona the Ninth (The Locked Tomb, #3)",
@@ -1496,8 +1792,10 @@
       "rating": "5",
       "dateRead": "Sun, 29 Oct 2023 00:00:00 +0000",
       "dateAdded": "Sat, 13 Jan 2024 10:02:14 -0800",
+      "isbn": "1250854113",
       "pages": "",
-      "avgRating": "4.34"
+      "avgRating": "4.34",
+      "published": "2022"
     },
     {
       "title": "Harrow the Ninth (The Locked Tomb, #2)",
@@ -1507,8 +1805,10 @@
       "rating": "5",
       "dateRead": "Wed, 18 Oct 2023 00:00:00 +0000",
       "dateAdded": "Wed, 18 Oct 2023 11:03:42 -0700",
+      "isbn": "1250313228",
       "pages": "",
-      "avgRating": "4.29"
+      "avgRating": "4.29",
+      "published": "2020"
     },
     {
       "title": "Thornhedge",
@@ -1518,8 +1818,10 @@
       "rating": "5",
       "dateRead": "Wed, 18 Oct 2023 00:00:00 +0000",
       "dateAdded": "Wed, 18 Oct 2023 20:11:35 -0700",
+      "isbn": "1250244099",
       "pages": "",
-      "avgRating": "3.91"
+      "avgRating": "3.91",
+      "published": "2023"
     },
     {
       "title": "Gideon the Ninth (The Locked Tomb, #1)",
@@ -1529,8 +1831,10 @@
       "rating": "5",
       "dateRead": "Thu, 28 Sep 2023 00:00:00 +0000",
       "dateAdded": "Thu, 28 Sep 2023 06:04:46 -0700",
+      "isbn": "1250313198",
       "pages": "",
-      "avgRating": "4.17"
+      "avgRating": "4.17",
+      "published": "2019"
     },
     {
       "title": "The Spare Man",
@@ -1540,8 +1844,10 @@
       "rating": "4",
       "dateRead": "Sat, 23 Sep 2023 00:00:00 +0000",
       "dateAdded": "Sat, 13 Jan 2024 10:32:06 -0800",
+      "isbn": "1250829151",
       "pages": "",
-      "avgRating": "3.60"
+      "avgRating": "3.60",
+      "published": "2022"
     },
     {
       "title": "Legends & Lattes (Legends & Lattes, #1)",
@@ -1551,8 +1857,10 @@
       "rating": "4",
       "dateRead": "Tue, 19 Sep 2023 00:00:00 +0000",
       "dateAdded": "Sat, 13 Jan 2024 10:01:55 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.01"
+      "avgRating": "4.01",
+      "published": "2022"
     },
     {
       "title": "The Twisted Ones",
@@ -1562,8 +1870,10 @@
       "rating": "5",
       "dateRead": "Fri, 15 Sep 2023 00:00:00 +0000",
       "dateAdded": "Fri, 15 Sep 2023 06:48:16 -0700",
+      "isbn": "1534429573",
       "pages": "",
-      "avgRating": "3.58"
+      "avgRating": "3.58",
+      "published": "2019"
     },
     {
       "title": "The Fall of the House of Usher and Other Tales",
@@ -1573,8 +1883,10 @@
       "rating": "0",
       "dateRead": "Sun, 6 Aug 2023 00:00:00 +0000",
       "dateAdded": "Fri, 15 Sep 2023 06:48:35 -0700",
+      "isbn": "0451526759",
       "pages": "",
-      "avgRating": "4.18"
+      "avgRating": "4.18",
+      "published": "1960"
     },
     {
       "title": "What Moves the Dead (Sworn Soldier, #1)",
@@ -1584,8 +1896,10 @@
       "rating": "5",
       "dateRead": "Sat, 5 Aug 2023 00:00:00 +0000",
       "dateAdded": "Sat, 13 Jan 2024 10:31:54 -0800",
+      "isbn": "1250830753",
       "pages": "",
-      "avgRating": "3.83"
+      "avgRating": "3.83",
+      "published": "2022"
     },
     {
       "title": "Nettle & Bone",
@@ -1595,8 +1909,10 @@
       "rating": "4",
       "dateRead": "Thu, 27 Jul 2023 00:00:00 +0000",
       "dateAdded": "Sat, 13 Jan 2024 10:02:38 -0800",
+      "isbn": "1250244048",
       "pages": "",
-      "avgRating": "4.05"
+      "avgRating": "4.05",
+      "published": "2022"
     },
     {
       "title": "The Dispossessed: An Ambiguous Utopia",
@@ -1606,8 +1922,10 @@
       "rating": "4",
       "dateRead": "Sun, 9 Jul 2023 00:00:00 +0000",
       "dateAdded": "Sun, 09 Jul 2023 21:27:30 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.25"
+      "avgRating": "4.25",
+      "published": "1974"
     },
     {
       "title": "The Kaiju Preservation Society",
@@ -1617,8 +1935,10 @@
       "rating": "4",
       "dateRead": "Wed, 21 Jun 2023 00:00:00 +0000",
       "dateAdded": "Sat, 13 Jan 2024 10:32:29 -0800",
+      "isbn": "0765389126",
       "pages": "",
-      "avgRating": "3.91"
+      "avgRating": "3.91",
+      "published": "2022"
     },
     {
       "title": "The Left Hand of Darkness",
@@ -1628,8 +1948,10 @@
       "rating": "0",
       "dateRead": "Mon, 22 May 2023 00:00:00 +0000",
       "dateAdded": "Mon, 22 May 2023 16:23:12 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.11"
+      "avgRating": "4.11",
+      "published": "1969"
     },
     {
       "title": "The Silver Ships (Silver Ships, #1)",
@@ -1639,8 +1961,10 @@
       "rating": "0",
       "dateRead": "Thu, 27 Apr 2023 00:00:00 +0000",
       "dateAdded": "Thu, 27 Apr 2023 21:14:33 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.05"
+      "avgRating": "4.05",
+      "published": "2015"
     },
     {
       "title": "Elysium Fire (Prefect Dreyfus Emergency, #2)",
@@ -1650,8 +1974,10 @@
       "rating": "4",
       "dateRead": "Sat, 18 Mar 2023 00:00:00 +0000",
       "dateAdded": "Sat, 18 Mar 2023 08:27:24 -0700",
+      "isbn": "0316555665",
       "pages": "",
-      "avgRating": "4.06"
+      "avgRating": "4.06",
+      "published": "2018"
     },
     {
       "title": "Inhibitor Phase (The Inhibitor Sequence, #4)",
@@ -1661,8 +1987,10 @@
       "rating": "4",
       "dateRead": "Mon, 20 Feb 2023 00:00:00 +0000",
       "dateAdded": "Mon, 20 Feb 2023 12:37:14 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.01"
+      "avgRating": "4.01",
+      "published": "2021"
     },
     {
       "title": "Project Hail Mary",
@@ -1672,8 +2000,10 @@
       "rating": "0",
       "dateRead": "Thu, 26 Jan 2023 00:00:00 +0000",
       "dateAdded": "Fri, 27 Jan 2023 09:22:07 -0800",
+      "isbn": "0593135202",
       "pages": "",
-      "avgRating": "4.50"
+      "avgRating": "4.50",
+      "published": "2021"
     },
     {
       "title": "Across the Sand (The Sand Chronicles, #2)",
@@ -1683,8 +2013,10 @@
       "rating": "5",
       "dateRead": "Tue, 20 Dec 2022 00:00:00 +0000",
       "dateAdded": "Tue, 20 Dec 2022 15:10:00 -0800",
+      "isbn": "0358670454",
       "pages": "",
-      "avgRating": "3.94"
+      "avgRating": "3.94",
+      "published": "2022"
     },
     {
       "title": "The Ones Who Walk Away from Omelas",
@@ -1694,8 +2026,10 @@
       "rating": "0",
       "dateRead": "Tue, 2 Aug 2022 00:00:00 +0000",
       "dateAdded": "Tue, 02 Aug 2022 07:14:14 -0700",
+      "isbn": "0886825016",
       "pages": "",
-      "avgRating": "4.38"
+      "avgRating": "4.38",
+      "published": "1973"
     },
     {
       "title": "Leviathan Falls (The Expanse, #9)",
@@ -1705,8 +2039,10 @@
       "rating": "5",
       "dateRead": "Mon, 1 Aug 2022 00:00:00 +0000",
       "dateAdded": "Tue, 02 Aug 2022 06:44:51 -0700",
+      "isbn": "0356510395",
       "pages": "",
-      "avgRating": "4.49"
+      "avgRating": "4.49",
+      "published": "2021"
     },
     {
       "title": "Vampires in the Lemon Grove",
@@ -1716,8 +2052,10 @@
       "rating": "0",
       "dateRead": "Fri, 8 Oct 2021 00:00:00 +0000",
       "dateAdded": "Fri, 08 Oct 2021 20:57:41 -0700",
+      "isbn": "0307957233",
       "pages": "",
-      "avgRating": "3.68"
+      "avgRating": "3.68",
+      "published": "2013"
     },
     {
       "title": "Beacon 23",
@@ -1727,8 +2065,10 @@
       "rating": "4",
       "dateRead": "Mon, 23 Aug 2021 00:00:00 +0000",
       "dateAdded": "Mon, 23 Aug 2021 20:24:38 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.82"
+      "avgRating": "3.82",
+      "published": "2015"
     },
     {
       "title": "The Calculating Stars (Lady Astronaut Universe, #1)",
@@ -1738,8 +2078,10 @@
       "rating": "3",
       "dateRead": "Mon, 16 Aug 2021 00:00:00 +0000",
       "dateAdded": "Mon, 16 Aug 2021 20:49:57 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.90"
+      "avgRating": "3.90",
+      "published": "2018"
     },
     {
       "title": "Artificial Condition (The Murderbot Diaries, #2)",
@@ -1749,8 +2091,10 @@
       "rating": "4",
       "dateRead": "Mon, 24 May 2021 00:00:00 +0000",
       "dateAdded": "Mon, 24 May 2021 05:42:02 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.21"
+      "avgRating": "4.21",
+      "published": "2018"
     },
     {
       "title": "All Systems Red (The Murderbot Diaries, #1)",
@@ -1760,8 +2104,10 @@
       "rating": "4",
       "dateRead": "Wed, 19 May 2021 00:00:00 +0000",
       "dateAdded": "Wed, 19 May 2021 13:05:07 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.08"
+      "avgRating": "4.08",
+      "published": "2017"
     },
     {
       "title": "By Force Alone",
@@ -1771,8 +2117,10 @@
       "rating": "4",
       "dateRead": "Thu, 13 May 2021 00:00:00 +0000",
       "dateAdded": "Thu, 13 May 2021 11:21:10 -0700",
+      "isbn": "1250753457",
       "pages": "",
-      "avgRating": "3.53"
+      "avgRating": "3.53",
+      "published": "2020"
     },
     {
       "title": "Istio: Up and Running: Using a Service Mesh to Connect, Secure, Control, and Observe",
@@ -1782,8 +2130,10 @@
       "rating": "3",
       "dateRead": "Tue, 4 May 2021 00:00:00 +0000",
       "dateAdded": "Thu, 28 Sep 2023 21:28:42 -0700",
+      "isbn": "1492043788",
       "pages": "",
-      "avgRating": "3.39"
+      "avgRating": "3.39",
+      "published": ""
     },
     {
       "title": "Terraform: Up & Running: Writing Infrastructure as Code",
@@ -1793,8 +2143,10 @@
       "rating": "0",
       "dateRead": "Sat, 17 Apr 2021 00:00:00 +0000",
       "dateAdded": "Thu, 28 Sep 2023 21:28:51 -0700",
+      "isbn": "1492046906",
       "pages": "",
-      "avgRating": "4.28"
+      "avgRating": "4.28",
+      "published": ""
     },
     {
       "title": "Kubernetes: Up & Running",
@@ -1804,8 +2156,10 @@
       "rating": "0",
       "dateRead": "Mon, 12 Apr 2021 00:00:00 +0000",
       "dateAdded": "Thu, 28 Sep 2023 21:29:11 -0700",
+      "isbn": "1491935677",
       "pages": "",
-      "avgRating": "4.04"
+      "avgRating": "4.04",
+      "published": "2016"
     },
     {
       "title": "The Ghost Brigades (Old Man's War, #2)",
@@ -1815,8 +2169,10 @@
       "rating": "0",
       "dateRead": "Mon, 15 Mar 2021 00:00:00 +0000",
       "dateAdded": "Mon, 15 Mar 2021 19:39:31 -0700",
+      "isbn": "0765354063",
       "pages": "",
-      "avgRating": "4.10"
+      "avgRating": "4.10",
+      "published": "2006"
     },
     {
       "title": "Old Man's War (Old Man's War, #1)",
@@ -1826,8 +2182,10 @@
       "rating": "0",
       "dateRead": "Thu, 25 Feb 2021 00:00:00 +0000",
       "dateAdded": "Thu, 25 Feb 2021 13:15:21 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.24"
+      "avgRating": "4.24",
+      "published": "2005"
     },
     {
       "title": "Parable of the Talents (Earthseed, #2)",
@@ -1837,8 +2195,10 @@
       "rating": "0",
       "dateRead": "Sun, 7 Feb 2021 00:00:00 +0000",
       "dateAdded": "Thu, 25 Feb 2021 13:22:30 -0800",
+      "isbn": "0446610380",
       "pages": "",
-      "avgRating": "4.31"
+      "avgRating": "4.31",
+      "published": "1998"
     },
     {
       "title": "Parable of the Sower (Earthseed, #1)",
@@ -1848,8 +2208,10 @@
       "rating": "0",
       "dateRead": "Tue, 26 Jan 2021 00:00:00 +0000",
       "dateAdded": "Thu, 25 Feb 2021 13:23:09 -0800",
+      "isbn": "0446675504",
       "pages": "",
-      "avgRating": "4.19"
+      "avgRating": "4.19",
+      "published": "1993"
     },
     {
       "title": "The City We Became (Great Cities, #1)",
@@ -1859,8 +2221,10 @@
       "rating": "0",
       "dateRead": "Mon, 11 Jan 2021 00:00:00 +0000",
       "dateAdded": "Mon, 11 Jan 2021 11:54:25 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.82"
+      "avgRating": "3.82",
+      "published": "2020"
     },
     {
       "title": "Redshirts",
@@ -1870,8 +2234,10 @@
       "rating": "4",
       "dateRead": "Sun, 29 Nov 2020 00:00:00 +0000",
       "dateAdded": "Sun, 29 Nov 2020 17:39:52 -0800",
+      "isbn": "0765316994",
       "pages": "",
-      "avgRating": "3.85"
+      "avgRating": "3.85",
+      "published": "2012"
     },
     {
       "title": "A Fire Upon the Deep (Zones of Thought, #1)",
@@ -1881,8 +2247,10 @@
       "rating": "0",
       "dateRead": "Fri, 27 Nov 2020 00:00:00 +0000",
       "dateAdded": "Fri, 27 Nov 2020 14:30:27 -0800",
+      "isbn": "0812515285",
       "pages": "",
-      "avgRating": "4.14"
+      "avgRating": "4.14",
+      "published": "1992"
     },
     {
       "title": "The Glass Hotel",
@@ -1892,8 +2260,10 @@
       "rating": "0",
       "dateRead": "Tue, 1 Sep 2020 00:00:00 +0000",
       "dateAdded": "Tue, 17 Nov 2020 09:43:41 -0800",
+      "isbn": "0525521143",
       "pages": "",
-      "avgRating": "3.66"
+      "avgRating": "3.66",
+      "published": "2020"
     },
     {
       "title": "The Magicians (The Magicians, #1)",
@@ -1903,8 +2273,10 @@
       "rating": "0",
       "dateRead": "Tue, 24 Mar 2020 00:00:00 +0000",
       "dateAdded": "Tue, 17 Nov 2020 09:43:24 -0800",
+      "isbn": "0670020559",
       "pages": "",
-      "avgRating": "3.53"
+      "avgRating": "3.53",
+      "published": "2009"
     },
     {
       "title": "The Tombs of Atuan",
@@ -1914,8 +2286,10 @@
       "rating": "0",
       "dateRead": "Wed, 26 Feb 2020 00:00:00 +0000",
       "dateAdded": "Wed, 26 Feb 2020 12:01:28 -0800",
+      "isbn": "0689845367",
       "pages": "",
-      "avgRating": "4.13"
+      "avgRating": "4.13",
+      "published": "1970"
     },
     {
       "title": "A Wizard of Earthsea",
@@ -1925,8 +2299,10 @@
       "rating": "5",
       "dateRead": "Fri, 7 Feb 2020 00:00:00 +0000",
       "dateAdded": "Fri, 07 Feb 2020 19:26:05 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.02"
+      "avgRating": "4.02",
+      "published": "1968"
     },
     {
       "title": "Absolution Gap (The Inhibitor Sequence, #3)",
@@ -1936,8 +2312,10 @@
       "rating": "4",
       "dateRead": "Mon, 3 Feb 2020 00:00:00 +0000",
       "dateAdded": "Mon, 03 Feb 2020 18:03:59 -0800",
+      "isbn": "0441012914",
       "pages": "",
-      "avgRating": "4.01"
+      "avgRating": "4.01",
+      "published": "2003"
     },
     {
       "title": "Redemption Ark (The Inhibitor Sequence, #2)",
@@ -1947,8 +2325,10 @@
       "rating": "5",
       "dateRead": "Thu, 22 Aug 2019 00:00:00 +0000",
       "dateAdded": "Thu, 22 Aug 2019 20:16:52 -0700",
+      "isbn": "044101173X",
       "pages": "",
-      "avgRating": "4.15"
+      "avgRating": "4.15",
+      "published": "2002"
     },
     {
       "title": "Chasm City",
@@ -1958,8 +2338,10 @@
       "rating": "0",
       "dateRead": "Fri, 1 Mar 2019 00:00:00 +0000",
       "dateAdded": "Mon, 25 Mar 2019 11:57:55 -0700",
+      "isbn": "0441010644",
       "pages": "",
-      "avgRating": "4.13"
+      "avgRating": "4.13",
+      "published": "2001"
     },
     {
       "title": "Revelation Space (The Inhibitor Sequence, #1)",
@@ -1969,8 +2351,10 @@
       "rating": "0",
       "dateRead": "Thu, 13 Dec 2018 00:00:00 +0000",
       "dateAdded": "Wed, 02 Jan 2019 12:32:14 -0800",
+      "isbn": "0441009425",
       "pages": "",
-      "avgRating": "3.98"
+      "avgRating": "3.98",
+      "published": "2000"
     },
     {
       "title": "Provenance (Imperial Radch)",
@@ -1980,8 +2364,10 @@
       "rating": "4",
       "dateRead": "Tue, 7 Aug 2018 00:00:00 +0000",
       "dateAdded": "Tue, 07 Aug 2018 07:31:21 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.81"
+      "avgRating": "3.81",
+      "published": "2017"
     },
     {
       "title": "Ready Player One (Ready Player One, #1)",
@@ -1991,8 +2377,10 @@
       "rating": "5",
       "dateRead": "Wed, 1 Aug 2018 00:00:00 +0000",
       "dateAdded": "Wed, 01 Aug 2018 18:30:54 -0700",
+      "isbn": "030788743X",
       "pages": "",
-      "avgRating": "4.21"
+      "avgRating": "4.21",
+      "published": "2011"
     },
     {
       "title": "The Churn (The Expanse, #3.5)",
@@ -2002,8 +2390,10 @@
       "rating": "4",
       "dateRead": "Mon, 30 Jul 2018 00:00:00 +0000",
       "dateAdded": "Wed, 01 Aug 2018 18:30:52 -0700",
+      "isbn": "1478929693",
       "pages": "",
-      "avgRating": "4.10"
+      "avgRating": "4.10",
+      "published": "2014"
     },
     {
       "title": "Gods of Risk (The Expanse, #2.5)",
@@ -2013,8 +2403,10 @@
       "rating": "4",
       "dateRead": "Sun, 8 Jul 2018 00:00:00 +0000",
       "dateAdded": "Wed, 01 Aug 2018 18:30:50 -0700",
+      "isbn": "0316217654",
       "pages": "",
-      "avgRating": "3.73"
+      "avgRating": "3.73",
+      "published": "2012"
     },
     {
       "title": "The Butcher of Anderson Station (The Expanse, #1.5)",
@@ -2024,8 +2416,10 @@
       "rating": "4",
       "dateRead": "Sat, 30 Jun 2018 00:00:00 +0000",
       "dateAdded": "Wed, 01 Aug 2018 18:30:47 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.99"
+      "avgRating": "3.99",
+      "published": "2011"
     },
     {
       "title": "Persepolis Rising (The Expanse, #7)",
@@ -2035,8 +2429,10 @@
       "rating": "4",
       "dateRead": "Fri, 15 Jun 2018 00:00:00 +0000",
       "dateAdded": "Wed, 01 Aug 2018 18:30:43 -0700",
+      "isbn": "0316332828",
       "pages": "",
-      "avgRating": "4.35"
+      "avgRating": "4.35",
+      "published": "2017"
     },
     {
       "title": "Babylon’s Ashes (The Expanse, #6)",
@@ -2046,8 +2442,10 @@
       "rating": "0",
       "dateRead": "Thu, 20 Apr 2017 00:00:00 +0000",
       "dateAdded": "Thu, 20 Apr 2017 21:46:38 -0700",
+      "isbn": "0356504263",
       "pages": "",
-      "avgRating": "4.22"
+      "avgRating": "4.22",
+      "published": "2016"
     },
     {
       "title": "The Spider's War (The Dagger and the Coin, #5)",
@@ -2057,8 +2455,10 @@
       "rating": "4",
       "dateRead": "Mon, 26 Dec 2016 00:00:00 +0000",
       "dateAdded": "Thu, 12 Jan 2017 11:18:36 -0800",
+      "isbn": "0316204056",
       "pages": "",
-      "avgRating": "4.07"
+      "avgRating": "4.07",
+      "published": "2016"
     },
     {
       "title": "The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win",
@@ -2068,8 +2468,10 @@
       "rating": "3",
       "dateRead": "Mon, 15 Aug 2016 00:00:00 +0000",
       "dateAdded": "Thu, 28 Sep 2023 21:29:39 -0700",
+      "isbn": "0988262592",
       "pages": "",
-      "avgRating": "4.22"
+      "avgRating": "4.22",
+      "published": "2013"
     },
     {
       "title": "The Tyrant's Law (The Dagger and the Coin, #3)",
@@ -2079,8 +2481,10 @@
       "rating": "4",
       "dateRead": "Fri, 24 Jun 2016 00:00:00 +0000",
       "dateAdded": "Fri, 24 Jun 2016 20:01:34 -0700",
+      "isbn": "0316080705",
       "pages": "",
-      "avgRating": "4.06"
+      "avgRating": "4.06",
+      "published": "2013"
     },
     {
       "title": "The Widow's House (The Dagger and the Coin, #4)",
@@ -2090,8 +2494,10 @@
       "rating": "4",
       "dateRead": "Wed, 1 Jun 2016 00:00:00 +0000",
       "dateAdded": "Thu, 12 Jan 2017 11:17:16 -0800",
+      "isbn": "031620398X",
       "pages": "",
-      "avgRating": "4.06"
+      "avgRating": "4.06",
+      "published": "2014"
     },
     {
       "title": "The King's Blood (The Dagger and the Coin, #2)",
@@ -2101,8 +2507,10 @@
       "rating": "0",
       "dateRead": "Mon, 4 Jan 2016 00:00:00 +0000",
       "dateAdded": "Mon, 04 Jan 2016 11:02:45 -0800",
+      "isbn": "1841498890",
       "pages": "",
-      "avgRating": "4.02"
+      "avgRating": "4.02",
+      "published": "2012"
     },
     {
       "title": "Ancillary Mercy (Imperial Radch, #3)",
@@ -2112,8 +2520,10 @@
       "rating": "5",
       "dateRead": "Tue, 17 Nov 2015 00:00:00 +0000",
       "dateAdded": "Thu, 12 Jan 2017 11:15:11 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.19"
+      "avgRating": "4.19",
+      "published": "2015"
     },
     {
       "title": "Ancillary Sword (Imperial Radch #2)",
@@ -2123,8 +2533,10 @@
       "rating": "4",
       "dateRead": "Sat, 14 Nov 2015 00:00:00 +0000",
       "dateAdded": "Sat, 14 Nov 2015 07:18:16 -0800",
+      "isbn": "0316246654",
       "pages": "",
-      "avgRating": "4.06"
+      "avgRating": "4.06",
+      "published": "2014"
     },
     {
       "title": "The End Has Come (The Apocalypse Triptych, #3)",
@@ -2134,8 +2546,10 @@
       "rating": "0",
       "dateRead": "Sun, 18 Oct 2015 00:00:00 +0000",
       "dateAdded": "Sun, 18 Oct 2015 14:03:21 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.87"
+      "avgRating": "3.87",
+      "published": "2015"
     },
     {
       "title": "The End is Nigh (The Apocalypse Triptych, #1)",
@@ -2145,8 +2559,10 @@
       "rating": "4",
       "dateRead": "Tue, 17 Mar 2015 00:00:00 +0000",
       "dateAdded": "Tue, 17 Mar 2015 20:48:39 -0700",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.88"
+      "avgRating": "3.88",
+      "published": "2014"
     },
     {
       "title": "The Shell Collector",
@@ -2156,8 +2572,10 @@
       "rating": "4",
       "dateRead": "Mon, 2 Mar 2015 00:00:00 +0000",
       "dateAdded": "Mon, 02 Mar 2015 06:11:58 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.78"
+      "avgRating": "3.78",
+      "published": "2014"
     },
     {
       "title": "Variant (Variant, #1)",
@@ -2167,8 +2585,10 @@
       "rating": "4",
       "dateRead": "Sat, 28 Feb 2015 00:00:00 +0000",
       "dateAdded": "Sat, 28 Feb 2015 05:57:01 -0800",
+      "isbn": "0062026089",
       "pages": "",
-      "avgRating": "3.94"
+      "avgRating": "3.94",
+      "published": "2011"
     },
     {
       "title": "Trial by Ice",
@@ -2178,8 +2598,10 @@
       "rating": "3",
       "dateRead": "Sat, 28 Feb 2015 00:00:00 +0000",
       "dateAdded": "Sat, 28 Feb 2015 05:57:46 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.65"
+      "avgRating": "3.65",
+      "published": "2013"
     },
     {
       "title": "The Peripheral (Jackpot #1)",
@@ -2189,8 +2611,10 @@
       "rating": "4",
       "dateRead": "Tue, 10 Feb 2015 00:00:00 +0000",
       "dateAdded": "Tue, 10 Feb 2015 09:59:19 -0800",
+      "isbn": "0399158448",
       "pages": "",
-      "avgRating": "3.90"
+      "avgRating": "3.90",
+      "published": "2014"
     },
     {
       "title": "The Moon Is a Harsh Mistress",
@@ -2200,8 +2624,10 @@
       "rating": "4",
       "dateRead": "Mon, 5 Jan 2015 00:00:00 +0000",
       "dateAdded": "Mon, 05 Jan 2015 20:39:17 -0800",
+      "isbn": "0340837942",
       "pages": "",
-      "avgRating": "4.16"
+      "avgRating": "4.16",
+      "published": "1966"
     },
     {
       "title": "The Hurricane",
@@ -2211,8 +2637,10 @@
       "rating": "3",
       "dateRead": "Wed, 31 Dec 2014 00:00:00 +0000",
       "dateAdded": "Wed, 31 Dec 2014 16:29:43 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.43"
+      "avgRating": "3.43",
+      "published": "2011"
     },
     {
       "title": "Lock In (Lock In, #1)",
@@ -2222,8 +2650,10 @@
       "rating": "3",
       "dateRead": "Sat, 13 Dec 2014 00:00:00 +0000",
       "dateAdded": "Sat, 13 Dec 2014 07:11:24 -0800",
+      "isbn": "0765375869",
       "pages": "",
-      "avgRating": "3.89"
+      "avgRating": "3.89",
+      "published": "2014"
     },
     {
       "title": "Ancillary Justice (Imperial Radch, #1)",
@@ -2233,8 +2663,10 @@
       "rating": "4",
       "dateRead": "Mon, 24 Nov 2014 00:00:00 +0000",
       "dateAdded": "Mon, 24 Nov 2014 07:46:12 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.98"
+      "avgRating": "3.98",
+      "published": "2013"
     },
     {
       "title": "The Plagiarist",
@@ -2244,8 +2676,10 @@
       "rating": "3",
       "dateRead": "Wed, 5 Nov 2014 00:00:00 +0000",
       "dateAdded": "Wed, 05 Nov 2014 05:11:54 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "3.92"
+      "avgRating": "3.92",
+      "published": "2011"
     },
     {
       "title": "Station Eleven",
@@ -2255,8 +2689,946 @@
       "rating": "5",
       "dateRead": "Tue, 21 Oct 2014 00:00:00 +0000",
       "dateAdded": "Wed, 23 Dec 2020 01:57:48 -0800",
+      "isbn": "",
       "pages": "",
-      "avgRating": "4.13"
+      "avgRating": "4.13",
+      "published": "2014"
+    },
+    {
+      "title": "Five Billion Years of Solitude: The Search for Life Among the Stars",
+      "author": "Lee Billings",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365992146l/17707637.jpg",
+      "link": "https://www.goodreads.com/review/show/967024091?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Fri, 26 Sep 2014 00:00:00 +0000",
+      "dateAdded": "Fri, 26 Sep 2014 17:12:17 -0700",
+      "isbn": "1617230065",
+      "pages": "",
+      "avgRating": "3.87",
+      "published": "2013"
+    },
+    {
+      "title": "The Maze Runner (The Maze Runner, #1)",
+      "author": "James Dashner",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1375596592l/6186357.jpg",
+      "link": "https://www.goodreads.com/review/show/1052975489?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Thu, 25 Sep 2014 00:00:00 +0000",
+      "dateAdded": "Thu, 25 Sep 2014 20:12:21 -0700",
+      "isbn": "0385737947",
+      "pages": "",
+      "avgRating": "4.06",
+      "published": "2009"
+    },
+    {
+      "title": "The Dragon's Path (The Dagger and the Coin, #1)",
+      "author": "Daniel Abraham",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1292362307l/8752885.jpg",
+      "link": "https://www.goodreads.com/review/show/1051048265?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Thu, 18 Sep 2014 00:00:00 +0000",
+      "dateAdded": "Thu, 18 Sep 2014 14:02:26 -0700",
+      "isbn": "1841498874",
+      "pages": "",
+      "avgRating": "3.79",
+      "published": "2011"
+    },
+    {
+      "title": "Cibola Burn (The Expanse, #4)",
+      "author": "James S.A. Corey",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1729035804l/18656030._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/1019270193?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Wed, 10 Sep 2014 00:00:00 +0000",
+      "dateAdded": "Wed, 10 Sep 2014 05:46:12 -0700",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "4.19",
+      "published": "2014"
+    },
+    {
+      "title": "Abaddon’s Gate (The Expanse, #3)",
+      "author": "James S.A. Corey",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407572059l/16131032.jpg",
+      "link": "https://www.goodreads.com/review/show/1019269945?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Mon, 8 Sep 2014 00:00:00 +0000",
+      "dateAdded": "Mon, 08 Sep 2014 19:00:39 -0700",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "4.26",
+      "published": "2013"
+    },
+    {
+      "title": "The Martian",
+      "author": "Andy Weir",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413706054l/18007564.jpg",
+      "link": "https://www.goodreads.com/review/show/967021427?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Thu, 28 Aug 2014 00:00:00 +0000",
+      "dateAdded": "Thu, 28 Aug 2014 04:33:55 -0700",
+      "isbn": "0804139024",
+      "pages": "",
+      "avgRating": "4.41",
+      "published": "2011"
+    },
+    {
+      "title": "One More Thing: Stories and Other Stories",
+      "author": "B.J. Novak",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393786903l/18007533.jpg",
+      "link": "https://www.goodreads.com/review/show/1036970537?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Thu, 28 Aug 2014 00:00:00 +0000",
+      "dateAdded": "Thu, 28 Aug 2014 04:34:57 -0700",
+      "isbn": "0385351836",
+      "pages": "",
+      "avgRating": "3.66",
+      "published": "2014"
+    },
+    {
+      "title": "Caliban’s War (The Expanse, #2)",
+      "author": "James S.A. Corey",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407572377l/12591698.jpg",
+      "link": "https://www.goodreads.com/review/show/1019269624?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Tue, 26 Aug 2014 00:00:00 +0000",
+      "dateAdded": "Tue, 26 Aug 2014 07:26:18 -0700",
+      "isbn": "1841499900",
+      "pages": "",
+      "avgRating": "4.37",
+      "published": "2012"
+    },
+    {
+      "title": "Leviathan Wakes (The Expanse, #1)",
+      "author": "James S.A. Corey",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411013134l/8855321.jpg",
+      "link": "https://www.goodreads.com/review/show/1019269367?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Wed, 13 Aug 2014 00:00:00 +0000",
+      "dateAdded": "Wed, 13 Aug 2014 15:22:14 -0700",
+      "isbn": "1841499889",
+      "pages": "",
+      "avgRating": "4.30",
+      "published": "2011"
+    },
+    {
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327881361l/320.jpg",
+      "link": "https://www.goodreads.com/review/show/959638510?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Wed, 6 Aug 2014 00:00:00 +0000",
+      "dateAdded": "Wed, 06 Aug 2014 16:06:27 -0700",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "4.10",
+      "published": "1967"
+    },
+    {
+      "title": "The Walk Up Nameless Ridge",
+      "author": "Hugh Howey",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1361343317l/15995614.jpg",
+      "link": "https://www.goodreads.com/review/show/967434100?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Wed, 6 Aug 2014 00:00:00 +0000",
+      "dateAdded": "Wed, 06 Aug 2014 20:37:44 -0700",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "3.74",
+      "published": "2012"
+    },
+    {
+      "title": "Half Way Home",
+      "author": "Hugh Howey",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1276131208l/8428985.jpg",
+      "link": "https://www.goodreads.com/review/show/959265438?utm_medium=api&utm_source=rss",
+      "rating": "5",
+      "dateRead": "Sun, 8 Jun 2014 00:00:00 +0000",
+      "dateAdded": "Sun, 08 Jun 2014 12:19:24 -0700",
+      "isbn": "0982611935",
+      "pages": "",
+      "avgRating": "3.59",
+      "published": "2010"
+    },
+    {
+      "title": "Molly Fyde and the Fight for Peace (The Bern Saga, #4)",
+      "author": "Hugh Howey",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328308391l/10259881.jpg",
+      "link": "https://www.goodreads.com/review/show/871688108?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Thu, 5 Jun 2014 00:00:00 +0000",
+      "dateAdded": "Thu, 05 Jun 2014 21:32:38 -0700",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "4.04",
+      "published": "2010"
+    },
+    {
+      "title": "Molly Fyde and the Blood of Billions (The Bern Saga, #3)",
+      "author": "Hugh Howey",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388283617l/8508828.jpg",
+      "link": "https://www.goodreads.com/review/show/871688085?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Wed, 21 May 2014 00:00:00 +0000",
+      "dateAdded": "Wed, 21 May 2014 19:48:29 -0700",
+      "isbn": "0982611927",
+      "pages": "",
+      "avgRating": "3.96",
+      "published": "2010"
+    },
+    {
+      "title": "Molly Fyde and the Land of Light (The Bern Saga, #2)",
+      "author": "Hugh Howey",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1281278887l/7600030.jpg",
+      "link": "https://www.goodreads.com/review/show/871688042?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Tue, 29 Apr 2014 00:00:00 +0000",
+      "dateAdded": "Wed, 21 May 2014 19:47:28 -0700",
+      "isbn": "0982611900",
+      "pages": "",
+      "avgRating": "4.06",
+      "published": "2010"
+    },
+    {
+      "title": "I, Zombie",
+      "author": "Hugh Howey",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1343452279l/15773951.jpg",
+      "link": "https://www.goodreads.com/review/show/835135742?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Sat, 5 Apr 2014 00:00:00 +0000",
+      "dateAdded": "Sat, 05 Apr 2014 22:44:59 -0700",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "3.69",
+      "published": "2012"
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575509280l/5129._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/858476499?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Sat, 29 Mar 2014 00:00:00 +0000",
+      "dateAdded": "Sat, 29 Mar 2014 12:28:31 -0700",
+      "isbn": "0060929871",
+      "pages": "",
+      "avgRating": "3.99",
+      "published": "1932"
+    },
+    {
+      "title": "Molly Fyde and the Parsona Rescue (The Bern Saga, #1)",
+      "author": "Hugh Howey",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388283608l/6828998.jpg",
+      "link": "https://www.goodreads.com/review/show/835135664?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Tue, 4 Mar 2014 00:00:00 +0000",
+      "dateAdded": "Tue, 04 Mar 2014 09:00:26 -0800",
+      "isbn": "1935254138",
+      "pages": "",
+      "avgRating": "3.88",
+      "published": "2009"
+    },
+    {
+      "title": "The Last Man",
+      "author": "Ryan   King",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364008283l/17669074.jpg",
+      "link": "https://www.goodreads.com/review/show/861843491?utm_medium=api&utm_source=rss",
+      "rating": "3",
+      "dateRead": "Sat, 22 Feb 2014 00:00:00 +0000",
+      "dateAdded": "Sat, 22 Feb 2014 17:32:02 -0800",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "3.50",
+      "published": "2012"
+    },
+    {
+      "title": "Reaper's Run (Plague Wars, #1)",
+      "author": "David VanDyke",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377637247l/18363862.jpg",
+      "link": "https://www.goodreads.com/review/show/855644459?utm_medium=api&utm_source=rss",
+      "rating": "3",
+      "dateRead": "Fri, 21 Feb 2014 00:00:00 +0000",
+      "dateAdded": "Fri, 21 Feb 2014 21:09:58 -0800",
+      "isbn": "1626260214",
+      "pages": "",
+      "avgRating": "3.72",
+      "published": "2013"
+    },
+    {
+      "title": "The Demolished Man",
+      "author": "Alfred Bester",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360171879l/76740.jpg",
+      "link": "https://www.goodreads.com/review/show/855643632?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Tue, 18 Feb 2014 00:00:00 +0000",
+      "dateAdded": "Tue, 18 Feb 2014 14:25:51 -0800",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "3.98",
+      "published": "1953"
+    },
+    {
+      "title": "Sand (The Sand Chronicles, #1)",
+      "author": "Hugh Howey",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389416278l/20509356.jpg",
+      "link": "https://www.goodreads.com/review/show/851413369?utm_medium=api&utm_source=rss",
+      "rating": "5",
+      "dateRead": "Sat, 15 Feb 2014 00:00:00 +0000",
+      "dateAdded": "Sat, 15 Feb 2014 12:09:09 -0800",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "4.01",
+      "published": "2014"
+    },
+    {
+      "title": "Borns",
+      "author": "Nick Pirog",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391325308l/20694340.jpg",
+      "link": "https://www.goodreads.com/review/show/849035240?utm_medium=api&utm_source=rss",
+      "rating": "3",
+      "dateRead": "Mon, 10 Feb 2014 00:00:00 +0000",
+      "dateAdded": "Mon, 10 Feb 2014 19:29:25 -0800",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "4.18",
+      "published": "2014"
+    },
+    {
+      "title": "Arrival (Book One of the Maddy Young Diaries)",
+      "author": "Nick Pirog",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360040105l/12271657.jpg",
+      "link": "https://www.goodreads.com/review/show/842506921?utm_medium=api&utm_source=rss",
+      "rating": "3",
+      "dateRead": "Sat, 8 Feb 2014 00:00:00 +0000",
+      "dateAdded": "Sat, 08 Feb 2014 13:42:34 -0800",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "3.87",
+      "published": "2011"
+    },
+    {
+      "title": "Doctor Sleep (The Shining, #2)",
+      "author": "Stephen  King",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1510335480l/16130549._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/805043781?utm_medium=api&utm_source=rss",
+      "rating": "5",
+      "dateRead": "Sat, 8 Feb 2014 00:00:00 +0000",
+      "dateAdded": "Sat, 22 Feb 2014 17:33:02 -0800",
+      "isbn": "1476727651",
+      "pages": "",
+      "avgRating": "4.11",
+      "published": "2013"
+    },
+    {
+      "title": "Round Trip",
+      "author": "David Katz",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1424967350l/18488493.jpg",
+      "link": "https://www.goodreads.com/review/show/842506118?utm_medium=api&utm_source=rss",
+      "rating": "3",
+      "dateRead": "Sat, 8 Feb 2014 00:00:00 +0000",
+      "dateAdded": "Sat, 08 Feb 2014 13:42:55 -0800",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "3.20",
+      "published": "2013"
+    },
+    {
+      "title": "Feed (Newsflesh, #1)",
+      "author": "Mira Grant",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408500437l/7094569.jpg",
+      "link": "https://www.goodreads.com/review/show/830609003?utm_medium=api&utm_source=rss",
+      "rating": "3",
+      "dateRead": "Sun, 2 Feb 2014 00:00:00 +0000",
+      "dateAdded": "Sun, 02 Feb 2014 14:18:41 -0800",
+      "isbn": "0316081051",
+      "pages": "",
+      "avgRating": "3.84",
+      "published": "2010"
+    },
+    {
+      "title": "Wool Omnibus (Silo, #1)",
+      "author": "Hugh Howey",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349614200l/13453029.jpg",
+      "link": "https://www.goodreads.com/review/show/805042957?utm_medium=api&utm_source=rss",
+      "rating": "5",
+      "dateRead": "Wed, 1 Jan 2014 00:00:00 +0000",
+      "dateAdded": "Sat, 22 Feb 2014 17:32:43 -0800",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "4.22",
+      "published": "2012"
+    },
+    {
+      "title": "Shift (Silo, #2)",
+      "author": "Hugh Howey",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1379003176l/17306293.jpg",
+      "link": "https://www.goodreads.com/review/show/805043287?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Wed, 1 Jan 2014 00:00:00 +0000",
+      "dateAdded": "Mon, 27 Jan 2014 06:39:50 -0800",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "4.11",
+      "published": "2013"
+    },
+    {
+      "title": "Dust (Silo, #3)",
+      "author": "Hugh Howey",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1369522849l/17855756.jpg",
+      "link": "https://www.goodreads.com/review/show/835135336?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Wed, 1 Jan 2014 00:00:00 +0000",
+      "dateAdded": "Mon, 27 Jan 2014 06:39:07 -0800",
+      "isbn": "1490904387",
+      "pages": "",
+      "avgRating": "4.19",
+      "published": "2013"
+    },
+    {
+      "title": "The Twelve (The Passage, #2)",
+      "author": "Justin Cronin",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331230956l/13281368.jpg",
+      "link": "https://www.goodreads.com/review/show/805040466?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Sun, 1 Dec 2013 00:00:00 +0000",
+      "dateAdded": "Mon, 27 Jan 2014 06:40:39 -0800",
+      "isbn": "0345504984",
+      "pages": "",
+      "avgRating": "4.00",
+      "published": "2012"
+    },
+    {
+      "title": "An Introduction to Programming in Go",
+      "author": "Caleb Doxsey",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366744500l/15992715.jpg",
+      "link": "https://www.goodreads.com/review/show/835981349?utm_medium=api&utm_source=rss",
+      "rating": "3",
+      "dateRead": "Sun, 1 Dec 2013 00:00:00 +0000",
+      "dateAdded": "Thu, 28 Sep 2023 21:31:09 -0700",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "3.66",
+      "published": "2012"
+    },
+    {
+      "title": "The Passage (The Passage, #1)",
+      "author": "Justin Cronin",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327874267l/6690798.jpg",
+      "link": "https://www.goodreads.com/review/show/701239462?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Fri, 1 Nov 2013 00:00:00 +0000",
+      "dateAdded": "Mon, 27 Jan 2014 06:41:06 -0800",
+      "isbn": "0345504968",
+      "pages": "",
+      "avgRating": "4.04",
+      "published": "2010"
+    },
+    {
+      "title": "The Plague Forge (Dire Earth Cycle, #3)",
+      "author": "Jason M. Hough",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1363836946l/17262142.jpg",
+      "link": "https://www.goodreads.com/review/show/701372347?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Fri, 1 Nov 2013 00:00:00 +0000",
+      "dateAdded": "Mon, 27 Jan 2014 06:40:51 -0800",
+      "isbn": "0345537165",
+      "pages": "",
+      "avgRating": "3.79",
+      "published": "2013"
+    },
+    {
+      "title": "The Darwin Elevator (Dire Earth Cycle, #1)",
+      "author": "Jason M. Hough",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1383580448l/16127235.jpg",
+      "link": "https://www.goodreads.com/review/show/701235508?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Sun, 1 Sep 2013 00:00:00 +0000",
+      "dateAdded": "Mon, 27 Jan 2014 06:41:23 -0800",
+      "isbn": "0345537122",
+      "pages": "",
+      "avgRating": "3.67",
+      "published": "2013"
+    },
+    {
+      "title": "The End of Big: How the Internet Makes David the New Goliath",
+      "author": "Nicco Mele",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1400989371l/15794602.jpg",
+      "link": "https://www.goodreads.com/review/show/601238387?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Sat, 17 Aug 2013 00:00:00 +0000",
+      "dateAdded": "Sat, 17 Aug 2013 08:28:04 -0700",
+      "isbn": "1250021863",
+      "pages": "",
+      "avgRating": "3.75",
+      "published": ""
+    },
+    {
+      "title": "Wizard and Glass (The Dark Tower, #4)",
+      "author": "Stephen  King",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327946510l/5096.jpg",
+      "link": "https://www.goodreads.com/review/show/697147273?utm_medium=api&utm_source=rss",
+      "rating": "5",
+      "dateRead": "Thu, 1 Aug 2013 00:00:00 +0000",
+      "dateAdded": "Mon, 27 Jan 2014 06:41:52 -0800",
+      "isbn": "0340829788",
+      "pages": "",
+      "avgRating": "4.26",
+      "published": "1997"
+    },
+    {
+      "title": "The Waste Lands (Dark Tower, #3)",
+      "author": "Stephen  King",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532334476l/34084.jpg",
+      "link": "https://www.goodreads.com/review/show/697147017?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Mon, 1 Jul 2013 00:00:00 +0000",
+      "dateAdded": "Mon, 27 Jan 2014 06:42:01 -0800",
+      "isbn": "0670032565",
+      "pages": "",
+      "avgRating": "4.25",
+      "published": "1991"
+    },
+    {
+      "title": "The Drawing of the Three (Dark Tower, #2)",
+      "author": "Stephen  King",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1370918050l/5094.jpg",
+      "link": "https://www.goodreads.com/review/show/697146669?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Sat, 1 Jun 2013 00:00:00 +0000",
+      "dateAdded": "Mon, 27 Jan 2014 06:42:10 -0800",
+      "isbn": "0451210859",
+      "pages": "",
+      "avgRating": "4.23",
+      "published": "1987"
+    },
+    {
+      "title": "The Gunslinger (The Dark Tower, #1)",
+      "author": "Stephen  King",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554220416l/43615.jpg",
+      "link": "https://www.goodreads.com/review/show/697146345?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Wed, 1 May 2013 00:00:00 +0000",
+      "dateAdded": "Mon, 27 Jan 2014 06:42:20 -0800",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "3.94",
+      "published": "1982"
+    },
+    {
+      "title": "The Signal and the Noise: Why So Many Predictions Fail—But Some Don't",
+      "author": "Nate Silver",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355058876l/13588394.jpg",
+      "link": "https://www.goodreads.com/review/show/601237421?utm_medium=api&utm_source=rss",
+      "rating": "5",
+      "dateRead": "Wed, 1 May 2013 00:00:00 +0000",
+      "dateAdded": "Mon, 27 Jan 2014 06:42:53 -0800",
+      "isbn": "159420411X",
+      "pages": "",
+      "avgRating": "3.95",
+      "published": "2012"
+    },
+    {
+      "title": "Spring in Action",
+      "author": "Craig Walls",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348797678l/428588.jpg",
+      "link": "https://www.goodreads.com/review/show/498861640?utm_medium=api&utm_source=rss",
+      "rating": "3",
+      "dateRead": "Sat, 27 Apr 2013 00:00:00 +0000",
+      "dateAdded": "Thu, 28 Sep 2023 21:30:42 -0700",
+      "isbn": "1933988134",
+      "pages": "",
+      "avgRating": "3.95",
+      "published": ""
+    },
+    {
+      "title": "AngularJS",
+      "author": "Brad Green",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1350397186l/16087709.jpg",
+      "link": "https://www.goodreads.com/review/show/601245717?utm_medium=api&utm_source=rss",
+      "rating": "3",
+      "dateRead": "Mon, 1 Apr 2013 00:00:00 +0000",
+      "dateAdded": "Thu, 28 Sep 2023 21:30:57 -0700",
+      "isbn": "1449344852",
+      "pages": "",
+      "avgRating": "3.56",
+      "published": "2013"
+    },
+    {
+      "title": "Learning Java",
+      "author": "Patrick Niemeyer",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834456l/665984.jpg",
+      "link": "https://www.goodreads.com/review/show/498861437?utm_medium=api&utm_source=rss",
+      "rating": "3",
+      "dateRead": "Sun, 27 Jan 2013 00:00:00 +0000",
+      "dateAdded": "Thu, 28 Sep 2023 21:30:35 -0700",
+      "isbn": "0596008732",
+      "pages": "",
+      "avgRating": "3.69",
+      "published": "1996"
+    },
+    {
+      "title": "Jurassic Park (Jurassic Park, #1)",
+      "author": "Michael Crichton",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1740737452l/7677._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/454724149?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Mon, 7 Jan 2013 00:00:00 +0000",
+      "dateAdded": "Mon, 07 Jan 2013 08:36:26 -0800",
+      "isbn": "030734813X",
+      "pages": "",
+      "avgRating": "3.90",
+      "published": "1990"
+    },
+    {
+      "title": "Spring Integration in Action",
+      "author": "Mark    Fisher",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1361784282l/9327132.jpg",
+      "link": "https://www.goodreads.com/review/show/498861768?utm_medium=api&utm_source=rss",
+      "rating": "3",
+      "dateRead": "Tue, 1 Jan 2013 00:00:00 +0000",
+      "dateAdded": "Thu, 28 Sep 2023 21:30:49 -0700",
+      "isbn": "1935182439",
+      "pages": "",
+      "avgRating": "3.79",
+      "published": "2011"
+    },
+    {
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351643740l/4381.jpg",
+      "link": "https://www.goodreads.com/review/show/427163499?utm_medium=api&utm_source=rss",
+      "rating": "3",
+      "dateRead": "Mon, 1 Oct 2012 00:00:00 +0000",
+      "dateAdded": "Mon, 27 Jan 2014 06:44:00 -0800",
+      "isbn": "0307347974",
+      "pages": "",
+      "avgRating": "3.96",
+      "published": "1963"
+    },
+    {
+      "title": "Mockingjay (The Hunger Games, #3)",
+      "author": "Suzanne Collins",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722918l/7260188._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/422477997?utm_medium=api&utm_source=rss",
+      "rating": "3",
+      "dateRead": "Sat, 1 Sep 2012 00:00:00 +0000",
+      "dateAdded": "Mon, 27 Jan 2014 06:44:13 -0800",
+      "isbn": "0439023513",
+      "pages": "",
+      "avgRating": "4.12",
+      "published": "2010"
+    },
+    {
+      "title": "Catching Fire (The Hunger Games, #2)",
+      "author": "Suzanne Collins",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722941l/6148028.jpg",
+      "link": "https://www.goodreads.com/review/show/422477875?utm_medium=api&utm_source=rss",
+      "rating": "3",
+      "dateRead": "Wed, 1 Aug 2012 00:00:00 +0000",
+      "dateAdded": "Mon, 27 Jan 2014 06:44:18 -0800",
+      "isbn": "0439023491",
+      "pages": "",
+      "avgRating": "4.36",
+      "published": "2009"
+    },
+    {
+      "title": "The Hunger Games (The Hunger Games, #1)",
+      "author": "Suzanne Collins",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722975l/2767052._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/422477702?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Fri, 1 Jun 2012 00:00:00 +0000",
+      "dateAdded": "Mon, 27 Jan 2014 06:44:30 -0800",
+      "isbn": "0439023483",
+      "pages": "",
+      "avgRating": "4.35",
+      "published": "2008"
+    },
+    {
+      "title": "A Dance with Dragons (A Song of Ice and Fire, #5)",
+      "author": "George R.R. Martin",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1753059444l/10664113._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/398411432?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Tue, 1 May 2012 00:00:00 +0000",
+      "dateAdded": "Mon, 27 Jan 2014 06:46:11 -0800",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "4.34",
+      "published": "2011"
+    },
+    {
+      "title": "A Storm of Swords (A Song of Ice and Fire, #3)",
+      "author": "George R.R. Martin",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1571318786l/62291.jpg",
+      "link": "https://www.goodreads.com/review/show/397972484?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Sun, 1 Apr 2012 00:00:00 +0000",
+      "dateAdded": "Mon, 27 Jan 2014 06:46:04 -0800",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "4.54",
+      "published": "2000"
+    },
+    {
+      "title": "A Feast for Crows (A Song of Ice and Fire, #4)",
+      "author": "George R.R. Martin",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1661026821l/13497._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/397972487?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Thu, 1 Mar 2012 00:00:00 +0000",
+      "dateAdded": "Mon, 27 Jan 2014 06:45:57 -0800",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "4.17",
+      "published": "2005"
+    },
+    {
+      "title": "A Clash of Kings  (A Song of Ice and Fire, #2)",
+      "author": "George R.R. Martin",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567840212l/10572.jpg",
+      "link": "https://www.goodreads.com/review/show/397972482?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Wed, 1 Feb 2012 00:00:00 +0000",
+      "dateAdded": "Mon, 27 Jan 2014 06:44:59 -0800",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "4.42",
+      "published": "1998"
+    },
+    {
+      "title": "A Game of Thrones (A Song of Ice and Fire, #1)",
+      "author": "George R.R. Martin",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562726234l/13496.jpg",
+      "link": "https://www.goodreads.com/review/show/397972453?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Sun, 1 Jan 2012 00:00:00 +0000",
+      "dateAdded": "Mon, 27 Jan 2014 06:44:51 -0800",
+      "isbn": "0553588486",
+      "pages": "",
+      "avgRating": "4.44",
+      "published": "1996"
+    },
+    {
+      "title": "The New Father: A Dad's Guide to the First Year (New Father Series)",
+      "author": "Armin A. Brott",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328805994l/919468.jpg",
+      "link": "https://www.goodreads.com/review/show/5958753690?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "",
+      "dateAdded": "Sun, 19 Jan 2025 10:38:45 -0800",
+      "isbn": "0789208156",
+      "pages": "",
+      "avgRating": "3.93",
+      "published": "1997"
+    },
+    {
+      "title": "I, Robot (Robot, #0.1)",
+      "author": "Isaac Asimov",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609035271l/41804.jpg",
+      "link": "https://www.goodreads.com/review/show/4279177614?utm_medium=api&utm_source=rss",
+      "rating": "0",
+      "dateRead": "",
+      "dateAdded": "Fri, 08 Oct 2021 20:58:01 -0700",
+      "isbn": "0553803700",
+      "pages": "",
+      "avgRating": "4.22",
+      "published": "1950"
+    },
+    {
+      "title": "The Giver (Giver, #1)",
+      "author": "Lois Lowry",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342493368l/3636.jpg",
+      "link": "https://www.goodreads.com/review/show/1096932695?utm_medium=api&utm_source=rss",
+      "rating": "5",
+      "dateRead": "",
+      "dateAdded": "Mon, 03 Nov 2014 19:55:26 -0800",
+      "isbn": "0385732554",
+      "pages": "",
+      "avgRating": "4.12",
+      "published": "1993"
+    },
+    {
+      "title": "The Prefect (Prefect Dreyfus Emergency, #1)",
+      "author": "Alastair Reynolds",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327988786l/89195.jpg",
+      "link": "https://www.goodreads.com/review/show/3208066881?utm_medium=api&utm_source=rss",
+      "rating": "0",
+      "dateRead": "",
+      "dateAdded": "Wed, 26 Feb 2020 12:04:39 -0800",
+      "isbn": "0575077166",
+      "pages": "",
+      "avgRating": "4.15",
+      "published": "2007"
+    },
+    {
+      "title": "The Exodus Towers (Dire Earth Cycle, #2)",
+      "author": "Jason M. Hough",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1363837314l/17262145.jpg",
+      "link": "https://www.goodreads.com/review/show/701372325?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "",
+      "dateAdded": "Mon, 30 Dec 2013 09:52:23 -0800",
+      "isbn": "0345537149",
+      "pages": "",
+      "avgRating": "3.81",
+      "published": "2013"
+    },
+    {
+      "title": "The Lady Astronaut of Mars",
+      "author": "Mary Robinette Kowal",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410230330l/22154436.jpg",
+      "link": "https://www.goodreads.com/review/show/4151497043?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "",
+      "dateAdded": "Mon, 02 Aug 2021 21:37:03 -0700",
+      "isbn": "1466873825",
+      "pages": "",
+      "avgRating": "4.11",
+      "published": "2012"
+    },
+    {
+      "title": "The Fifth Season (The Broken Earth, #1)",
+      "author": "N.K. Jemisin",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386803701l/19161852.jpg",
+      "link": "https://www.goodreads.com/review/show/2048249206?utm_medium=api&utm_source=rss",
+      "rating": "5",
+      "dateRead": "",
+      "dateAdded": "Mon, 02 Aug 2021 20:06:18 -0700",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "4.27",
+      "published": "2015"
+    },
+    {
+      "title": "Glitch",
+      "author": "Hugh Howey",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407019309l/22578294.jpg",
+      "link": "https://www.goodreads.com/review/show/1049700491?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "",
+      "dateAdded": "Mon, 08 Sep 2014 19:06:39 -0700",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "3.86",
+      "published": "2014"
+    },
+    {
+      "title": "The New World",
+      "author": "Chris Adrian",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404508941l/22663945.jpg",
+      "link": "https://www.goodreads.com/review/show/2981503299?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "",
+      "dateAdded": "Tue, 17 Sep 2019 20:43:46 -0700",
+      "isbn": "1937894320",
+      "pages": "",
+      "avgRating": "3.09",
+      "published": "2014"
+    },
+    {
+      "title": "Nemesis Games (The Expanse, #5)",
+      "author": "James S.A. Corey",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1654567652l/22886612._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/1036969825?utm_medium=api&utm_source=rss",
+      "rating": "0",
+      "dateRead": "",
+      "dateAdded": "Sun, 20 Sep 2015 10:22:48 -0700",
+      "isbn": "031621759X",
+      "pages": "",
+      "avgRating": "4.45",
+      "published": "2015"
+    },
+    {
+      "title": "The Obelisk Gate (The Broken Earth, #2)",
+      "author": "N.K. Jemisin",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1660867781l/26228034._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/4151361303?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "",
+      "dateAdded": "Mon, 02 Aug 2021 20:06:44 -0700",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "4.26",
+      "published": "2016"
+    },
+    {
+      "title": "Tiamat's Wrath (The Expanse, #8)",
+      "author": "James S.A. Corey",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1522779721l/28335698.jpg",
+      "link": "https://www.goodreads.com/review/show/2475739496?utm_medium=api&utm_source=rss",
+      "rating": "5",
+      "dateRead": "",
+      "dateAdded": "Thu, 22 Aug 2019 20:17:35 -0700",
+      "isbn": "0316332879",
+      "pages": "",
+      "avgRating": "4.54",
+      "published": "2019"
+    },
+    {
+      "title": "The Stone Sky (The Broken Earth, #3)",
+      "author": "N.K. Jemisin",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1478547421l/31817749._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/4151361954?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "",
+      "dateAdded": "Mon, 02 Aug 2021 20:07:05 -0700",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "4.31",
+      "published": "2017"
+    },
+    {
+      "title": "Injection Burn (Dire Earth Duology #1)",
+      "author": "Jason M. Hough",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1485003848l/32025240._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/2211620574?utm_medium=api&utm_source=rss",
+      "rating": "0",
+      "dateRead": "",
+      "dateAdded": "Mon, 11 Dec 2017 19:24:53 -0800",
+      "isbn": "0553391313",
+      "pages": "",
+      "avgRating": "3.70",
+      "published": "2017"
+    },
+    {
+      "title": "Artemis",
+      "author": "Andy Weir",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1776234222l/34928122._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/2525599554?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "",
+      "dateAdded": "Mon, 10 Sep 2018 09:41:32 -0700",
+      "isbn": "0553448129",
+      "pages": "",
+      "avgRating": "3.64",
+      "published": "2017"
+    },
+    {
+      "title": "The Familiar",
+      "author": "Leigh Bardugo",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1721616551l/211004837._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/7442298553?utm_medium=api&utm_source=rss",
+      "rating": "0",
+      "dateRead": "",
+      "dateAdded": "Fri, 30 May 2025 16:55:00 -0700",
+      "isbn": "1250884276",
+      "pages": "",
+      "avgRating": "3.69",
+      "published": "2024"
+    },
+    {
+      "title": "The Unwanted Guest (The Locked Tomb, #3.5)",
+      "author": "Tamsyn Muir",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1735328862l/219360665._SX318_.jpg",
+      "link": "https://www.goodreads.com/review/show/5943022743?utm_medium=api&utm_source=rss",
+      "rating": "0",
+      "dateRead": "",
+      "dateAdded": "Tue, 15 Oct 2024 11:19:15 -0700",
+      "isbn": "",
+      "pages": "",
+      "avgRating": "4.60",
+      "published": "2023"
     }
   ]
 }
