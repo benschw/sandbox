@@ -391,7 +391,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1755327867i/199654051._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/199654051-a-long-and-speaking-silence",
           "pages": "",
-          "avgRating": "4.11",
+          "avgRating": "4.12",
           "published": "2026"
         },
         {
@@ -1035,7 +1035,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1777871581i/250943824._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/250943824-a-song-of-sugar-sparrows",
           "pages": "160",
-          "avgRating": "3.62",
+          "avgRating": "3.67",
           "published": "2027"
         }
       ]
@@ -1133,5 +1133,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-07-07T09:49:00.391109+00:00"
+  "lastUpdated": "2026-07-08T08:35:16.478607+00:00"
 }
