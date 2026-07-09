@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T21:16:17.156444+00:00",
+  "lastUpdated": "2026-07-09T09:45:39.429340+00:00",
   "currentlyReading": [
     {
       "title": "The New Father: A Dad's Guide to the Toddler Years",
@@ -13,19 +13,6 @@
       "pages": "",
       "avgRating": "4.05",
       "published": "1998"
-    },
-    {
-      "title": "The River Has Roots",
-      "author": "Amal El-Mohtar",
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719522311l/211665070._SY475_.jpg",
-      "link": "https://www.goodreads.com/review/show/8721385126?utm_medium=api&utm_source=rss",
-      "rating": "0",
-      "dateRead": "",
-      "dateAdded": "Sat, 27 Jun 2026 13:39:01 -0700",
-      "isbn": "1250341094",
-      "pages": "",
-      "avgRating": "3.94",
-      "published": "2025"
     },
     {
       "title": "Death of the Author",
@@ -42,6 +29,19 @@
     }
   ],
   "read": [
+    {
+      "title": "The River Has Roots",
+      "author": "Amal El-Mohtar",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719522311l/211665070._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8721385126?utm_medium=api&utm_source=rss",
+      "rating": "0",
+      "dateRead": "Mon, 6 Jul 2026 00:00:00 +0000",
+      "dateAdded": "Wed, 08 Jul 2026 14:59:00 -0700",
+      "isbn": "1250341094",
+      "pages": "",
+      "avgRating": "3.94",
+      "published": "2025"
+    },
     {
       "title": "Shroud",
       "author": "Adrian Tchaikovsky",
@@ -104,7 +104,7 @@
       "dateAdded": "Wed, 22 Apr 2026 08:33:51 -0700",
       "isbn": "",
       "pages": "",
-      "avgRating": "3.98",
+      "avgRating": "3.99",
       "published": "2025"
     },
     {
@@ -182,7 +182,7 @@
       "dateAdded": "Tue, 24 Feb 2026 13:13:16 -0800",
       "isbn": "0374615373",
       "pages": "",
-      "avgRating": "4.09",
+      "avgRating": "4.08",
       "published": "2025"
     },
     {
@@ -338,7 +338,7 @@
       "dateAdded": "Wed, 24 Sep 2025 16:39:55 -0700",
       "isbn": "1250290295",
       "pages": "",
-      "avgRating": "4.20",
+      "avgRating": "4.21",
       "published": "2024"
     },
     {
@@ -416,7 +416,7 @@
       "dateAdded": "Sun, 06 Jul 2025 12:55:01 -0700",
       "isbn": "1250793297",
       "pages": "",
-      "avgRating": "3.91",
+      "avgRating": "3.92",
       "published": "2024"
     },
     {
@@ -442,7 +442,7 @@
       "dateAdded": "Wed, 02 Jul 2025 21:10:46 -0700",
       "isbn": "",
       "pages": "",
-      "avgRating": "3.85",
+      "avgRating": "3.86",
       "published": "2024"
     },
     {
@@ -468,7 +468,7 @@
       "dateAdded": "Thu, 29 May 2025 22:03:13 -0700",
       "isbn": "0756418860",
       "pages": "",
-      "avgRating": "4.02",
+      "avgRating": "4.03",
       "published": "2024"
     },
     {
@@ -520,7 +520,7 @@
       "dateAdded": "Sat, 03 May 2025 06:46:55 -0700",
       "isbn": "",
       "pages": "",
-      "avgRating": "3.88",
+      "avgRating": "3.87",
       "published": "2024"
     },
     {
@@ -546,7 +546,7 @@
       "dateAdded": "Sun, 30 Mar 2025 11:05:49 -0700",
       "isbn": "0063285762",
       "pages": "",
-      "avgRating": "3.95",
+      "avgRating": "3.96",
       "published": "2025"
     },
     {
@@ -745,7 +745,7 @@
       "published": "2024"
     },
     {
-      "title": "Slow Time Between the Stars (The Far Reaches, #6)",
+      "title": "Slow Time Between the Stars",
       "author": "John Scalzi",
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1687886427l/151908304._SY475_.jpg",
       "link": "https://www.goodreads.com/review/show/6845045834?utm_medium=api&utm_source=rss",
@@ -758,7 +758,7 @@
       "published": "2023"
     },
     {
-      "title": "Just Out of Jupiter's Reach (The Far Reaches, #5)",
+      "title": "Just Out of Jupiter's Reach",
       "author": "Nnedi Okorafor",
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1687901211l/151908136._SY475_.jpg",
       "link": "https://www.goodreads.com/review/show/6843811068?utm_medium=api&utm_source=rss",
@@ -767,11 +767,11 @@
       "dateAdded": "Sat, 14 Sep 2024 06:28:26 -0700",
       "isbn": "1662516789",
       "pages": "",
-      "avgRating": "3.81",
+      "avgRating": "3.82",
       "published": "2023"
     },
     {
-      "title": "Falling Bodies (The Far Reaches, #3)",
+      "title": "Falling Bodies",
       "author": "Rebecca Roanhorse",
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1686330044l/151908270._SY475_.jpg",
       "link": "https://www.goodreads.com/review/show/6842716626?utm_medium=api&utm_source=rss",
@@ -780,11 +780,11 @@
       "dateAdded": "Sat, 14 Sep 2024 06:28:20 -0700",
       "isbn": "1662515030",
       "pages": "",
-      "avgRating": "3.65",
+      "avgRating": "3.66",
       "published": "2023"
     },
     {
-      "title": "The Long Game (The Far Reaches, #4)",
+      "title": "The Long Game",
       "author": "Ann Leckie",
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1687901166l/151908306._SY475_.jpg",
       "link": "https://www.goodreads.com/review/show/6843182583?utm_medium=api&utm_source=rss",
@@ -849,7 +849,7 @@
       "published": "2011"
     },
     {
-      "title": "Void (The Far Reaches, #2)",
+      "title": "Void",
       "author": "Veronica Roth",
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1687889674l/151909273.jpg",
       "link": "https://www.goodreads.com/review/show/6767451759?utm_medium=api&utm_source=rss",
@@ -862,7 +862,7 @@
       "published": "2023"
     },
     {
-      "title": "How It Unfolds (The Far Reaches, #1)",
+      "title": "How It Unfolds",
       "author": "James S.A. Corey",
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1687871208l/151908910.jpg",
       "link": "https://www.goodreads.com/review/show/6765646960?utm_medium=api&utm_source=rss",
@@ -897,7 +897,7 @@
       "dateAdded": "Sat, 31 Aug 2024 10:05:23 -0700",
       "isbn": "1250838002",
       "pages": "",
-      "avgRating": "4.19",
+      "avgRating": "4.20",
       "published": "2023"
     },
     {
@@ -1365,7 +1365,7 @@
       "dateAdded": "Sun, 17 Mar 2024 13:12:26 -0700",
       "isbn": "",
       "pages": "",
-      "avgRating": "4.01",
+      "avgRating": "4.00",
       "published": "2024"
     },
     {
@@ -1443,7 +1443,7 @@
       "dateAdded": "Sun, 03 Mar 2024 19:28:25 -0800",
       "isbn": "",
       "pages": "",
-      "avgRating": "3.82",
+      "avgRating": "3.81",
       "published": "2014"
     },
     {
@@ -1612,7 +1612,7 @@
       "dateAdded": "Sat, 03 Feb 2024 09:39:33 -0800",
       "isbn": "",
       "pages": "",
-      "avgRating": "4.00",
+      "avgRating": "3.99",
       "published": "2020"
     },
     {
@@ -2041,7 +2041,7 @@
       "dateAdded": "Tue, 02 Aug 2022 06:44:51 -0700",
       "isbn": "0356510395",
       "pages": "",
-      "avgRating": "4.48",
+      "avgRating": "4.49",
       "published": "2021"
     },
     {
@@ -2799,7 +2799,7 @@
       "published": "2012"
     },
     {
-      "title": "Leviathan Wakes (The Expanse, #1)",
+      "title": "Leviathan Wakes",
       "author": "James S.A. Corey",
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411013134l/8855321.jpg",
       "link": "https://www.goodreads.com/review/show/1019269367?utm_medium=api&utm_source=rss",
