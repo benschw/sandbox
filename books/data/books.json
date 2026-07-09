@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T08:34:13.697257+00:00",
+  "lastUpdated": "2026-07-09T09:45:39.429340+00:00",
   "currentlyReading": [
     {
       "title": "The New Father: A Dad's Guide to the Toddler Years",
@@ -13,19 +13,6 @@
       "pages": "",
       "avgRating": "4.05",
       "published": "1998"
-    },
-    {
-      "title": "The River Has Roots",
-      "author": "Amal El-Mohtar",
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719522311l/211665070._SY475_.jpg",
-      "link": "https://www.goodreads.com/review/show/8721385126?utm_medium=api&utm_source=rss",
-      "rating": "0",
-      "dateRead": "",
-      "dateAdded": "Sat, 27 Jun 2026 13:39:01 -0700",
-      "isbn": "1250341094",
-      "pages": "",
-      "avgRating": "3.94",
-      "published": "2025"
     },
     {
       "title": "Death of the Author",
@@ -42,6 +29,19 @@
     }
   ],
   "read": [
+    {
+      "title": "The River Has Roots",
+      "author": "Amal El-Mohtar",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719522311l/211665070._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8721385126?utm_medium=api&utm_source=rss",
+      "rating": "0",
+      "dateRead": "Mon, 6 Jul 2026 00:00:00 +0000",
+      "dateAdded": "Wed, 08 Jul 2026 14:59:00 -0700",
+      "isbn": "1250341094",
+      "pages": "",
+      "avgRating": "3.94",
+      "published": "2025"
+    },
     {
       "title": "Shroud",
       "author": "Adrian Tchaikovsky",
@@ -338,7 +338,7 @@
       "dateAdded": "Wed, 24 Sep 2025 16:39:55 -0700",
       "isbn": "1250290295",
       "pages": "",
-      "avgRating": "4.20",
+      "avgRating": "4.21",
       "published": "2024"
     },
     {
@@ -745,7 +745,7 @@
       "published": "2024"
     },
     {
-      "title": "Slow Time Between the Stars (The Far Reaches, #6)",
+      "title": "Slow Time Between the Stars",
       "author": "John Scalzi",
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1687886427l/151908304._SY475_.jpg",
       "link": "https://www.goodreads.com/review/show/6845045834?utm_medium=api&utm_source=rss",
@@ -758,7 +758,7 @@
       "published": "2023"
     },
     {
-      "title": "Just Out of Jupiter's Reach (The Far Reaches, #5)",
+      "title": "Just Out of Jupiter's Reach",
       "author": "Nnedi Okorafor",
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1687901211l/151908136._SY475_.jpg",
       "link": "https://www.goodreads.com/review/show/6843811068?utm_medium=api&utm_source=rss",
@@ -771,7 +771,7 @@
       "published": "2023"
     },
     {
-      "title": "Falling Bodies (The Far Reaches, #3)",
+      "title": "Falling Bodies",
       "author": "Rebecca Roanhorse",
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1686330044l/151908270._SY475_.jpg",
       "link": "https://www.goodreads.com/review/show/6842716626?utm_medium=api&utm_source=rss",
@@ -784,7 +784,7 @@
       "published": "2023"
     },
     {
-      "title": "The Long Game (The Far Reaches, #4)",
+      "title": "The Long Game",
       "author": "Ann Leckie",
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1687901166l/151908306._SY475_.jpg",
       "link": "https://www.goodreads.com/review/show/6843182583?utm_medium=api&utm_source=rss",
@@ -849,7 +849,7 @@
       "published": "2011"
     },
     {
-      "title": "Void (The Far Reaches, #2)",
+      "title": "Void",
       "author": "Veronica Roth",
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1687889674l/151909273.jpg",
       "link": "https://www.goodreads.com/review/show/6767451759?utm_medium=api&utm_source=rss",
@@ -862,7 +862,7 @@
       "published": "2023"
     },
     {
-      "title": "How It Unfolds (The Far Reaches, #1)",
+      "title": "How It Unfolds",
       "author": "James S.A. Corey",
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1687871208l/151908910.jpg",
       "link": "https://www.goodreads.com/review/show/6765646960?utm_medium=api&utm_source=rss",
