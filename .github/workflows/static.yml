@@ -6,6 +6,11 @@ on:
   push:
     branches: ["main"]
 
+  # Also runs when fetch-books completes (its GITHUB_TOKEN commit doesn't trigger push)
+  workflow_run:
+    workflows: ["Fetch Books from Goodreads"]
+    types: [completed]
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
