@@ -6,118 +6,100 @@
   <title>Reading</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../common/header.css" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    :root {
-      --bg:            #f8f6f2;
-      --surface:       #ffffff;
-      --border:        #e4dfd7;
-      --text:          #18150e;
-      --muted:         #7a7268;
-      --accent:        #2e5c35;
-      --accent-subtle: #edf4ee;
-      --star:          #bf9118;
-      --f-display:     'Cormorant Garamond', Georgia, serif;
-      --f-body:        'Inter', system-ui, sans-serif;
-    }
-
     body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: var(--f-body);
       font-size: 15px;
       line-height: 1.6;
-      padding: 3.5rem 1.5rem 5rem;
+      padding: 1.5rem 1.5rem 5rem;
       max-width: 860px;
       margin: 0 auto;
     }
 
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 999;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.78' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.045'/%3E%3C/svg%3E");
+    }
+
     /* ── Header ── */
     .page-header {
-      display: flex;
-      align-items: baseline;
-      justify-content: space-between;
-      gap: 1rem;
-      margin-bottom: 3rem;
-      padding-bottom: 1.25rem;
-      border-bottom: 1px solid var(--border);
+      text-align: center;
+      margin-bottom: 1rem;
     }
     h1 {
-      font-family: var(--f-display);
-      font-size: 2.75rem;
-      font-weight: 600;
-      letter-spacing: -0.02em;
-      line-height: 1;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 1.05rem;
+      font-weight: normal;
+      letter-spacing: 0.26em;
+      text-transform: uppercase;
     }
     .updated {
-      font-size: 0.78rem;
+      margin-top: 0.28rem;
+      font-size: 0.62rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
       color: var(--muted);
-      white-space: nowrap;
     }
 
     /* ── Section headings ── */
     .section-head {
       display: flex;
       align-items: center;
-      gap: 0.75rem;
+      gap: 0.5rem;
       margin-bottom: 1.25rem;
     }
     h2 {
-      font-family: var(--f-display);
-      font-size: 1.45rem;
+      font-size: 0.58rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
       font-weight: 500;
-      font-style: italic;
+      color: var(--muted);
+      font-style: normal;
+      font-family: var(--f-body);
     }
     .count {
-      font-size: 0.75rem;
+      font-size: 0.58rem;
       color: var(--muted);
       font-family: var(--f-body);
-      font-style: normal;
     }
 
     /* ── Currently Reading ── */
     #current { margin-bottom: 2.5rem; }
 
-    /* ── Breadcrumb ── */
-    .breadcrumb {
+    /* ── Sub-nav ── */
+    .sub-nav {
       display: flex;
       align-items: center;
-      gap: 0.4rem;
-      font-size: 0.75rem;
-      color: var(--muted);
-      margin-bottom: 1rem;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+      padding-bottom: 0.7rem;
+      border-bottom: 1px solid var(--border);
     }
-    .crumb-link {
-      color: var(--accent);
-      text-decoration: none;
-      cursor: pointer;
-      background: none;
-      border: none;
-      padding: 0;
-      font: inherit;
-      font-size: 0.75rem;
-    }
-    .crumb-link:hover { text-decoration: underline; }
-    .crumb-sep { color: var(--border); }
-    .crumb-current { color: var(--text); }
-
-    /* ── Series nav link ── */
-    .series-nav-link {
-      display: block;
-      margin-bottom: 1.75rem;
-      font-size: 0.78rem;
-      color: var(--accent);
-      background: none;
-      border: none;
-      padding: 0;
+    .sub-nav-tabs { display: flex; gap: 1.5rem; }
+    .sub-nav-tab {
+      font-size: 0.65rem;
+      font-weight: 500;
       font-family: var(--f-body);
+      background: none;
+      border: none;
+      padding: 0;
       cursor: pointer;
-      text-align: left;
-      text-decoration: none;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
     }
-    .series-nav-link:hover { text-decoration: underline; }
+    .sub-nav-tab.active { color: var(--text); }
+    .sub-nav-updated {
+      font-size: 0.6rem;
+      color: var(--muted);
+    }
+    @media (max-width: 480px) { .sub-nav-updated { display: none; } }
 
     /* ── Series list ── */
     .series-list { border-top: 1px solid var(--border); }
@@ -348,11 +330,12 @@
     .year-group { margin-bottom: 2rem; }
     .year-group:last-child { margin-bottom: 0; }
     .year-label {
-      font-family: var(--f-display);
-      font-size: 1.15rem;
-      font-style: italic;
+      font-size: 0.58rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
       font-weight: 500;
       color: var(--muted);
+      font-family: var(--f-body);
       margin-bottom: 0.75rem;
       padding-bottom: 0.35rem;
       border-bottom: 1px solid var(--border);
@@ -372,10 +355,8 @@
     }
 
     @media (max-width: 520px) {
-      body { padding: 2rem 1rem 4rem; }
-      h1   { font-size: 2.1rem; }
+      body { padding: 1rem 1rem 4rem; }
       .book-grid { grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); gap: 8px; }
-      .page-header { flex-direction: column; gap: 0.25rem; }
       .series-row-meta { display: none; }
     }
 
@@ -385,6 +366,7 @@
   </style>
 </head>
 <body>
+  <script src="../common/header.js"></script>
   <div id="app">
     <p class="loading-msg">Loading…</p>
   </div>
@@ -396,7 +378,7 @@
     let _readTitles    = new Set();
     let _readingTitles = new Set();
     let _activeView    = 'read';   // 'read' | 'series' | 'series-detail'
-    let _activeSeries  = null;     // series name string, or null
+    let _activeSeries  = null;
     let _ignoredTitles = new Set();
 
     /* ── Helpers ── */
@@ -415,16 +397,15 @@
       return n ? '★'.repeat(n) + '☆'.repeat(5 - n) : '';
     }
 
-    function timeAgo(dateStr) {
-      if (!dateStr) return '';
-      const d = new Date(dateStr);
+    function formatUpdated(isoStr) {
+      if (!isoStr) return '';
+      const d = new Date(isoStr);
       if (isNaN(d)) return '';
-      const days = Math.floor((Date.now() - d) / 86_400_000);
-      if (days < 1)   return 'today';
-      if (days < 7)   return `${days}d ago`;
-      if (days < 30)  return `${Math.floor(days / 7)}w ago`;
-      if (days < 365) return `${Math.floor(days / 30)}mo ago`;
-      return `${Math.floor(days / 365)}y ago`;
+      return new Intl.DateTimeFormat('en-US', {
+        timeZone: 'America/Chicago',
+        dateStyle: 'medium',
+        timeStyle: 'short',
+      }).format(d) + ' CT';
     }
 
     function parsePubDate(s) {
@@ -484,21 +465,6 @@
       return div;
     }
 
-    function crumbLink(text, onClick) {
-      const btn = document.createElement('button');
-      btn.className   = 'crumb-link';
-      btn.textContent = text;
-      btn.addEventListener('click', onClick);
-      return btn;
-    }
-
-    function crumbSep() {
-      const span = document.createElement('span');
-      span.className   = 'crumb-sep';
-      span.textContent = '/';
-      return span;
-    }
-
     /* ── Navigation ── */
 
     function applyHash() {
@@ -513,38 +479,14 @@
       }
     }
 
-    function navigate(view, series) {
+    function navigate(view, param) {
+      _activeSeries = (view === 'series-detail') ? (param ?? null) : null;
       _activeView   = view;
-      _activeSeries = series ?? null;
-      const hash = view === 'read'   ? 'read'
-                 : view === 'series' ? 'series'
-                 : `series/${encodeURIComponent(series)}`;
+      const hash = view === 'read'          ? 'read'
+                 : view === 'series'        ? 'series'
+                 :                           `series/${encodeURIComponent(param)}`;
       history.pushState(null, '', '#' + hash);
       renderContent();
-    }
-
-    /* ── UI builders ── */
-
-    function buildBreadcrumb() {
-      if (_activeView === 'read') return null;
-      const nav = document.createElement('nav');
-      nav.className = 'breadcrumb';
-      nav.appendChild(crumbLink('Reading', () => navigate('read')));
-      nav.appendChild(crumbSep());
-      if (_activeView === 'series') {
-        const cur = document.createElement('span');
-        cur.className   = 'crumb-current';
-        cur.textContent = 'Series';
-        nav.appendChild(cur);
-      } else {
-        nav.appendChild(crumbLink('Series', () => navigate('series')));
-        nav.appendChild(crumbSep());
-        const cur = document.createElement('span');
-        cur.className   = 'crumb-current';
-        cur.textContent = _activeSeries;
-        nav.appendChild(cur);
-      }
-      return nav;
     }
 
     /* ── Renderers ── */
@@ -745,13 +687,6 @@
     /* ── Views ── */
 
     function renderReadView(container) {
-      if ((_seriesIndex?.series?.length || 0) > 0) {
-        const seriesLink = document.createElement('button');
-        seriesLink.className   = 'series-nav-link';
-        seriesLink.textContent = 'Series →';
-        seriesLink.addEventListener('click', () => navigate('series'));
-        container.appendChild(seriesLink);
-      }
       const books = _booksData.read || [];
       const n = books.length;
       container.appendChild(sectionHead('Read', `${n} book${n !== 1 ? 's' : ''}`));
@@ -812,19 +747,25 @@
     }
 
     function renderContent() {
+      const subNav = document.getElementById('sub-nav');
+      if (subNav) {
+        const isSeriesView = _activeView === 'series' || _activeView === 'series-detail';
+        subNav.querySelectorAll('.sub-nav-tab').forEach(btn => {
+          btn.classList.toggle('active',
+            btn.dataset.view === 'read' ? _activeView === 'read' : isSeriesView
+          );
+        });
+      }
+
       const container = document.getElementById('content');
       container.innerHTML = '';
 
-      // Currently Reading only shows on the home/read view
       const currentSection = document.getElementById('current');
       if (currentSection) currentSection.style.display = _activeView === 'read' ? '' : 'none';
 
-      const crumb = buildBreadcrumb();
-      if (crumb) container.appendChild(crumb);
-
-      if (_activeView === 'read')              renderReadView(container);
-      else if (_activeView === 'series')       renderSeriesListView(container);
-      else                                     renderSeriesDetailView(container);
+      if (_activeView === 'read')        renderReadView(container);
+      else if (_activeView === 'series') renderSeriesListView(container);
+      else                                renderSeriesDetailView(container);
     }
 
     function render(books, seriesIndex) {
@@ -842,11 +783,32 @@
       const app = document.getElementById('app');
       app.innerHTML = '';
 
-      /* Header */
+      /* Page title */
       const header = document.createElement('header');
       header.className = 'page-header';
-      header.innerHTML = `<h1>Reading</h1><span class="updated">Updated ${timeAgo(books.lastUpdated)}</span>`;
+      header.innerHTML = `<h1>Reading</h1>`;
       app.appendChild(header);
+
+      /* Sub-nav */
+      const subNav = document.createElement('nav');
+      subNav.id = 'sub-nav';
+      subNav.className = 'sub-nav';
+      const tabs = document.createElement('div');
+      tabs.className = 'sub-nav-tabs';
+      [['read', 'Reading'], ['series', 'Series']].forEach(([view, label]) => {
+        const btn = document.createElement('button');
+        btn.className = 'sub-nav-tab';
+        btn.textContent = label;
+        btn.dataset.view = view;
+        btn.addEventListener('click', () => navigate(view));
+        tabs.appendChild(btn);
+      });
+      const updatedSpan = document.createElement('span');
+      updatedSpan.className = 'sub-nav-updated';
+      updatedSpan.textContent = formatUpdated(books.lastUpdated);
+      subNav.appendChild(tabs);
+      subNav.appendChild(updatedSpan);
+      app.appendChild(subNav);
 
       /* Currently Reading */
       if ((books.currentlyReading || []).length > 0) {
