@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T08:38:59.186868+00:00",
+  "lastUpdated": "2026-07-28T17:08:05.843100+00:00",
   "currentlyReading": [
     {
       "title": "The New Father: A Dad's Guide to the Toddler Years",
@@ -15,20 +15,33 @@
       "published": "1998"
     },
     {
+      "title": "The Incandescent",
+      "author": "Emily  Tesh",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1724707118l/217582901._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8809560649?utm_medium=api&utm_source=rss",
+      "rating": "0",
+      "dateRead": "",
+      "dateAdded": "Tue, 28 Jul 2026 09:43:15 -0700",
+      "isbn": "125083502X",
+      "pages": "",
+      "avgRating": "4.07",
+      "published": "2025"
+    }
+  ],
+  "read": [
+    {
       "title": "Death of the Author",
       "author": "Nnedi Okorafor",
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1734381178l/214329001._SX318_.jpg",
       "link": "https://www.goodreads.com/review/show/8721385427?utm_medium=api&utm_source=rss",
       "rating": "0",
-      "dateRead": "",
-      "dateAdded": "Sat, 27 Jun 2026 13:39:09 -0700",
+      "dateRead": "Tue, 28 Jul 2026 00:00:00 +0000",
+      "dateAdded": "Tue, 28 Jul 2026 06:18:06 -0700",
       "isbn": "0063391155",
       "pages": "",
       "avgRating": "3.93",
       "published": "2025"
-    }
-  ],
-  "read": [
+    },
     {
       "title": "The River Has Roots",
       "author": "Amal El-Mohtar",
@@ -559,7 +572,7 @@
       "dateAdded": "Fri, 28 Mar 2025 07:41:32 -0700",
       "isbn": "1597803324",
       "pages": "",
-      "avgRating": "4.07",
+      "avgRating": "4.06",
       "published": "2012"
     },
     {
@@ -3614,7 +3627,7 @@
       "dateAdded": "Fri, 30 May 2025 16:55:00 -0700",
       "isbn": "1250884276",
       "pages": "",
-      "avgRating": "3.70",
+      "avgRating": "3.69",
       "published": "2024"
     },
     {
