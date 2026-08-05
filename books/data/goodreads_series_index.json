@@ -71,7 +71,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1669839432i/39325106._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/39325106-alecto-the-ninth",
           "pages": "",
-          "avgRating": "4.34",
+          "avgRating": "4.33",
           "published": ""
         }
       ]
@@ -489,7 +489,7 @@
         {
           "title": "The Adventures of Amina al-Sirafi (Amina al-Sirafi, #1)",
           "position": "1",
-          "author": "Shannon Chakraborty",
+          "author": "S.A. Chakraborty",
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663869260i/61294937._SX120_.jpg",
           "link": "https://www.goodreads.com/book/show/61294937-the-adventures-of-amina-al-sirafi",
           "pages": "483",
@@ -499,7 +499,7 @@
         {
           "title": "The Tapestry of Fate (Amina al-Sirafi, #2)",
           "position": "2",
-          "author": "Shannon Chakraborty",
+          "author": "S.A. Chakraborty",
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1777256665i/241544367._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/241544367-the-tapestry-of-fate",
           "pages": "487",
@@ -701,7 +701,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1728497586i/217388171._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/217388171-queen-demon",
           "pages": "382",
-          "avgRating": "4.15",
+          "avgRating": "4.14",
           "published": "2025"
         }
       ]
@@ -1133,5 +1133,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-04T08:42:42.849371+00:00"
+  "lastUpdated": "2026-08-05T08:40:56.984508+00:00"
 }
