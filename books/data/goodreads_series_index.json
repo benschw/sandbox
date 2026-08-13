@@ -395,14 +395,14 @@
           "published": "2026"
         },
         {
-          "title": "Untitled (The Singing Hills Cycle, #8)",
+          "title": "The Judgment of Needles (The Singing Hills Cycle, #8)",
           "position": "8",
           "author": "Nghi Vo",
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/nophoto/book/111x148.png",
-          "link": "https://www.goodreads.com/book/show/199654082-untitled",
+          "link": "https://www.goodreads.com/book/show/199654082-the-judgment-of-needles",
           "pages": "",
           "avgRating": "4.5",
-          "published": ""
+          "published": "2027"
         }
       ]
     },
@@ -665,7 +665,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1758044201i/240019874._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/240019874-platform-decay",
           "pages": "244",
-          "avgRating": "4.24",
+          "avgRating": "4.23",
           "published": "2026"
         },
         {
@@ -701,7 +701,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1728497586i/217388171._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/217388171-queen-demon",
           "pages": "382",
-          "avgRating": "4.14",
+          "avgRating": "4.15",
           "published": "2025"
         }
       ]
@@ -793,7 +793,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1683668946i/127306440._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/127306440-what-feasts-at-night",
           "pages": "151",
-          "avgRating": "3.79",
+          "avgRating": "3.78",
           "published": "2024"
         },
         {
@@ -1133,5 +1133,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-12T07:37:43.431966+00:00"
+  "lastUpdated": "2026-08-13T07:39:12.731195+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T07:36:54.565291+00:00",
+  "lastUpdated": "2026-08-13T07:38:29.259888+00:00",
   "currentlyReading": [
     {
       "title": "The New Father: A Dad's Guide to the Toddler Years",
@@ -15,20 +15,33 @@
       "published": "1998"
     },
     {
+      "title": "Cinder House",
+      "author": "Freya Marske",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1741983755l/222376570._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8854506904?utm_medium=api&utm_source=rss",
+      "rating": "0",
+      "dateRead": "",
+      "dateAdded": "Wed, 12 Aug 2026 14:23:38 -0700",
+      "isbn": "125034171X",
+      "pages": "",
+      "avgRating": "3.75",
+      "published": "2025"
+    }
+  ],
+  "read": [
+    {
       "title": "The Incandescent",
       "author": "Emily  Tesh",
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1724707118l/217582901._SY475_.jpg",
       "link": "https://www.goodreads.com/review/show/8809560649?utm_medium=api&utm_source=rss",
       "rating": "0",
-      "dateRead": "",
-      "dateAdded": "Tue, 28 Jul 2026 09:43:15 -0700",
+      "dateRead": "Wed, 12 Aug 2026 00:00:00 +0000",
+      "dateAdded": "Wed, 12 Aug 2026 14:13:25 -0700",
       "isbn": "125083502X",
       "pages": "",
       "avgRating": "4.07",
       "published": "2025"
-    }
-  ],
-  "read": [
+    },
     {
       "title": "Death of the Author",
       "author": "Nnedi Okorafor",
