@@ -61,7 +61,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1735328862i/219360665._SX120_.jpg",
           "link": "https://www.goodreads.com/book/show/219360665-the-unwanted-guest",
           "pages": "32",
-          "avgRating": "4.6",
+          "avgRating": "4.59",
           "published": "2023"
         },
         {
@@ -675,7 +675,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1676389249i/117677657._SX120_.jpg",
           "link": "https://www.goodreads.com/book/show/117677657-sf",
           "pages": "203",
-          "avgRating": "",
+          "avgRating": "4.0",
           "published": ""
         }
       ]
@@ -1133,5 +1133,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-13T07:39:12.731195+00:00"
+  "lastUpdated": "2026-08-14T07:38:03.995566+00:00"
 }
