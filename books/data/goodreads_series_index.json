@@ -305,7 +305,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473280122i/28960325._SX120_.jpg",
           "link": "https://www.goodreads.com/book/show/28960325-the-harbors-of-the-sun",
           "pages": "416",
-          "avgRating": "4.23",
+          "avgRating": "4.24",
           "published": "2017"
         },
         {
@@ -701,7 +701,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1728497586i/217388171._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/217388171-queen-demon",
           "pages": "382",
-          "avgRating": "4.15",
+          "avgRating": "4.14",
           "published": "2025"
         }
       ]
@@ -1133,5 +1133,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-14T07:38:03.995566+00:00"
+  "lastUpdated": "2026-08-15T06:43:50.605778+00:00"
 }
