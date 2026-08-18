@@ -235,7 +235,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/nophoto/book/111x148.png",
           "link": "https://www.goodreads.com/book/show/31573214-the-dead-city",
           "pages": "62",
-          "avgRating": "4.1",
+          "avgRating": "4.09",
           "published": "2017"
         },
         {
@@ -305,7 +305,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473280122i/28960325._SX120_.jpg",
           "link": "https://www.goodreads.com/book/show/28960325-the-harbors-of-the-sun",
           "pages": "416",
-          "avgRating": "4.23",
+          "avgRating": "4.24",
           "published": "2017"
         },
         {
@@ -747,7 +747,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1675082567i/75593499._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/75593499-machine-vendetta",
           "pages": "374",
-          "avgRating": "4.28",
+          "avgRating": "4.27",
           "published": "2024"
         },
         {
@@ -1035,7 +1035,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1777871581i/250943824._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/250943824-a-song-of-sugar-sparrows",
           "pages": "160",
-          "avgRating": "3.88",
+          "avgRating": "3.86",
           "published": "2027"
         }
       ]
@@ -1133,5 +1133,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-17T07:01:28.803968+00:00"
+  "lastUpdated": "2026-08-18T06:49:25.879013+00:00"
 }
