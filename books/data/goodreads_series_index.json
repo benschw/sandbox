@@ -173,7 +173,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1785471504i/252007132._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/252007132-emily-wilde-s-history-of-dark-faerie",
           "pages": "384",
-          "avgRating": "5.0",
+          "avgRating": "4.5",
           "published": "2027"
         }
       ]
@@ -757,7 +757,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606579849i/56072402._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/56072402-inhibitor-phase",
           "pages": "432",
-          "avgRating": "4.1",
+          "avgRating": "4.11",
           "published": "2021"
         },
         {
@@ -1133,5 +1133,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-19T06:49:51.246501+00:00"
+  "lastUpdated": "2026-08-20T06:51:53.136274+00:00"
 }
