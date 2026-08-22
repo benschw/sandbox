@@ -117,7 +117,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1762866145i/231953328._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/231953328-children-of-strife",
           "pages": "679",
-          "avgRating": "4.25",
+          "avgRating": "4.24",
           "published": "2026"
         },
         {
@@ -255,7 +255,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388352549i/11834447._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/11834447-the-serpent-sea",
           "pages": "340",
-          "avgRating": "4.1",
+          "avgRating": "4.09",
           "published": "2012"
         },
         {
@@ -757,7 +757,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606579849i/56072402._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/56072402-inhibitor-phase",
           "pages": "432",
-          "avgRating": "4.11",
+          "avgRating": "4.1",
           "published": "2021"
         },
         {
@@ -1133,5 +1133,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-21T06:52:47.158374+00:00"
+  "lastUpdated": "2026-08-22T06:44:35.741060+00:00"
 }
