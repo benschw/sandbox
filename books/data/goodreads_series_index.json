@@ -173,7 +173,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1785471504i/252007132._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/252007132-emily-wilde-s-history-of-dark-faerie",
           "pages": "384",
-          "avgRating": "4.5",
+          "avgRating": "4.6",
           "published": "2027"
         }
       ]
@@ -255,7 +255,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388352549i/11834447._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/11834447-the-serpent-sea",
           "pages": "340",
-          "avgRating": "4.1",
+          "avgRating": "4.09",
           "published": "2012"
         },
         {
@@ -436,7 +436,7 @@
           "author": "Katherine Addison",
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1731961299i/221288099._SX120_.jpg",
           "link": "https://www.goodreads.com/book/show/221288099-the-orb-of-cairado",
-          "pages": "120",
+          "pages": "115",
           "avgRating": "4.12",
           "published": "2025"
         },
@@ -747,7 +747,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1675082567i/75593499._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/75593499-machine-vendetta",
           "pages": "374",
-          "avgRating": "4.27",
+          "avgRating": "4.28",
           "published": "2024"
         },
         {
@@ -757,7 +757,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606579849i/56072402._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/56072402-inhibitor-phase",
           "pages": "432",
-          "avgRating": "4.1",
+          "avgRating": "4.11",
           "published": "2021"
         },
         {
@@ -1133,5 +1133,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-24T07:04:20.695783+00:00"
+  "lastUpdated": "2026-08-25T06:53:26.092185+00:00"
 }
