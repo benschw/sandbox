@@ -189,7 +189,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1654178699i/60784301._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/60784301-dead-country",
           "pages": "239",
-          "avgRating": "4.11",
+          "avgRating": "4.1",
           "published": "2023"
         },
         {
@@ -751,8 +751,8 @@
           "published": "2024"
         },
         {
-          "title": "Inhibitor Phase (The Inhibitor Sequence, #4)",
-          "position": "4",
+          "title": "Inhibitor Phase (Revelation Space #8)",
+          "position": "8",
           "author": "Alastair Reynolds",
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606579849i/56072402._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/56072402-inhibitor-phase",
@@ -1133,5 +1133,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-26T06:55:16.465619+00:00"
+  "lastUpdated": "2026-08-27T17:28:01.530197+00:00"
 }
