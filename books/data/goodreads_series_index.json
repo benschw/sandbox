@@ -199,7 +199,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684950879i/127280414._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/127280414-wicked-problems",
           "pages": "464",
-          "avgRating": "4.24",
+          "avgRating": "4.25",
           "published": "2024"
         },
         {
@@ -582,7 +582,7 @@
           "title": "Artificial Condition (The Murderbot Diaries, #2)",
           "position": "2",
           "author": "Martha Wells",
-          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505590203i/36223860._SY180_.jpg",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1788878240i/36223860._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/36223860-artificial-condition",
           "pages": "158",
           "avgRating": "4.24",
@@ -595,7 +595,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1751316945i/237633725._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/237633725-rapport",
           "pages": "34",
-          "avgRating": "4.13",
+          "avgRating": "4.12",
           "published": "2025"
         },
         {
@@ -604,7 +604,7 @@
           "author": "Martha Wells",
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1506001607i/35519101._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/35519101-rogue-protocol",
-          "pages": "159",
+          "pages": "158",
           "avgRating": "4.23",
           "published": "2018"
         },
@@ -665,7 +665,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1758044201i/240019874._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/240019874-platform-decay",
           "pages": "244",
-          "avgRating": "4.23",
+          "avgRating": "4.22",
           "published": "2026"
         },
         {
@@ -747,7 +747,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1675082567i/75593499._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/75593499-machine-vendetta",
           "pages": "374",
-          "avgRating": "4.27",
+          "avgRating": "4.28",
           "published": "2024"
         },
         {
@@ -757,7 +757,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606579849i/56072402._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/56072402-inhibitor-phase",
           "pages": "432",
-          "avgRating": "4.1",
+          "avgRating": "4.11",
           "published": "2021"
         },
         {
@@ -1133,5 +1133,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-09T10:58:59.790814+00:00"
+  "lastUpdated": "2026-09-10T10:55:51.886931+00:00"
 }
