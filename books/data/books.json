@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T10:54:44.898416+00:00",
+  "lastUpdated": "2026-09-21T12:20:11.280628+00:00",
   "currentlyReading": [
     {
       "title": "The New Father: A Dad's Guide to the Toddler Years",
@@ -15,20 +15,33 @@
       "published": "1998"
     },
     {
+      "title": "Rapport: Friendship, Solidarity, Communion, Empathy (The Murderbot Diaries, #2.5)",
+      "author": "Martha Wells",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1751316945l/237633725._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8945333147?utm_medium=api&utm_source=rss",
+      "rating": "0",
+      "dateRead": "",
+      "dateAdded": "Sun, 20 Sep 2026 22:47:52 -0700",
+      "isbn": "1250425360",
+      "pages": "",
+      "avgRating": "4.12",
+      "published": "2025"
+    }
+  ],
+  "read": [
+    {
       "title": "The Raven Scholar (Eternal Path Trilogy, #1)",
       "author": "Antonia Hodgson",
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1744300189l/212174157._SY475_.jpg",
       "link": "https://www.goodreads.com/review/show/8934743698?utm_medium=api&utm_source=rss",
       "rating": "0",
-      "dateRead": "",
-      "dateAdded": "Sun, 13 Sep 2026 06:11:34 -0700",
+      "dateRead": "Sun, 20 Sep 2026 00:00:00 +0000",
+      "dateAdded": "Sun, 20 Sep 2026 22:48:16 -0700",
       "isbn": "152933988X",
       "pages": "",
       "avgRating": "4.36",
       "published": "2025"
-    }
-  ],
-  "read": [
+    },
     {
       "title": "Platform Decay (The Murderbot Diaries, #8)",
       "author": "Martha Wells",
@@ -585,7 +598,7 @@
       "dateAdded": "Mon, 19 May 2025 07:56:23 -0700",
       "isbn": "1250625424",
       "pages": "",
-      "avgRating": "4.25",
+      "avgRating": "4.24",
       "published": "2024"
     },
     {
