@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T12:20:11.280628+00:00",
+  "lastUpdated": "2026-09-22T11:11:45.771381+00:00",
   "currentlyReading": [
     {
       "title": "The New Father: A Dad's Guide to the Toddler Years",
@@ -15,28 +15,41 @@
       "published": "1998"
     },
     {
-      "title": "Rapport: Friendship, Solidarity, Communion, Empathy (The Murderbot Diaries, #2.5)",
-      "author": "Martha Wells",
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1751316945l/237633725._SY475_.jpg",
-      "link": "https://www.goodreads.com/review/show/8945333147?utm_medium=api&utm_source=rss",
+      "title": "Murder by Memory (Dorothy Gentleman, #1)",
+      "author": "Olivia Waite",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1724325334l/211004175._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8934744335?utm_medium=api&utm_source=rss",
       "rating": "0",
       "dateRead": "",
-      "dateAdded": "Sun, 20 Sep 2026 22:47:52 -0700",
-      "isbn": "1250425360",
+      "dateAdded": "Mon, 21 Sep 2026 12:21:07 -0700",
+      "isbn": "1250342244",
       "pages": "",
-      "avgRating": "4.12",
+      "avgRating": "3.54",
       "published": "2025"
     }
   ],
   "read": [
     {
+      "title": "Rapport: Friendship, Solidarity, Communion, Empathy (The Murderbot Diaries, #2.5)",
+      "author": "Martha Wells",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1751316945l/237633725._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8945333147?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Mon, 21 Sep 2026 00:00:00 +0000",
+      "dateAdded": "Mon, 21 Sep 2026 12:20:43 -0700",
+      "isbn": "1250425360",
+      "pages": "",
+      "avgRating": "4.12",
+      "published": "2025"
+    },
+    {
       "title": "The Raven Scholar (Eternal Path Trilogy, #1)",
       "author": "Antonia Hodgson",
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1744300189l/212174157._SY475_.jpg",
       "link": "https://www.goodreads.com/review/show/8934743698?utm_medium=api&utm_source=rss",
-      "rating": "0",
+      "rating": "5",
       "dateRead": "Sun, 20 Sep 2026 00:00:00 +0000",
-      "dateAdded": "Sun, 20 Sep 2026 22:48:16 -0700",
+      "dateAdded": "Mon, 21 Sep 2026 06:38:46 -0700",
       "isbn": "152933988X",
       "pages": "",
       "avgRating": "4.36",
@@ -1079,7 +1092,7 @@
       "dateAdded": "Mon, 15 Jul 2024 09:29:02 -0700",
       "isbn": "1250827523",
       "pages": "",
-      "avgRating": "3.72",
+      "avgRating": "3.71",
       "published": "2023"
     },
     {
@@ -2288,7 +2301,7 @@
       "dateAdded": "Thu, 25 Feb 2021 13:15:21 -0800",
       "isbn": "",
       "pages": "",
-      "avgRating": "4.24",
+      "avgRating": "4.23",
       "published": "2005"
     },
     {
