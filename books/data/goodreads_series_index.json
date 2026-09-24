@@ -167,14 +167,24 @@
           "published": "2025"
         },
         {
-          "title": "Emily Wilde's History of Dark Faerie",
-          "position": "",
+          "title": "Emily Wilde's History of Dark Faerie (Emily Wilde, #4)",
+          "position": "4",
           "author": "Heather Fawcett",
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1785471504i/252007132._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/252007132-emily-wilde-s-history-of-dark-faerie",
           "pages": "384",
-          "avgRating": "4.13",
+          "avgRating": "4.12",
           "published": "2027"
+        },
+        {
+          "title": "Emily Wilde Series 2 Books Collection Set By Heather Fawcett (Emily Wilde's Encyclopaedia of Faeries & Emily Wilde's Map of the Otherlands)",
+          "position": "",
+          "author": "Heather Fawcett",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1758087763i/236163358._SX120_.jpg",
+          "link": "https://www.goodreads.com/book/show/236163358-emily-wilde-series-2-books-collection-set-by-heather-fawcett",
+          "pages": "752",
+          "avgRating": "4.5",
+          "published": ""
         }
       ]
     },
@@ -1133,5 +1143,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-23T11:03:37.325157+00:00"
+  "lastUpdated": "2026-09-24T11:21:50.745872+00:00"
 }
