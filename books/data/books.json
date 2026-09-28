@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T11:40:43.065060+00:00",
+  "lastUpdated": "2026-09-28T13:16:37.251625+00:00",
   "currentlyReading": [
     {
       "title": "The New Father: A Dad's Guide to the Toddler Years",
@@ -15,20 +15,33 @@
       "published": "1998"
     },
     {
-      "title": "Disgraced Return of the Kap's Needle",
-      "author": "Renan Bernardo",
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1739536418l/225386833._SY475_.jpg",
-      "link": "https://www.goodreads.com/review/show/8945605267?utm_medium=api&utm_source=rss",
+      "title": "Wearing the Lion",
+      "author": "John Wiswell",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1737377514l/219303534._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8934724256?utm_medium=api&utm_source=rss",
       "rating": "0",
       "dateRead": "",
-      "dateAdded": "Fri, 25 Sep 2026 19:21:46 -0700",
-      "isbn": "1958598747",
+      "dateAdded": "Sun, 27 Sep 2026 14:21:05 -0700",
+      "isbn": "0756419549",
       "pages": "",
-      "avgRating": "3.69",
+      "avgRating": "3.61",
       "published": "2025"
     }
   ],
   "read": [
+    {
+      "title": "Disgraced Return of the Kap's Needle",
+      "author": "Renan Bernardo",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1739536418l/225386833._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8945605267?utm_medium=api&utm_source=rss",
+      "rating": "4",
+      "dateRead": "Sun, 27 Sep 2026 00:00:00 +0000",
+      "dateAdded": "Sun, 27 Sep 2026 14:19:29 -0700",
+      "isbn": "1958598747",
+      "pages": "",
+      "avgRating": "3.69",
+      "published": "2025"
+    },
     {
       "title": "Sour Cherry",
       "author": "Natalia Theodoridou",
@@ -156,7 +169,7 @@
       "dateAdded": "Mon, 17 Aug 2026 21:23:38 -0700",
       "isbn": "1250341728",
       "pages": "",
-      "avgRating": "3.93",
+      "avgRating": "3.94",
       "published": "2025"
     },
     {
@@ -572,7 +585,7 @@
       "dateAdded": "Sun, 06 Jul 2025 12:55:01 -0700",
       "isbn": "1250793297",
       "pages": "",
-      "avgRating": "3.92",
+      "avgRating": "3.91",
       "published": "2024"
     },
     {
@@ -728,7 +741,7 @@
       "dateAdded": "Sat, 22 Mar 2025 21:01:56 -0700",
       "isbn": "",
       "pages": "",
-      "avgRating": "4.16",
+      "avgRating": "4.15",
       "published": "2024"
     },
     {
@@ -1937,7 +1950,7 @@
       "dateAdded": "Sun, 11 May 2025 08:15:48 -0700",
       "isbn": "0789214040",
       "pages": "",
-      "avgRating": "4.03",
+      "avgRating": "4.04",
       "published": "1995"
     },
     {
@@ -3563,7 +3576,7 @@
       "isbn": "",
       "pages": "",
       "avgRating": "4.45",
-      "published": ""
+      "published": "1996"
     },
     {
       "title": "The New Father: A Dad's Guide to the First Year (New Father Series)",
