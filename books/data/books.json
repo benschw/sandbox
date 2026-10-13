@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T14:48:25.395493+00:00",
+  "lastUpdated": "2026-10-13T13:49:05.694188+00:00",
   "currentlyReading": [
     {
       "title": "The New Father: A Dad's Guide to the Toddler Years",
@@ -15,20 +15,33 @@
       "published": "1998"
     },
     {
+      "title": "The Everlasting",
+      "author": "Alix E. Harrow",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1747319669l/225699786._SX318_.jpg",
+      "link": "https://www.goodreads.com/review/show/8934748203?utm_medium=api&utm_source=rss",
+      "rating": "0",
+      "dateRead": "",
+      "dateAdded": "Mon, 12 Oct 2026 09:02:48 -0700",
+      "isbn": "1250799082",
+      "pages": "",
+      "avgRating": "4.14",
+      "published": "2025"
+    }
+  ],
+  "read": [
+    {
       "title": "Wearing the Lion",
       "author": "John Wiswell",
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1737377514l/219303534._SY475_.jpg",
       "link": "https://www.goodreads.com/review/show/8934724256?utm_medium=api&utm_source=rss",
       "rating": "0",
-      "dateRead": "",
-      "dateAdded": "Sun, 27 Sep 2026 14:21:05 -0700",
+      "dateRead": "Mon, 12 Oct 2026 00:00:00 +0000",
+      "dateAdded": "Mon, 12 Oct 2026 09:02:27 -0700",
       "isbn": "0756419549",
       "pages": "",
       "avgRating": "3.61",
       "published": "2025"
-    }
-  ],
-  "read": [
+    },
     {
       "title": "Disgraced Return of the Kap's Needle",
       "author": "Renan Bernardo",
@@ -52,7 +65,7 @@
       "dateAdded": "Fri, 25 Sep 2026 19:22:04 -0700",
       "isbn": "1963108191",
       "pages": "",
-      "avgRating": "3.47",
+      "avgRating": "3.48",
       "published": "2025"
     },
     {
@@ -182,7 +195,7 @@
       "dateAdded": "Wed, 12 Aug 2026 14:13:25 -0700",
       "isbn": "125083502X",
       "pages": "",
-      "avgRating": "4.07",
+      "avgRating": "4.06",
       "published": "2025"
     },
     {
@@ -624,7 +637,7 @@
       "dateAdded": "Sun, 01 Jun 2025 21:47:43 -0700",
       "isbn": "1952086809",
       "pages": "",
-      "avgRating": "4.01",
+      "avgRating": "4.00",
       "published": "2024"
     },
     {
@@ -1274,7 +1287,7 @@
       "dateAdded": "Sat, 08 Jun 2024 20:24:48 -0700",
       "isbn": "",
       "pages": "",
-      "avgRating": "4.27",
+      "avgRating": "4.28",
       "published": "2020"
     },
     {
@@ -2756,7 +2769,7 @@
       "dateAdded": "Sat, 28 Feb 2015 05:57:01 -0800",
       "isbn": "0062026089",
       "pages": "",
-      "avgRating": "3.94",
+      "avgRating": "3.95",
       "published": "2011"
     },
     {
