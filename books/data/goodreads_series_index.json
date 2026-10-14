@@ -173,7 +173,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1785471504i/252007132._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/252007132-emily-wilde-s-history-of-dark-faerie",
           "pages": "384",
-          "avgRating": "4.37",
+          "avgRating": "4.38",
           "published": "2027"
         },
         {
@@ -391,7 +391,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1759355074i/199653099._SX120_.jpg",
           "link": "https://www.goodreads.com/book/show/199653099-a-mouthful-of-dust",
           "pages": "",
-          "avgRating": "4.16",
+          "avgRating": "4.17",
           "published": "2025"
         },
         {
@@ -1143,5 +1143,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-13T13:50:14.494396+00:00"
+  "lastUpdated": "2026-10-14T11:27:32.888723+00:00"
 }
