@@ -295,7 +295,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620784688i/33810252._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/33810252-the-dark-earth-below",
           "pages": "",
-          "avgRating": "4.29",
+          "avgRating": "4.3",
           "published": "2017"
         },
         {
@@ -1045,7 +1045,7 @@
           "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1777871581i/250943824._SY180_.jpg",
           "link": "https://www.goodreads.com/book/show/250943824-a-song-of-sugar-sparrows",
           "pages": "160",
-          "avgRating": "4.02",
+          "avgRating": "4.03",
           "published": "2027"
         }
       ]
@@ -1143,5 +1143,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-22T11:24:41.247431+00:00"
+  "lastUpdated": "2026-10-23T11:14:24.099171+00:00"
 }
