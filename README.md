@@ -7,13 +7,21 @@ Scripts live in `books/scripts/`. Run them from the repo root with `python books
 ### Prerequisites
 
 - Python 3 (no third-party packages required)
-- `GOODREADS_USER_ID` — the numeric ID from your Goodreads profile URL (`goodreads.com/user/show/12345678`)
+
+### Updating your read list
+
+Goodreads retired its shelf RSS feeds, so the read list now comes from a library export:
+
+1. On Goodreads, go to **My Books → Import and export → Export Library** and download the CSV.
+2. Replace `books/data/goodreads_library_export.csv` with it and push to `main`.
+
+That push triggers `fetch-books.yml`, which rebuilds `books.json` and redeploys the site. Covers and links for books already in `books.json` are kept; new books get a cover from Open Library by ISBN (or a placeholder if none is found — it's retried on the next run).
 
 ### Automated workflow
 
-The GitHub Actions cron (`fetch-books.yml`) runs daily at 6 AM UTC and executes these three steps in order:
+The GitHub Actions workflow (`fetch-books.yml`) runs daily at 6 AM UTC, and whenever the export CSV is pushed, and executes these three steps in order:
 
-1. **`fetch_books.py`** — Pulls your "read" and "currently-reading" shelves from the Goodreads RSS feed and writes `books/data/books.json`.
+1. **`fetch_books.py`** — Reads the "read" and "currently-reading" shelves from `books/data/goodreads_library_export.csv` and writes `books/data/books.json`.
 2. **`sync_all_series.py`** — Re-fetches every series in the index from Goodreads and updates `books/data/goodreads_series_index.json`.
 3. **`sync_unread_series_books.py`** — Regenerates `books/data/series_unread.json` by diffing the series index against your read shelf.
 
@@ -22,7 +30,7 @@ The GitHub Actions cron (`fetch-books.yml`) runs daily at 6 AM UTC and executes 
 Find the series page on Goodreads (e.g. `goodreads.com/series/49075-the-locked-tomb`) and run:
 
 ```sh
-GOODREADS_USER_ID=<your-id> python books/scripts/fetch_books.py  # refresh read list first
+python books/scripts/fetch_books.py  # refresh read list from the export first
 python books/scripts/add_series.py https://www.goodreads.com/series/49075-the-locked-tomb
 ```
 
@@ -40,7 +48,8 @@ Useful after Goodreads updates publication dates or after changes to the scrapin
 
 | File | Written by | Contents |
 |---|---|---|
-| `books/data/books.json` | `fetch_books.py` | Read shelf + currently-reading shelf from Goodreads RSS |
+| `books/data/books.json` | `fetch_books.py` | Read shelf + currently-reading shelf, built from the Goodreads export |
+| `books/data/goodreads_library_export.csv` | manual (Goodreads export) | Your full Goodreads library |
 | `books/data/goodreads_series_index.json` | `add_series.py` / `sync_all_series.py` | Series metadata and book lists scraped from Goodreads |
 | `books/data/series_unread.json` | `sync_unread_series_books.py` | Series books not yet on your read shelf |
 | `books/data/ignore.json` | manual | Titles to exclude from series views (e.g. companion novellas) |

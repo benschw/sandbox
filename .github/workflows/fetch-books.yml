@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '0 6 * * *'   # daily at 6 AM UTC
   workflow_dispatch:       # allows manual run from the Actions tab
+  push:                    # rebuild books.json when a new Goodreads export is committed
+    branches: [main]
+    paths:
+      - books/data/goodreads_library_export.csv
 
 permissions:
   contents: write
@@ -21,9 +25,7 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Fetch books from Goodreads RSS
-        env:
-          GOODREADS_USER_ID: ${{ vars.GOODREADS_USER_ID }}
+      - name: Build books.json from Goodreads CSV export
         run: python books/scripts/fetch_books.py
 
       - name: Sync all series from Goodreads
