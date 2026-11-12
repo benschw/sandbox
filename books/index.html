@@ -221,10 +221,22 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      padding: 0.5rem;
+      box-sizing: border-box;
       font-family: var(--f-display);
-      font-size: 1.4rem;
+      font-size: 0.85rem;
       font-style: italic;
+      line-height: 1.25;
+      text-align: center;
       color: var(--muted);
+      overflow: hidden;
+      overflow-wrap: anywhere;
+    }
+    .grid-placeholder-title {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 6;
+      overflow: hidden;
     }
     .grid-overlay {
       position: absolute;
@@ -421,6 +433,16 @@
       return isNaN(d.getTime()) ? null : d;
     }
 
+    function makePlaceholder(title) {
+      const ph = document.createElement('div');
+      ph.className = 'grid-placeholder';
+      const label = document.createElement('span');
+      label.className   = 'grid-placeholder-title';
+      label.textContent = baseTitle(title) || '?';
+      ph.appendChild(label);
+      return ph;
+    }
+
     function makeCover(src, title) {
       if (src) {
         const img = document.createElement('img');
@@ -428,12 +450,11 @@
         img.alt     = title || '';
         img.loading = 'lazy';
         img.className = 'grid-cover';
+        // fall back to the title placeholder if the cover URL is broken
+        img.addEventListener('error', () => img.replaceWith(makePlaceholder(title)), { once: true });
         return img;
       }
-      const ph = document.createElement('div');
-      ph.className   = 'grid-placeholder';
-      ph.textContent = (title || '?')[0].toUpperCase();
-      return ph;
+      return makePlaceholder(title);
     }
 
     function makeLinkIcon(href) {
