@@ -1,7 +1,7 @@
 """
 Regenerates series_unread.json from books.json and goodreads_series_index.json.
 
-Run by the daily GH Actions workflow to keep series_unread.json in sync
+Run via `make unread` (or `make all`) to keep series_unread.json in sync
 as new books are marked read. Add new series with add_series.py.
 """
 
