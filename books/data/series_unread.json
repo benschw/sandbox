@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T11:49:19.734374+00:00",
+  "lastUpdated": "2026-11-12T18:05:00.430706+00:00",
   "books": [
     {
       "title": "The Mysterious Study of Doctor Sex (The Locked Tomb, #0.5)",
@@ -14,6 +14,11 @@
     {
       "title": "Alecto the Ninth (The Locked Tomb, #4)",
       "series": "The Locked Tomb",
+      "published": ""
+    },
+    {
+      "title": "Marduk's Long War",
+      "series": "Children of Time",
       "published": ""
     },
     {
@@ -85,11 +90,6 @@
       "title": "The Orb of Cairado (The Chronicles of Osreth, #1.1)",
       "series": "The Chronicles of Osreth",
       "published": "2025"
-    },
-    {
-      "title": "Min Zemerin's Plan (The Cemeteries of Amalo, #1.5)",
-      "series": "The Chronicles of Osreth",
-      "published": "2022"
     },
     {
       "title": "The Grief of Stones (The Cemeteries of Amalo, #2)",
